@@ -2,10 +2,22 @@
 
 The SAP HANA Cloud Portal Samples repository provides code samples of site and page templates, applications, widgets, shell plugins and more, intended to be used as references for development of custom content for SAP HANA Cloud Portal sites.
 
-#Currently available samples
+##Available samples
 
-•	“Marketing Site” template: features three preconfigured pages with out-of-the-box marketing-related content embedded in HTML widgets.
+###Site templates
 
-#No-warranty disclaimer
+* **“Marketing Site” template**: features three preconfigured pages with out-of-the-box marketing-related content embedded in HTML widgets.
 
-All code samples in this repository are given as-is without warranty, liability or any level of support. None of the samples are intended to be used in a productive environment, but rather as accelerators for your own development. While SAP will do its best to ensure the functionality of code samples and update them from time to time, SAP cannot guarantee that any of the code in this repository is completely functional or free of bugs.
+###Widgets
+
+* **Video widget**: adds a YouTube video to your site.
+* **Breadcrumb navigation widget**: displays a breadcrumb representing the location of the current page in the site's pages hierarchy.
+
+###Plugins
+
+* **Side Navigation**: a navigation menu located in the shell's left panel content, supporting up to two hierarchy levels.
+* **Mega Menu**: a navigation menu location in the shell's sub-header, supporting up to three hierarchy levels. This plugin can also display a breadcrum representing the location of the current page in the site's pages hierarchy.
+
+##License information
+
+All sample code is given under the Apache 2.0 license, without warranty or support. Please read the LICENSE file for more information.
