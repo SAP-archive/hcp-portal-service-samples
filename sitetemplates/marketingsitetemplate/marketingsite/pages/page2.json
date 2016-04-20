@@ -1,0 +1,210 @@
+{
+  "sap.app": {
+    "_version": "1.1.0",
+    "id": "hcp://marketingsitetemplate/marketingsite/pages/page2.json",
+    "baseId": "hcp://marketingsitetemplate/marketingsite/pageTemplates/template2/manifest.json",
+    "title": "Marketing",
+    "description": "",
+    "crossNavigation": {
+      "context": {
+        "sapSite": {
+          "value":"hcp://marketingsitetemplate/marketingsite/shell.json"
+        }
+      },
+      "inbounds": [
+        {
+          "semanticObject": "page2",
+          "action": "Display"
+        }
+      ]
+    }
+  },
+  "sap.cloud.portal": {
+    "applicationType": "page",
+    "nodes": {
+      "section1": {
+        "sectionAlias": "page2.section1",
+            "sap.app": {
+                "_version": "1.1.0",
+                "title": "HTML Widget",
+                "description": "A widget template that displays HTML files.",
+                "tags": {
+                  "keywords": [
+                    "keyword"
+                  ]
+                },
+                "crossNavigation": {
+                  "inbounds": [
+                    {
+                      "semanticObject": "htmlwidget",
+                      "action": "Display",
+                      "deviceTypes": { 
+                        "desktop": true, 
+                        "tablet": true,
+                        "phone": true 
+                    }
+                    }
+                  ],
+                  "outbounds": [
+                    {}
+                  ]
+                }
+            },
+        "sap.platform.hcp": {
+            "_version": "1.1.0",
+            "appName": "portalapptemplates",
+            "componentName": "htmlwidget.local",
+            "uri": "/htmlwidget"
+          },
+          "sap.cloud.portal": {
+	    "show.portal.settings":"false",
+            "settings": {
+            "markup": {
+              "isRequired": "false",
+              "storage_type": "html",
+              "value": "<style>     .main1 {     background-color: #fff;     padding: 20px;     margin: 0;     overflow: hidden;     font-family: Arial, Calibri, Tahoma, Geneva, sans-serif; }      .main1 h1 {     color: #007cc0;     font-size: 25px;     padding-bottom: 16px;     border-bottom: solid #cdcdcd 4px;     font-weight: normal;     margin: 0; }      .main1  .link {     font-size: 16px;     margin: 0;     cursor: pointer;     color: #007CC0;     text-align: left;     padding-top: 3px;     padding-left: 5px; }      .main1  p {     color: #666;     line-height: 20px;     margin-bottom: 0;     font-size: 16px; } </style> <div style=\"min-height:250px;background: url('/sap/fiori/marketingsitetemplate/marketingsite/img/run.jpg') 50% 50% no-repeat;background-size: cover\">  </div> <div class=\"main1\"><h1>Run Like Never Before</h1>      <p>This is an integrated SME advertising and demand generation campaign from Atomic that can help you raise your         presence in the market and generate new opportunities. And it's up to 100% MDF reimbursable! This award-winning         marketing campaign has been seen in leading IT and business publications worldwide. Get into market with us by         co-branding and running associated demand generation. <span class=\"link\">Read more ></span></p></div>",
+              "displayName": "HTML",
+              "description": "resource_url_description",
+              "id": "markup"
+		}
+            }
+          },
+          "sap.flp": {
+            "appType": "UI5",
+            "config": {
+              "editable": true,
+              "deletable": true
+            }
+          },
+          "sap.ui": {
+            "_version": "1.1.0",
+            "technology": "UI5"
+          }
+              
+      },
+      "section2": {
+        "sectionAlias": "page2.section2",
+           "sap.app": {
+            "_version": "1.1.0",
+            "id": "hcp://portalapptemplates/htmlwidget/manifest.json",
+            "title": "HTML Widget",
+            "description": "A widget template that displays HTML files.",
+            "tags": {
+              "keywords": [
+                "keyword"
+              ]
+            },
+            "crossNavigation": {
+              "inbounds": [
+                {
+                  "semanticObject": "htmlwidget",
+                  "action": "show",
+                  "deviceTypes": { 
+                        "desktop": true, 
+                        "tablet": true,
+                        "phone": true 
+                    }
+                }
+              ],
+              "outbounds": [
+                {}
+              ]
+            }
+          },
+          "sap.platform.hcp": {
+            "_version": "1.1.0",
+            "appName": "portalapptemplates",
+            "componentName": "htmlwidget.local",
+            "uri": "/htmlwidget"
+          },
+          "sap.cloud.portal": {
+	"show.portal.settings":"false",
+            "settings": {
+            "markup": {
+              "isRequired": "false",
+              "storage_type": "html",
+              "value": "<style>     .main {     background-color: #fff;     padding: 20px;     margin: 0;     overflow: hidden;     font-family: Arial, Calibri, Tahoma, Geneva, sans-serif; }          h1 {             color: #007cc0;             font-size: 25px;             padding-bottom: 16px;             border-bottom: solid #cdcdcd 4px;             font-weight: normal;             margin: 0;         }          h2 {             color: #666;             font-size: 16px;             margin: 0;             padding: 16px 0 6px 0;         }          .quick-link{             font-size: 15px;             color: #007cbf;             padding: 8px 0;             border-bottom: solid 1px #ccc;             cursor: pointer;         }          .block{             padding-bottom: 20px;         }        </style> <div class=\"main\">       <h1>Quick Links</h1>     <div class=\"block\">         <h2>Useful Tools</h2>         <div class=\"quick-link\">Atomic Virtual Agency</div>         <div class=\"quick-link\">Atomic Partner Logos & Guidelines</div>         <div class=\"quick-link\">Atomic Partner Web Feed</div>         <div class=\"quick-link\">Social Media Program (APJ)</div>     </div>     <div class=\"block\">         <h2>Connect with Other Atomic Partners</h2>         <div class=\"quick-link\">Atomic Partner Interactive</div>         <div class=\"quick-link\">Partner to Partner</div>         <div class=\"quick-link\">Partner Service Delivery (PSD)</div>         <div class=\"quick-link\">Partner Enablement Center Template Test</div>     </div>  </div>",
+              "displayName": "HTML",
+              "description": "resource_url_description",
+              "id": "markup"
+		}
+            }
+          },
+          "sap.flp": {
+            "appType": "UI5",
+            "config": {
+              "editable": true,
+              "deletable": true
+            }
+          },
+          "sap.ui": {
+            "_version": "1.1.0",
+            "technology": "UI5"
+          }
+   
+      },
+      "section3": {
+        "sectionAlias": "page2.section3",
+         "sap.app": {
+            "_version": "1.1.0",
+            "id": "hcp://portalapptemplates/htmlwidget/manifest.json",
+            "title": "HTML Widget",
+            "description": "A widget template that displays HTML files.",
+            "tags": {
+              "keywords": [
+                "keyword"
+              ]
+            },
+            "crossNavigation": {
+              "inbounds": [
+                {
+                  "semanticObject": "htmlwidget",
+                  "action": "show",
+                  "deviceTypes": { 
+                        "desktop": true, 
+                        "tablet": true,
+                        "phone": true 
+                    }
+                }
+              ],
+              "outbounds": [
+                {}
+              ]
+            }
+          },
+          "sap.platform.hcp": {
+            "_version": "1.1.0",
+            "appName": "portalapptemplates",
+            "componentName": "htmlwidget.local",
+            "uri": "/htmlwidget"
+          },
+          "sap.cloud.portal": {
+	"show.portal.settings":"false",
+            "settings": {
+            "markup": {
+              "isRequired": "false",
+              "storage_type": "html",
+              "value": "      <style>          h1 {             color: #007cc0;             font-size: 25px;             padding-bottom: 16px;             border-bottom: solid #cdcdcd 4px;             font-weight: normal;             margin: 0;         }          img#biking {             padding-top: 14px;         }          .link{              font-size: 16px;             margin: 0;             cursor: pointer;             color: #007CC0;             text-align: left;             padding-top: 3px;             padding-left: 5px;          }                   p {             color: #666;             line-height: 20px;             margin-bottom: 0;             font-size: 16px;         }      </style>  <div class=\"main\">     <h1>Featured Promotion: Buy Now. Pay Later</h1>     <img id=\"biking\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/biking.jpg\">     <p>Currently, Atomic is offering SMEs a special financing opportunity which will allow you to work with your end customers to help them take advantage of the benefits of Atomic software right now without impacting your own cash flow. If you have a prospect that is in the decision-making process, this could be the offer that helps you get the deal signed. Depending on the deal size buy now, pay later has the potential to save the end customer thousands of dollars in interest charges.<span class=\"link\">Read more ></span></p>  </div>",
+              "displayName": "HTML",
+              "description": "resource_url_description",
+              "id": "markup"
+		}
+            }
+          },
+          "sap.flp": {
+            "appType": "UI5",
+            "config": {
+              "editable": true,
+              "deletable": true
+            }
+          },
+          "sap.ui": {
+            "_version": "1.1.0",
+            "technology": "UI5"
+          }
+ 
+      }
+    }
+
+  }
+}

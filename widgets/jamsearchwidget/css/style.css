@@ -1,0 +1,14 @@
+.jamSearchField {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.searchList {
+    max-height: 304px;
+    overflow-y: auto;
+}
+
+.resultsLabel {
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+}

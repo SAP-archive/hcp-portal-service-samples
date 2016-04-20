@@ -1,0 +1,10 @@
+html, body, #content, .pageTemplateContainer, .pageTemplateContainer>div {
+    height: 100%;
+}
+
+.cpv2-page-1280 {
+   max-width:1280px;    
+   margin:0 auto;
+   background-color:#fff;
+   overflow:auto;
+}

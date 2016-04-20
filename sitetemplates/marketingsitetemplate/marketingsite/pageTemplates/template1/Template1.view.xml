@@ -1,0 +1,57 @@
+<mvc:View controllerName="cpv2.templates.template1.Template1" height="100%" xmlns:l="sap.ui.layout"
+          xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" class='cpv2-page-1280'
+          xmlns:cpv2Controls="sap.hana.uis.flp.control">
+    <l:Grid hSpacing="1" vSpacing="1">
+        <VBox>
+            <layoutData>
+                <l:GridData span="L7 M7 S12"/>
+            </layoutData>
+            <cpv2Controls:Widget alias="page1.intro_image"></cpv2Controls:Widget>
+
+        </VBox>
+        <VBox>
+            <layoutData>
+                <l:GridData span="L5 M5 S12"/>
+            </layoutData>
+            <cpv2Controls:Widget alias="page1.intro_text"></cpv2Controls:Widget>
+
+        </VBox>
+        <VBox>
+            <layoutData>
+                <l:GridData span="L4 M6 S12"/>
+            </layoutData>
+            <cpv2Controls:Widget alias="page1.tile1"></cpv2Controls:Widget>
+
+        </VBox>
+        <VBox>
+            <layoutData>
+                <l:GridData span="L4 M6 S12"/>
+            </layoutData>
+            <cpv2Controls:Widget alias="page1.tile2"></cpv2Controls:Widget>
+        </VBox>
+        <VBox>
+            <layoutData>
+                <l:GridData span="L4 M6 S12"/>
+            </layoutData>
+            <cpv2Controls:Widget alias="page1.tile3"></cpv2Controls:Widget>
+        </VBox>
+        <VBox>
+            <layoutData>
+                <l:GridData span="L4 M6 S12"/>
+            </layoutData>
+            <cpv2Controls:Widget alias="page1.tile4"></cpv2Controls:Widget>
+        </VBox>
+        <VBox>
+            <layoutData>
+                <l:GridData span="L4 M6 S12"/>
+            </layoutData>
+            <cpv2Controls:Widget alias="page1.tile5"></cpv2Controls:Widget>
+        </VBox>
+        <VBox>
+            <layoutData>
+                <l:GridData span="L4 M6 S12"/>
+            </layoutData>
+            <cpv2Controls:Widget alias="page1.tile6"></cpv2Controls:Widget>
+        </VBox>
+    </l:Grid>
+</mvc:View>

@@ -1,0 +1,52 @@
+{
+  "sap.app": {
+    "_version": "1.1.0",
+    "id": "hcp://marketingsitetemplate/marketingsite/pageTemplates/template2/manifest.json",
+    "title": "2 Columns - Narrow and Wide",
+    "description": "",
+    "tags": {
+      "keywords": []
+    },
+    "crossNavigation": {
+      "inbounds": [
+        {
+          "semanticObject": "obj",
+          "action": "template2",
+          "deviceTypes": { 
+                        "desktop": true, 
+                        "tablet": true,
+                        "phone": true 
+                    }
+        }
+      ],
+      "outbounds": [
+        {}
+      ]
+    }
+  },
+  "sap.platform.hcp": {
+    "_version": "1.1.0",
+    "appName": "marketingsitetemplate",
+    "uri": "/marketingsite/pageTemplates/template2",
+    "componentName":"cpv2.templates.template2"
+  },
+  "sap.cloud.portal": {
+    "applicationType": "page",
+    "thumbnail":"preview.png"
+   
+  },
+  "sap.flp": {
+    "tileType": "",
+    "appType": "UI5",
+    "config": {
+      "editable": true,
+      "deletable": true,
+      "theme.id": "sap_bluecrystal",
+      "theme.active": "[\"sap_bluecrystal\",\"sap_hcb\"]"
+    }
+  },
+  "sap.ui": {
+    "_version": "1.1.0",
+    "technology": "UI5"
+  }
+}

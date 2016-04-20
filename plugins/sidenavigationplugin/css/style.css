@@ -1,0 +1,15 @@
+#sideNavigation, .sideNavigation {
+    height: 100%;
+}
+
+.sapTntNavLI .sapTntNavLIGroupIcon {
+    display: none;
+}
+
+.sapTntNavLIGroup.sapTntNavLIItem .sapTntNavLIText {
+    padding-left: 1rem;
+}
+
+.sapTntNavLIGroupItems .sapTntNavLIGroupItem > .sapMText {
+    padding-left: 2rem;
+}

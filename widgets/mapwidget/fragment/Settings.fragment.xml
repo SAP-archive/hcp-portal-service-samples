@@ -1,0 +1,41 @@
+<Dialog xmlns="sap.m">
+    <customHeader>
+        <Bar>
+            <contentMiddle>
+                <Title text="Edit Map Settings"/>
+            </contentMiddle>
+            <contentRight>
+                <Button icon="sap-icon://message-information" class="highlightColorButton" press="onHelpPress"/>
+            </contentRight>
+        </Bar>
+    </customHeader>
+    <buttons>
+        <Button id="saveSettings" text="Save" press="onSaveSettings"></Button>
+        <Button id="cancelSettings" text="Cancel" press="onCancelSettings"></Button>
+    </buttons>
+    <VBox class="mapSettingsVbox">
+        <Label text="Name:"/>
+        <Input class="mapInput" id="mapNameInput"/>
+        <HBox>
+            <Label class="mandatoryInputLabel" text="*"/>
+            <Label text="Latitude:"/>
+        </HBox>
+        <Input class="mapInput" id="mapLatitudeInput" type="Number" change="onLatitudeChange"
+               valueStateText="Enter a valid value"/>
+        <HBox>
+            <Label class="mandatoryInputLabel" text="*"/>
+            <Label text="Longitude:"/>
+        </HBox>
+        <Input class="mapInput" id="mapLongitudeInput" type="Number" change="onLongitudeChange"
+               valueStateText="Enter a valid value"/>
+        <Label text="Default Zoom Level:"/>
+        <FlexBox class="sliderFlexBox" alignItems="Start" justifyContent="SpaceBetween">
+            <items>
+                <Title class="minusSliderTitle" titleStyle="H2" text="-"/>
+                <Slider id="mapZoomSlider" min="2" max="19" change="onSliderChange"/>
+                <Title class="plusSliderTitle" titleStyle="H2" text="+"/>
+            </items>
+        </FlexBox>
+        <CheckBox class="mapCheckbox" id="mapUseDialogCheckbox" text="When clicked, map will open in a popup window"/>
+    </VBox>
+</Dialog>

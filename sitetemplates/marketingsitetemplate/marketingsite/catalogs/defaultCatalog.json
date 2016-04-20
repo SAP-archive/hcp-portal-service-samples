@@ -1,0 +1,29 @@
+{
+	"_version": "1.0",
+	"identification": {
+		"id": "hcp://marketingsitetemplate/marketingsite/catalogs/defaultCatalog.json",
+		"title": "Everyone",
+		"description": "",
+		"entityType": "assignmentPackage"
+	},
+	"payload": {
+		"appDescriptors": [
+			{
+				"namespace": "",
+				"id": "hcp://marketingsitetemplate/marketingsite/pages/page1.json"
+			},
+			{
+				"namespace": "",
+				"id": "hcp://marketingsitetemplate/marketingsite/pages/page2.json"
+			},
+			{
+				"namespace": "",
+				"id": "hcp://marketingsitetemplate/marketingsite/pages/page3.json"
+			}
+		],
+		"groups": [],
+		"suggestedRolesAssignment": [
+			"Everyone"
+		]
+	}
+}

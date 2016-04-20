@@ -1,0 +1,48 @@
+.sapMRbG.sapMRbG1Row>.sapMRb {
+    margin-right: 0.5rem;
+}
+
+.socialSettingsVbox {
+    padding: 1.5rem;
+}
+
+.socialSettingsTitle {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.socialSettingsVisualHbox {
+    margin-bottom: 2rem;
+}
+
+.socialSettingsRadioGroup {
+    margin-left: -1rem;
+}
+
+.networksFlexBox {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.networkImage {
+    margin: 0.5rem 0 0.5rem 2rem;
+}
+
+.networkName {
+    line-height: 3rem;
+    margin-left: 0.75rem;
+}
+
+.networkImageLarge {
+    padding: 0.5rem;
+}
+
+.networkImageMedium {
+    padding: 0.375rem;
+}
+
+.networkImageSmall {
+    padding: 0.25rem;
+}

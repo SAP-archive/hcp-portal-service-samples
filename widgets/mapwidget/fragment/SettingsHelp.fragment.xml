@@ -1,0 +1,3 @@
+<Popover xmlns="sap.m" class="settingsHelpPopover" showHeader="false" placement="Bottom">
+    <Text width="300px" text="The name you enter for the location will be displayed on the map at runtime. You can use any geolocation application to retrieve the longitude and latitude coordinates of your location and enter them in the relevant fields."/>
+</Popover>

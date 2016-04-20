@@ -1,0 +1,89 @@
+.megaMenuContainer .sapMBarPH {
+    overflow: visible;
+}
+
+.megaMenu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+}
+
+.megaMenu li {
+    flex: 0 1 auto;
+    margin: 0;
+    position: relative;
+    padding: 0 1.4rem;
+    cursor: pointer;
+    display: block;
+}
+
+.megaMenu > li .sapUiMnu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    text-align: left;
+    min-width: 8rem;
+    z-index: 1000;
+}
+
+.megaMenu > li .subMenu .sapUiMnu {
+    top: 0;
+    right: auto;
+    left: 100%;
+}
+
+.megaMenu li.rightMenu .sapUiMnu {
+    left: auto;
+    right: 100%;
+}
+
+.megaMenu li.open > div {
+    overflow: inherit;
+    display: block;
+    pointer-events: auto;
+}
+
+.megaMenu > li .subMenu {
+    padding: 0;
+}
+
+.megaMenu > li .subMenu li {
+    white-space: nowrap;
+}
+
+.megaMenu .parentMenu:after {
+    content: "\e1ef";
+    speak: none;
+    font-weight: normal;
+    font-family: 'SAP-icons';
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    font-size: 0.8rem;
+    top: 0;
+    margin-top: 0px;
+    right: 0.4rem;
+}
+
+.megaMenu .subMenu .parentMenu:after {
+    content: "\e1ed";
+    right: 0.8rem;
+}
+
+.megaMenu li.selected {
+    cursor: default;
+}

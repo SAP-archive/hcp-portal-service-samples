@@ -1,0 +1,18 @@
+<Dialog xmlns="sap.m" xmlns:vbm="sap.ui.vbm" contentWidth="80%" contentHeight="80%" showHeader="false">
+    <buttons>
+        <Button id="closeMapButton" text="Close" press="onCloseMapDialog"></Button>
+    </buttons>
+    <App>
+        <pages>
+            <Page id="mapDialogPage">
+                <vbm:GeoMap class="dialogMap" id="dialogMap" width="100%" height="100%" click="onDialogMapClick">
+                    <vbm:vos>
+                        <vbm:Spots>
+                            <vbm:Spot id="dialogSpot" labelType="Default"/>
+                        </vbm:Spots>
+                    </vbm:vos>
+                </vbm:GeoMap>
+            </Page>
+        </pages>
+    </App>
+</Dialog>

@@ -1,0 +1,16 @@
+<mvc:View controllerName="SideNavigationWidget.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" xmlns:tnt="sap.tnt">
+	<App>
+		<pages>
+			<Page title="{i18n>title}" showHeader="false">
+				<content>
+					<tnt:SideNavigation class="sideNavigation" id="sideNavigation">
+						<tnt:item>
+							<tnt:NavigationList id="navigationList"/>
+						</tnt:item>
+					</tnt:SideNavigation>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

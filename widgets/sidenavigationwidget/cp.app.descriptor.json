@@ -1,0 +1,10 @@
+[
+	{
+		"id": "hcp://sidenavigationwidget/manifest.json",
+		"_entityType": "PORTAL_SITE_V2_TEMPLATE_APP_CONFIG",
+		"path": "",
+		"name": "Side Navigation",
+		"thumbnail": "sap-icon://menu",
+		"preview": ""
+	}
+]

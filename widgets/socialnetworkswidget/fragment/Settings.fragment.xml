@@ -1,0 +1,33 @@
+<Dialog xmlns="sap.m" title="Edit Social Networks" contentWidth="700px">
+    <buttons>
+        <Button id="saveSettings" text="Save" press="onSaveSettings"></Button>
+        <Button id="cancelSettings" text="Cancel" press="onCancelSettings"></Button>
+    </buttons>
+    <VBox class="socialSettingsVbox">
+        <Title text="Visual Properties" class="socialSettingsTitle"/>
+        <HBox class="socialSettingsVisualHbox">
+            <VBox width="50%">
+                <Title text="Icon Size:"/>
+                <RadioButtonGroup class="socialSettingsRadioGroup" id="sizeRadioGroup" columns="3" select="onSizeSelect">
+                    <buttons>
+                        <RadioButton text="Large"/>
+                        <RadioButton text="Medium"/>
+                        <RadioButton text="Small"/>
+                    </buttons>
+                </RadioButtonGroup>
+            </VBox>
+            <VBox width="50%">
+                <Title text="Alignment:"/>
+                <RadioButtonGroup class="socialSettingsRadioGroup" id="orientationRadioGroup" columns="3" select="onOrientationSelect">
+                    <buttons>
+                        <RadioButton text="Left"/>
+                        <RadioButton text="Center"/>
+                        <RadioButton text="Right"/>
+                    </buttons>
+                </RadioButtonGroup>
+            </VBox>
+        </HBox>
+        <Title text="Links" class="socialSettingsTitle"/>
+        <VBox id="networksVbox"/>
+    </VBox>
+</Dialog>
