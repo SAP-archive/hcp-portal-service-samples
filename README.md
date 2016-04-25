@@ -30,7 +30,7 @@ You can use SAP HANA Cloud Portal sample widgets to enhance your Cloud Portal si
  * Group feed: After adding this widget to your site, configure the SAP Jam tenant and the group whose feed will be featured in the site page.
  * Search: After adding this widget to your site, in the Site Designer, you can define a default query, the results of which will appear on the page before the user performs the first search.
 
-> Note: When using an SAP HANA Cloud Platform trial account, you enable the SAP Jam services in the cockpit, underServices. For information on the initial configuration of SAP Jam, see Use the SAP Jam API to access data via OData
+> Note: When using an SAP HANA Cloud Platform trial account, you enable the SAP Jam services in the cockpit, under Services. For information on the initial configuration of SAP Jam, see [Use the SAP Jam API to access data via OData](http://help.sap.com/download/documentation/sapjam/developer/index.html#hcp/concepts/ADVANCED_TOPICS-API_integrate_features_data.html)
 
 * Side Navigation: This widget uses the SAPUI5 side navigation control. Side navigation is available both as a widget and as a plugin. The widget supports up to two levels of page hierarchy. A widget side navigation menu would appear in specific pages, whereas a plugin side navigation menu is always available. For information regarding the side navigation plugin, see Plugins for Cloud Portal Freestyle Sites
 
