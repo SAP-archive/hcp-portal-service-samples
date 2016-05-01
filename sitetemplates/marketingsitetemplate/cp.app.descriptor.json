@@ -6,8 +6,6 @@
         "description": "A site template that contains 3 pages. It is most suitable for the freestyle design of a site template. This template is provided by SAP.",
         "path": "marketingsite",
         "thumbnail": "marketingsite/thumbnail.jpg",
-        "preview": "marketingsite/thumbnail.jpg",
-        "themes": [],
         "category": "Samples"
     }
 ]
