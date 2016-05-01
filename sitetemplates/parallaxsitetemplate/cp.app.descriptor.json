@@ -1,0 +1,8 @@
+[{
+	"id": "hcp://parallaxsitetemplate/parallaxsite/shell.json",
+	"name": "Parallax Site",
+	"description": "",
+	"thumbnail": "parallaxsite/thumbnail.png",
+	"path": "parallaxsite",
+	"_entityType": "PORTAL_SITE_V2_TEMPLATE_SITE"
+}]

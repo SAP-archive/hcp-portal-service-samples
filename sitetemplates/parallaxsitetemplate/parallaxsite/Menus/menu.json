@@ -1,0 +1,21 @@
+{
+	"_version": "1.0",
+	"identification": {
+		"id": "menu.json",
+		"entityType": "menu",
+		"i18n": "i18n/menu.properties"
+	},
+	"payload": {
+		"locked": "false",
+		"tags": [],
+		"entities": [{
+			"title": "{{title}}",
+			"description": "{{description}}",
+			"target": {
+				"semanticObject": "ParallaxPage",
+				"action": "Display"
+			},
+			"entityType": "PAGE"
+		}]
+	}
+}

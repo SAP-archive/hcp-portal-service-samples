@@ -1,0 +1,21 @@
+{
+	"_version": "1.1",
+	"identification": {
+		"id": "hcp://parallaxsitetemplate/parallaxsite/catalogs/defaultCatalog.json",
+		"title": "Everyone",
+		"description": "",
+		"entityType": "assignmentPackage"
+	},
+	"payload": {
+		"appDescriptors": [
+			{
+				"namespace": "",
+				"id": "hcp://parallaxsitetemplate/parallaxsite/pages/page1.json"
+			},
+			{
+				"namespace": "",
+				"id": "hcp://parallaxsitetemplate/parallaxsite/pages/ParallaxPage.json"
+			}
+		]
+	}
+}

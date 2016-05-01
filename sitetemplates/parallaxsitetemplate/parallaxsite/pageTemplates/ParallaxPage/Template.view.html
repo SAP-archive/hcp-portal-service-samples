@@ -1,0 +1,173 @@
+<template data-controller-name="cpv2.templates.ParallaxPage.Template">
+    <div data-sap-ui-type="sap.m.App">
+        <div data-sap-ui-type="sap.m.Page" id="parallax-page" data-title="Title" data-show-footer="false"
+             data-show-header="false"
+             data-enable-scrolling="false">
+            <div data-sap-ui-aggregation="content">
+
+                <div class='parallax-page'>
+
+                    <div class="parallax">
+
+                        <div id='parallax_image1' style="height: 800px" class="parallax-layer-bg dark-header">
+
+                        </div>
+                        <div style="position: absolute;right:40px;left:40px;bottom:50px"
+                             data-effects="translateY:-500px;">
+                            <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                 data-alias="page1.parallaxContent1"></div>
+                        </div>
+                        <div data-effects="translateY:500px;"
+                             style="position: absolute;left:40px;right:40px;top:300px;z-index: 1">
+                            <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                 data-alias="page1.parallaxContent2"></div>
+                        </div>
+
+                    </div>
+                    <div class="parallax-header">
+                        <div class="bar">
+                            <div class="user-section">
+                                    <span data-sap-ui-type="sap.ui.core.Icon" data-src="sap-icon://customer">
+                                    </span>
+                                <span class="user-section-name"></span>
+                            </div>
+                            <div data-sap-ui-type='cpv2.templates.ParallaxPage.parallaxLogo'></div>
+
+                            <ul class="parallax-page-nav-menu"></ul>
+                        </div>
+                    </div>
+
+                    <div class="parallax-content-wrapper">
+                        <div class="parallax-content ">
+
+                            <div data-sap-ui-type="sap.ui.layout.Grid" data-default-span="L6 M6 S12">
+                                <div data-sap-ui-aggregation="content">
+                                    <div>
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget1"></div>
+
+                                    </div>
+                                    <div>
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parallax-content-wrapper parallax">
+                        <div id='parallax_image2'
+                             style="position: absolute;top:0;left:0;right: 0;bottom: 0; min-height: 450px"
+                             class="parallax-layer-bg">
+                        </div>
+                        <div style="width:1280px;max-width:100%;margin: auto;position: relative">
+                            <div data-sap-ui-type="sap.ui.layout.Grid" class="sapUiSmallMarginTop"
+                                 data-default-span="L6 M6 S12">
+                                <div data-sap-ui-aggregation="content">
+                                    <div data-effects="translateY:-100%" data-effects-on="enter">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget4"></div>
+                                    </div>
+                                    <div data-effects="translateY:100%" data-effects-on="enter">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="parallax-content-wrapper parallax">
+                        <div class="parallax-content">
+
+                            <div data-sap-ui-type="sap.ui.layout.Grid" data-default-span="L6 M6 S12">
+                                <div data-sap-ui-aggregation="content">
+                                    <div data-effects="translateX:-100%" data-effects-on="enter">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget5"></div>
+                                    </div>
+                                    <div data-effects="translateX:100%" data-effects-on="enter">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget6"></div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="parallax">
+                        <div id='parallax_image3'
+                             class="parallax-layer-bg" style="height: 600px">
+                        </div>
+                        <div style="position: absolute;right:40px;left:40px;top:200px" class="parallax-minus-25">
+                            <div style="width:1280px;max-width:100%;margin: auto">
+                                <div style="background: rgba(0,0,0,0.8);width:200px"
+                                     data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                     data-alias="page1.content2"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="parallax-content-wrapper parallax">
+                        <div class="parallax-content">
+
+                            <div data-sap-ui-type="sap.ui.layout.Grid" data-default-span="L6 M6 S12">
+                                <div data-sap-ui-aggregation="content">
+                                    <div data-effects="translateX:-100%" data-effects-on="enter">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget7"></div>
+                                    </div>
+                                    <div data-effects="translateX:100%" data-effects-on="enter">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget8"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parallax-content-wrapper parallax" style="background: #eeeeee">
+                        <div class="parallax-content">
+
+                            <div data-sap-ui-type="sap.ui.layout.Grid" data-default-span="L3 M4 S12">
+                                <div data-sap-ui-aggregation="content">
+                                    <div data-effects="translateY:100%"
+                                         style="min-height: 300px">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget9"></div>
+                                    </div>
+                                    <div data-effects="translateY:75%"
+                                         style="min-height: 300px">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget10"></div>
+                                    </div>
+                                    <div data-effects="translateY:50%"
+                                         style="min-height: 300px">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget11"></div>
+                                    </div>
+                                    <div data-effects="translateY:25%"
+                                         style="min-height: 300px">
+                                        <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                             data-alias="page1.widget12"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="width: 1280px;max-width: 100%;margin: auto;">
+                                <div data-sap-ui-type='sap.hana.uis.flp.control.Widget'
+                                     data-alias="page1.footer"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</template>
