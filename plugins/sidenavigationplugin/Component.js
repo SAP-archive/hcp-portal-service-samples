@@ -44,7 +44,7 @@ sap.ui.define([
 				subNli;
 			for (var i = 0; i < menuHierarchy.length; i++) {
 				page = menuHierarchy[i];
-				nli = new sap.tnt.NavigationListItem("nli_" + page.id, {
+				nli = new sap.tnt.NavigationListItem({
 					text: page.title,
 					select: this.onNavigationItemSelect
 				});
@@ -54,7 +54,7 @@ sap.ui.define([
 				if (page.entities) {
 					for (var j = 0; j < page.entities.length; j++) {
 						subPage = page.entities[j];
-						subNli = new sap.tnt.NavigationListItem("nli_" + subPage.id, {
+						subNli = new sap.tnt.NavigationListItem({
 							text: subPage.title,
 							select: this.onNavigationItemSelect
 						});
