@@ -9,7 +9,7 @@
             <Page showHeader="false">
                 <content>
                     <Button class="loginButton" id="loginButton" text="Log In" press="onLogin"/>
-                    <Button class="loginButton" id="logoutButton" text="Log Out" press="onLogout"/>
+                    <Button class="logoutButton" id="logoutButton" text="Log Out" press="onLogout"/>
                 </content>
             </Page>
         </pages>
