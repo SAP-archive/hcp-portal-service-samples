@@ -10,7 +10,6 @@
 		"tags": [],
 		"entities": [{
 			"title": "{{title}}",
-			"description": "{{description}}",
 			"target": {
 				"semanticObject": "ParallaxPage",
 				"action": "Display"

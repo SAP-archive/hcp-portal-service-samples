@@ -11,7 +11,6 @@
 		"entities": [
 			{
 				"title": "{{marketing}}",
-				"description": "",
 				"target": {
 					"semanticObject": "page2",
 					"action": "Display"
@@ -20,7 +19,6 @@
 			},
 			{
 				"title": "{{news}}",
-				"description": "",
 				"target": {
 					"semanticObject": "page1",
 					"action": "Display"
@@ -29,7 +27,6 @@
 			},
 			{
 				"title": "{{training}}",
-				"description": "",
 				"target": {
 					"semanticObject": "page3",
 					"action": "Display"
