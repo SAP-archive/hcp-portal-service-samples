@@ -36,7 +36,7 @@ You can use SAP HANA Cloud Portal sample widgets to enhance your Cloud Portal si
 
 * Video: You can embed any standard YouTube URL in a site page using this widget. In the Site Designer, after adding the widget to a page, open the widget settings screen to enter the URL and the height of the video's frame.
 
-* Breadcrumb: Shows the user the navigation path by which he or she reached the current page.
+* Breadcrumbs: Shows the position of the current page in the site hierarchy, allowing the user to click on any of its parent pages, for convenient navigation.
 
 * SCI Login: When added to a page, this widget generates an SCI login overlay (popup), or redirects to a login screen. It is typically used in pages with restricted content, or employee-only areas. After the user logs in, the browser is refreshed and he or she can access content according to their role-based access definitions. When adding this widget to a site, some configuration is required of the developer. In the widget root folder, in the manifest.json file, under the sap.ui5 section, define the following:
  * Enter the SCI tenant
