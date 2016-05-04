@@ -93,6 +93,7 @@
 			"name": "SAP SE, Walldorf",
 			"longitude": "8.641568",
 			"latitude": "49.293789",
+			"height": "300",
 			"zoom": "16",
 			"useDialog": false
 		}

@@ -1,4 +1,4 @@
-sap.ui.core.Control.extend("cpv2.templates.ParallaxPage.parallaxLogo", {
+sap.ui.core.Control.extend("parallaxPage.parallaxLogo", {
 
 	metadata: { // the megaMenuItem API
 		properties: {

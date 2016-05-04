@@ -8,13 +8,10 @@
 	},
 	"payload": {
 		"appDescriptors": [
+
 			{
 				"namespace": "",
-				"id": "hcp://parallaxsitetemplate/parallaxsite/pages/page1.json"
-			},
-			{
-				"namespace": "",
-				"id": "hcp://parallaxsitetemplate/parallaxsite/pages/ParallaxPage.json"
+				"id": "hcp://parallaxsitetemplate/parallaxsite/pages/parallaxpage.json"
 			}
 		]
 	}

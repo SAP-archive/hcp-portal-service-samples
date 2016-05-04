@@ -11,7 +11,7 @@ sap.ui.define([
 	"sap/ushell/designer/apps/contentRepository/Component",
 	"common/widget/control/EcmControl"
 ], function(jQuery, Button, Dialog, Control, Input, HBox, ContentRepository, EcmControl) {
-	return EcmControl.extend("cpv2.templates.ParallaxPage.controls.EmcFilePicker", {
+	return EcmControl.extend("parallaxPage.controls.EmcFilePicker", {
 		metadata: {
 			properties: {
 				funcNumber: {

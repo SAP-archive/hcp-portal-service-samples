@@ -14,12 +14,12 @@ sap.ui.define([
 
 ], function(ResourceModel, Button, Dialog, MessageToast, Text, TextArea, Input, Select, MessageStrip, Item, HorizontalLayout, VerticalLayout) {
 	"use strict";
-	var CController = sap.ui.controller("cpv2.templates.ParallaxPage.Template", {
+	var CController = sap.ui.controller("parallaxPage.Template", {
 			onInit: function() {
 				var _self = this;
-				this.drawSiteNav();
+
 				var i18nModel = new ResourceModel({
-					bundleName: "cpv2.templates.ParallaxPage.i18n.i18n"
+					bundleName: "parallaxPage.i18n.i18n"
 				});
 				this.getView().setModel(i18nModel, "i18n");
 				var $paralaxImages = $(".parallax-layer-bg");
@@ -48,6 +48,7 @@ sap.ui.define([
 						$($bg_parallax).append($ps);
 					});
 				}
+				this.drawSiteNav();
 
 			},
 			setParallaxData: function($parallax, data) {
@@ -65,7 +66,7 @@ sap.ui.define([
 							var $video = $("<video class='parallax-video' muted loop autoplay><source src='" + data.mediaURL + "' type='video/mp4'></video>");
 
 							$parallax.append($video);
-						}, 2000);
+						}, 500);
 
 					}
 				}
@@ -201,8 +202,8 @@ sap.ui.define([
 
 											text: oBundle.getText("select_file_button"),
 											press: function() {
-												jQuery.sap.require("cpv2.templates.ParallaxPage.controls.EmcFilePicker");
-												var ecmControl = new cpv2.templates.ParallaxPage.controls.EmcFilePicker();
+												jQuery.sap.require("parallaxPage.controls.EmcFilePicker");
+												var ecmControl = new parallaxPage.controls.EmcFilePicker();
 												ecmControl.placeAt($bg_parallax);
 												ecmControl.setFuncNumber(bgImageId);
 												ecmControl.onBrowsePress();
@@ -297,16 +298,21 @@ sap.ui.define([
 
 				var user = sap.ushell.Container.getUser();
 				$(".user-section-name").text(user.getFullName());
+				var target;
 				var siteService = sap.ushell.Container.getService("SiteService");
+				var isRuntime = siteService.isRuntime();
+				if (isRuntime) {
+					target = siteService.getCurrentAppTarget();
+				}
 				var pages = siteService.getMenuHierarchy();
 				var $nav = $(".parallax-page-nav-menu");
 				var oController = this;
-				var target = siteService.getCurrentAppTarget();
+
 				$.each(pages, function() {
 					var title = this.title;
 					var $li = $("<li>");
 					$li.data("menudata", this);
-					if (target.semanticObject === this.target.semanticObject && target.action === this.target.action) {
+					if (target && target.semanticObject === this.target.semanticObject && target.action === this.target.action) {
 						$li.addClass("selected");
 					}
 					$li.text(title);
@@ -314,21 +320,24 @@ sap.ui.define([
 					$nav.append($li);
 
 				});
-				hasher.changed.add(function(toObject) {
-					var menuItems = $nav.find("li");
-					menuItems.removeClass("selected");
-					var i = 0;
-					var len = menuItems.length;
-					for (; i < len; i++) {
-						var $item = $(menuItems[i]);
-						var menudata = $item.data("menudata");
-						if (menudata.target.semanticObject === toObject.semanticObject && menudata.target.action === toObject.action) {
-							$item.addClass("selected");
+
+				if(isRuntime) {
+					hasher.changed.add(function(toObject) {
+						var menuItems = $nav.find("li");
+						menuItems.removeClass("selected");
+						var i = 0;
+						var len = menuItems.length;
+						for (; i < len; i++) {
+							var $item = $(menuItems[i]);
+							var menudata = $item.data("menudata");
+							if (menudata.target.semanticObject === toObject.semanticObject && menudata.target.action === toObject.action) {
+								$item.addClass("selected");
+							}
+
 						}
 
-					}
-
-				}, this);
+					}, this);
+				}
 			},
 
 			applyEffects: function() {
@@ -493,19 +502,11 @@ sap.ui.define([
 				$.each(arr, function(i, v) {
 					if (v) {
 						var parts = v.split(":");
-						var unit = "";
-						var indexOfPxUnit = parts[1].indexOf("px");
-						var indexOfPercentUnit = parts[1].indexOf("%");
-						if (indexOfPxUnit > 0 && indexOfPxUnit === parts[1].length - 2) {
-							unit = "px";
+						if (parts.length === 2) {
+							var value = parseFloat(parts[1]);
+							var unit = parts[1].replace(value, "");
+							effects[parts[0]] = (EFFECTS[parts[0]] === 1) ? 1 - ((1 - value) * delta) : ((value * delta) + unit);
 						}
-						else if (indexOfPercentUnit > 0 && indexOfPercentUnit === parts[1].length - 1) {
-							unit = "%";
-						}
-
-						var value = parseFloat(parts[1]);
-
-						effects[parts[0]] = (EFFECTS[parts[0]] === 1) ? 1 - ((1 - value) * delta) : ((value * delta) + unit);
 					}
 				});
 

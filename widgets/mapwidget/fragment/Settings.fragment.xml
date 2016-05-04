@@ -28,6 +28,12 @@
         </HBox>
         <Input class="mapInput" id="mapLongitudeInput" type="Number" change="onLongitudeChange"
                valueStateText="Enter a valid value"/>
+        <HBox>
+            <Label class="mandatoryInputLabel" text="*"/>
+            <Label text="Widget height in pixels:"/>
+        </HBox>
+        <Input class="mapInput" id="mapHeightInput" type="Number" change="onHeightChange"
+               valueStateText="Enter a valid value"/>
         <Label text="Default Zoom Level:"/>
         <FlexBox class="sliderFlexBox" alignItems="Start" justifyContent="SpaceBetween">
             <items>

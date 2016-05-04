@@ -26,6 +26,9 @@ sap.ui.define([
 
 		onConfigChange: function() {
 			var settings = this.getMetadata().getManifest()["sap.cloud.portal"].settings;
+			if (!settings.height) {
+				settings.height = 300;
+			}
 			this.getAggregation("rootControl").getController().applySettings(settings);
 		},
 
@@ -42,6 +45,7 @@ sap.ui.define([
 			core.byId("mapNameInput").setValue(settings.name);
 			core.byId("mapLongitudeInput").setValue(settings.longitude);
 			core.byId("mapLatitudeInput").setValue(settings.latitude);
+			core.byId("mapHeightInput").setValue(settings.height);
 			core.byId("mapZoomSlider").setValue(parseInt(settings.zoom));
 			core.byId("mapUseDialogCheckbox").setSelected(settings.useDialog);
 
@@ -52,7 +56,9 @@ sap.ui.define([
 			var core = sap.ui.getCore();
 			var error = sap.ui.core.ValueState.Error;
 
-			if (core.byId("mapLongitudeInput").getValueState() !== error && core.byId("mapLatitudeInput").getValueState() !== error) {
+			if (core.byId("mapLongitudeInput").getValueState() !== error &&
+				core.byId("mapLatitudeInput").getValueState() !== error &&
+				core.byId("mapHeightInput").getValueState() !== error) {
 				this.tempSettings.name = core.byId("mapNameInput").getValue();
 				this.tempSettings.useDialog = core.byId("mapUseDialogCheckbox").getSelected();
 				this.fireEvent("save.settings", this.tempSettings);
@@ -88,6 +94,19 @@ sap.ui.define([
 			else {
 				oEvent.getSource().setValueState("None");
 				this.tempSettings.latitude = oEvent.getSource().getValue();
+				this.getAggregation("rootControl").getController().applySettings(this.tempSettings);
+			}
+		},
+
+		onHeightChange: function(oEvent) {
+			var value = oEvent.getParameter("value");
+			var floatValue = parseFloat(value);
+			if (value === "" || floatValue <= 0) {
+				oEvent.getSource().setValueState("Error");
+			}
+			else {
+				oEvent.getSource().setValueState("None");
+				this.tempSettings.height = oEvent.getSource().getValue();
 				this.getAggregation("rootControl").getController().applySettings(this.tempSettings);
 			}
 		},

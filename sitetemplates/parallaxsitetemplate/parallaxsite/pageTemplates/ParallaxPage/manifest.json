@@ -29,7 +29,7 @@
 	},
 	"sap.ui5": {
 		"_version": "1.2.0",
-		"componentName": "cpv2.templates.ParallaxPage"
+		"componentName": "parallaxPage"
 	},
 	"sap.cloud.portal": {
 		"applicationType": "page",
@@ -90,7 +90,7 @@
 					}
 				},
 				"local": "true",
-				"sectionAlias": "page1.widget12"
+				"sectionAlias": "parallaxpage.widget12"
 			},
 			"widget11": {
 				"_version": "1.3.0",
@@ -147,7 +147,7 @@
 					}
 				},
 				"local": "true",
-				"sectionAlias": "page1.widget11"
+				"sectionAlias": "parallaxpage.widget11"
 			},
 			"widget3": {
 				"_version": "1.3.0",
@@ -204,7 +204,7 @@
 					}
 				},
 				"local": "true",
-				"sectionAlias": "page1.widget3"
+				"sectionAlias": "parallaxpage.widget3"
 			},
 			"widget10": {
 				"_version": "1.3.0",
@@ -261,7 +261,7 @@
 					}
 				},
 				"local": "true",
-				"sectionAlias": "page1.widget10"
+				"sectionAlias": "parallaxpage.widget10"
 			},
 			"parallaxContent1": {
 				"_version": "1.3.0",
@@ -345,7 +345,7 @@
 					}
 				},
 				"local": "true",
-				"sectionAlias": "page1.parallaxContent1"
+				"sectionAlias": "parallaxpage.parallaxContent1"
 			},
 			"widget2": {
 				"sap.cloud.portal": {
@@ -367,7 +367,7 @@
 					"appName": "portalapptemplates",
 					"uri": "/htmlwidget"
 				},
-				"sectionAlias": "page1.widget2",
+				"sectionAlias": "parallaxpage.widget2",
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
@@ -451,7 +451,7 @@
 					"appName": "portalapptemplates",
 					"uri": "/sapimagewidget"
 				},
-				"sectionAlias": "page1.widget1",
+				"sectionAlias": "parallaxpage.widget1",
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
@@ -508,7 +508,7 @@
 					"appName": "portalapptemplates",
 					"uri": "/htmlwidget"
 				},
-				"sectionAlias": "page1.widget6",
+				"sectionAlias": "parallaxpage.widget6",
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
@@ -682,7 +682,7 @@
 					}
 				},
 				"local": "true",
-				"sectionAlias": "page1.footer"
+				"sectionAlias": "parallaxpage.footer"
 			},
 			"widget7": {
 				"sap.cloud.portal": {
@@ -704,7 +704,7 @@
 					"appName": "portalapptemplates",
 					"uri": "/htmlwidget"
 				},
-				"sectionAlias": "page1.widget7",
+				"sectionAlias": "parallaxpage.widget7",
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
@@ -788,7 +788,7 @@
 					"appName": "portalapptemplates",
 					"uri": "/sapimagewidget"
 				},
-				"sectionAlias": "page1.widget5",
+				"sectionAlias": "parallaxpage.widget5",
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
@@ -855,7 +855,7 @@
 						"markup": {
 							"isRequired": "false",
 							"storage_type": "html",
-							"value": "<div style=\"text-align:center;font-family:verdana\"><div style=\"font-size:48px;color: #0D2938;\">SAP HANA Cloud Platform</div>\n<div style=\"white-space:pre-line;margin-top: 20px;font-size: 20px;color: rgba(0,0,0,0.9);text-shadow: 1px 1px rgba(244,244,244,0.6);\">Create Business Sites to EngageCustomer,\nPartners and Employees with SAP HANA Cloud Portal</div></div>",
+							"value": "<div style=\"text-align:center;font-family:verdana\"><div style=\"font-size:48px;color: #0D2938;\">SAP HANA Cloud Platform</div>\n<div style=\"white-space:pre-line;margin-top: 20px;font-size: 20px;color: rgba(0,0,0,0.9);text-shadow: 1px 1px rgba(244,244,244,0.6);\">Create Business Sites to Engage Customers,\nPartners and Employees with SAP HANA Cloud Portal</div></div>",
 							"displayName": "HTML",
 							"description": "{{resource_url_description}}",
 							"id": "markup"
@@ -880,7 +880,7 @@
 					}
 				},
 				"local": "true",
-				"sectionAlias": "page1.parallaxContent2"
+				"sectionAlias": "parallaxpage.parallaxContent2"
 			},
 			"widget8": {
 				"sap.cloud.portal": {
@@ -929,7 +929,7 @@
 					"appName": "portalapptemplates",
 					"uri": "/sapimagewidget"
 				},
-				"sectionAlias": "page1.widget8",
+				"sectionAlias": "parallaxpage.widget8",
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
@@ -1021,7 +1021,7 @@
 					}
 				},
 				"local": "true",
-				"sectionAlias": "page1.widget9"
+				"sectionAlias": "parallaxpage.widget9"
 			},
 			"content2": {
 				"_version": "1.3.0",
@@ -1078,7 +1078,7 @@
 					}
 				},
 				"local": "true",
-				"sectionAlias": "page1.content2"
+				"sectionAlias": "parallaxpage.content2"
 			}
 		},
 		"settings": {

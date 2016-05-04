@@ -13,15 +13,16 @@ sap.ui.define([
 			var view = this.getView();
 			var map = view.byId("map");
 			var spot = view.byId("spot");
-			this.applyMapSettings(map, spot);
+			this.applyMapSettings(map, spot, false);
 
 			if (sap.ushell.Container.getService("SiteService").isRuntime() && this.settings.useDialog) {
 				this.setRuntimeDialogState();
 			}
 		},
 
-		applyMapSettings: function(map, spot) {
+		applyMapSettings: function(map, spot, isPopup) {
 			var position = this.settings.longitude + ";" + this.settings.latitude + ";0";
+			map.setHeight(isPopup ? "100%" : this.settings.height + "px");
 			map.setInitialZoom(this.settings.zoom);
 			map.setInitialPosition(position);
 			map.zoomToGeoPosition(this.settings.longitude, this.settings.latitude, this.settings.zoom);
@@ -44,7 +45,7 @@ sap.ui.define([
 			
 			var map = core.byId("dialogMap");
 			var spot = core.byId("dialogSpot");
-			this.applyMapSettings(map, spot);
+			this.applyMapSettings(map, spot, true);
 
 			core.byId("mapDialogPage").setTitle(this.settings.name);
 			fragment.open();

@@ -83,3 +83,5 @@ You can use SAP HANA Cloud Portal sample plugins to enhance your Cloud Portal si
 SAP HANA Cloud Portal site templates are offered as a demonstration of some of the capabilities available for both developers and administrators. While they are not intended to be used out of the box, they may spark ideas. You can use them to view how different page templates and pages would appear to users.
 
 * Marketing Site: This site template contains marketing-related content. It is built mostly using HTML widgets. You can view the project structure in SAP Web IDE, and preview the site from there, or from the Site Designer.
+
+* Parallax Site: A site template which implements many types of parallax scrolling effects and transitions in the sample "Parallax Page", built of Cloud Portal widgets. The background image includes a built-in editor for choosing between an image and a video, setting the pace of the scroll and the image/video alignment. The other elements which make up the scrolling effects can be configured in SAP Web IDE.
