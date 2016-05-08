@@ -1,6 +1,6 @@
-#Welcome to SAP HANA Cloud Portal Samples GitHub Repository
+#Welcome to HCP portal service Samples GitHub Repository
 
-The SAP HANA Cloud Portal Samples repository provides code samples of site and page templates, applications, widgets, shell plugins and more, intended to be used as references for development of custom content for SAP HANA Cloud Portal sites.
+The HCP portal service Samples repository provides code samples of site and page templates, applications, widgets, shell plugins and more, intended to be used as references for development of custom content for HCP portal service sites.
 
 ##Important Disclaimers on Security and Legal Aspects
 
@@ -8,7 +8,7 @@ This document is for informational purposes only. Its content is subject to chan
 
 **Information Security**
 
-Your SAP HANA Cloud Portal system may (and most probably will) contain personal and confidential data. Make sure to connect ONLY trusted sample applications which deal with such data accordingly and comply to the security requirements of your organization. NEVER connect random or untrusted sample applications neither to your productive, nor to your test SAP HANA Cloud Portal system.
+Your HCP portal service system may (and most probably will) contain personal and confidential data. Make sure to connect ONLY trusted sample applications which deal with such data accordingly and comply to the security requirements of your organization. NEVER connect random or untrusted sample applications neither to your productive, nor to your test HCP portal service system.
 
 **Coding Samples**
 
@@ -22,9 +22,9 @@ http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-##Widgets for Cloud Portal Freestyle Sites##
+##Widgets for HCP portal service Freestyle Sites##
 
-You can use SAP HANA Cloud Portal sample widgets to enhance your Cloud Portal sites. Following is a description of the available widgets on SAP's Cloud Portal GitHub account, to which you can refer as an example of the various enhancements you can achieve by customizing widgets.
+You can use HCP portal service sample widgets to enhance your HCP portal service sites. Following is a description of the available widgets on SAP's HCP portal service GitHub account, to which you can refer as an example of the various enhancements you can achieve by customizing widgets.
 
 * SAP Jam: Embed content from SAP Jam into your site pages, to bring to front your community activity, to share the knowledge of experts, and for team support and engagement. These are the available sample widgets for embedding SAP Jam content in your freestyle site:
  * Group feed: After adding this widget to your site, configure the SAP Jam tenant and the group whose feed will be featured in the site page.
@@ -32,7 +32,7 @@ You can use SAP HANA Cloud Portal sample widgets to enhance your Cloud Portal si
 
 > Note: When using an SAP HANA Cloud Platform trial account, you enable the SAP Jam services in the cockpit, under Services. For information on the initial configuration of SAP Jam, see [Use the SAP Jam API to access data via OData](http://help.sap.com/download/documentation/sapjam/developer/index.html#hcp/concepts/ADVANCED_TOPICS-API_integrate_features_data.html)
 
-* Side Navigation: This widget uses the SAPUI5 side navigation control. Side navigation is available both as a widget and as a plugin. The widget supports up to two levels of page hierarchy. A widget side navigation menu would appear in specific pages, whereas a plugin side navigation menu is always available. For information regarding the side navigation plugin, see Plugins for Cloud Portal Freestyle Sites
+* Side Navigation: This widget uses the SAPUI5 side navigation control. Side navigation is available both as a widget and as a plugin. The widget supports up to two levels of page hierarchy. A widget side navigation menu would appear in specific pages, whereas a plugin side navigation menu is always available. For information regarding the side navigation plugin, see Plugins for HCP portal service Freestyle Sites
 
 * Video: You can embed any standard YouTube URL in a site page using this widget. In the Site Designer, after adding the widget to a page, open the widget settings screen to enter the URL and the height of the video's frame.
 
@@ -56,11 +56,11 @@ You can use SAP HANA Cloud Portal sample widgets to enhance your Cloud Portal si
 
 * Social Networks: Add quick links to your company's social pages, each with its own instantly recognizable icon (e.g. Twitter, Facebook). In the Site Designer, after adding the widget, open the widget settings screen, enable the relevant social network and enter the URL of your company's page there. At runtime, users will click on the icons to access your pages.
 
-##Plugins for Cloud Portal Freestyle Sites##
+##Plugins for HCP portal service Freestyle Sites##
 
-You can use SAP HANA Cloud Portal sample plugins to enhance your Cloud Portal sites. Following is a description of the available plugins on SAP's Cloud Portal GitHub account, to which you can refer as an example of the various enhancements you can achieve by customizing plugins.
+You can use HCP portal service sample plugins to enhance your HCP portal service sites. Following is a description of the available plugins on SAP's HCP portal service GitHub account, to which you can refer as an example of the various enhancements you can achieve by customizing plugins.
 
-* Side Navigation: This plugin uses the SAPUI5 side navigation control. Side navigation is available both as a widget and as a plugin. The plugin supports up to two levels of page hierarchy. A plugin side navigation menu is always available to users, whereas a plugin would appear only in specific pages. For information regarding the side navigation widget, see Widgets for Cloud Portal Freestyle Sites
+* Side Navigation: This plugin uses the SAPUI5 side navigation control. Side navigation is available both as a widget and as a plugin. The plugin supports up to two levels of page hierarchy. A plugin side navigation menu is always available to users, whereas a plugin would appear only in specific pages. For information regarding the side navigation widget, see Widgets for HCP portal service Freestyle Sites
 
 * SCI Login: When added to a site, this plugin generates an SCI login overlay (popup), or redirects to a login screen. It is typically used in sites with restricted content. After the user logs in, the browser is refreshed and he or she can access content according to their role-based access definitions. When adding this plugin to a site, some configuration is required of the developer. In the plugin root folder, in the manifest.json file, under the sap.ui5section, define the following:
  * Enter the SCI tenant
@@ -78,10 +78,10 @@ You can use SAP HANA Cloud Portal sample plugins to enhance your Cloud Portal si
 
 * Horizontal Navigation Menu: This menu displays your site pages in a horizontal bar. The plugin supports up to three levels of page hierarchy.
 
-##Cloud Portal Sample Site Templates##
+##HCP portal service Sample Site Templates##
 
-SAP HANA Cloud Portal site templates are offered as a demonstration of some of the capabilities available for both developers and administrators. While they are not intended to be used out of the box, they may spark ideas. You can use them to view how different page templates and pages would appear to users.
+HCP portal service site templates are offered as a demonstration of some of the capabilities available for both developers and administrators. While they are not intended to be used out of the box, they may spark ideas. You can use them to view how different page templates and pages would appear to users.
 
 * Marketing Site: This site template contains marketing-related content. It is built mostly using HTML widgets. You can view the project structure in SAP Web IDE, and preview the site from there, or from the Site Designer.
 
-* Parallax Site: A site template which implements many types of parallax scrolling effects and transitions in the sample "Parallax Page", built of Cloud Portal widgets. The background image includes a built-in editor for choosing between an image and a video, setting the pace of the scroll and the image/video alignment. The other elements which make up the scrolling effects can be configured in SAP Web IDE.
+* Parallax Site: A site template which implements many types of parallax scrolling effects and transitions in the sample "Parallax Page", built of HCP portal service widgets. The background image includes a built-in editor for choosing between an image and a video, setting the pace of the scroll and the image/video alignment. The other elements which make up the scrolling effects can be configured in SAP Web IDE.
