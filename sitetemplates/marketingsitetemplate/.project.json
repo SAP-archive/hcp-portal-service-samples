@@ -1,0 +1,34 @@
+{
+  "projectType": [
+    "sap.site.template"
+  ],
+  "generation": [
+    {
+      "templateId": "sitetemplatePlugin.starterSiteTemplate",
+      "templateVersion": "1.0.0",
+      "dateTimeStamp": "Sun, 15 May 2016 09:43:02 GMT"
+    },
+    {
+      "templateId": "sitetemplatePlugin.starterPageTemplate",
+      "templateVersion": "1.0.0",
+      "dateTimeStamp": "Sun, 15 May 2016 09:45:10 GMT"
+    },
+    {
+      "templateId": "sitetemplatePlugin.starterPage",
+      "templateVersion": "1.0.0",
+      "dateTimeStamp": "Sun, 15 May 2016 09:47:30 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "hcpdeploy": {
+    "account": "i054524trial",
+    "name": "marketingsitetemplate",
+    "lastVersionWeTriedToDeploy": "1.0.10"
+  }
+}

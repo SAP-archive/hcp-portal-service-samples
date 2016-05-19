@@ -9,7 +9,7 @@
 			"version": "1.0.0"
 		},
 		"title": "Side Navigation",
-		"description": "{{appDescription}}",
+		"description": "A navigation menu that supports up to two levels of page hierarchy",
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.32.0"

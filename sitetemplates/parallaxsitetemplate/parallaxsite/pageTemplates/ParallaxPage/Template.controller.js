@@ -321,7 +321,7 @@ sap.ui.define([
 
 				});
 
-				if(isRuntime) {
+				if (isRuntime) {
 					hasher.changed.add(function(toObject) {
 						var menuItems = $nav.find("li");
 						menuItems.removeClass("selected");
@@ -484,6 +484,8 @@ sap.ui.define([
 					translateX: 0,
 					translateY: 0,
 					translateZ: 0,
+					rotate: 0,
+					scale: 0,
 					rotateX: 0,
 					rotateY: 0,
 					rotateZ: 0,

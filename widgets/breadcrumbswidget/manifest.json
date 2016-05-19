@@ -9,7 +9,7 @@
 			"version": "1.0.0"
 		},
 		"title": "Breadcrumbs Widget",
-		"description": "{{appDescription}}",
+		"description": "Shows the position of the current page in the site hierarchy",
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.32.0"

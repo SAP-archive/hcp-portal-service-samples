@@ -9,7 +9,7 @@
             "version": "1.0.0"
         },
         "title": "Video Widget",
-        "description": "{{appDescription}}",
+        "description": "Embed any standard YouTube URL in a site page",
         "sourceTemplate": {
             "id": "ui5template.basicSAPUI5ApplicationProject",
             "version": "1.32.0"

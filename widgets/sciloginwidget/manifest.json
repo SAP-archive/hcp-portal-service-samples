@@ -9,7 +9,7 @@
             "version": "1.0.0"
         },
         "title": "Login Widget",
-        "description": "{{appDescription}}",
+        "description": "Generates an SCI login overlay, or redirects to a login screen",
         "sourceTemplate": {
             "id": "ui5template.basicSAPUI5ApplicationProject",
             "version": "1.32.0"

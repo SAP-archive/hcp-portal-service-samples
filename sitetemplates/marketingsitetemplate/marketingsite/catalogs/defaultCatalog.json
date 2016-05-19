@@ -19,11 +19,11 @@
 			{
 				"namespace": "",
 				"id": "hcp://marketingsitetemplate/marketingsite/pages/page3.json"
+			},
+			{
+				"namespace": "",
+				"id": "hcp://marketingsitetemplate/marketingsite/pages/page4.json"
 			}
-		],
-		"groups": [],
-		"suggestedRolesAssignment": [
-			"Everyone"
 		]
 	}
 }

@@ -1,0 +1,324 @@
+{
+	"_version": "1.3.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "hcp://marketingsitetemplate/marketingsite/pages/page4.json",
+		"baseId": "hcp://marketingsitetemplate/marketingsite/pageTemplates/template4/manifest.json",
+		"title": "Contact Us",
+		"description": "",
+		"crossNavigation": {
+			"context": {},
+			"inbounds": {
+				"0": {
+					"semanticObject": "page4",
+					"action": "Display"
+				}
+			}
+		}
+	},
+		"sap.cloud.portal": {
+		"applicationType": "page",
+		"nodes": {
+            "header": {
+              "_version": "1.3.0",
+              "sap.app": {
+                "_version": "1.3.0",
+                "id": "hcp://portalapptemplates/htmlwidget/manifest.json",
+                "title": "HTML Widget",
+                "description": "A widget template that displays HTML files.",
+                "tags": {
+                  "keywords": []
+                },
+                "crossNavigation": {
+                  "inbounds": {
+                    "0": {
+                      "semanticObject": "htmlwidget",
+                      "action": "show"
+                    }
+                  }
+                }
+              },
+              "sap.platform.hcp": {
+                "_version": "1.2.0",
+                "appName": "portalapptemplates",
+                "uri": "/htmlwidget"
+              },
+              "sap.cloud.portal": {
+                "show.portal.settings": "false",
+                "settings": {
+                  "markup": {
+                    "isRequired": "false",
+                    "storage_type": "html",
+                    "value": "<!DOCTYPE html>\n<html>\n<head lang=\"en\">\n    <meta charset=\"UTF-8\">\n    <style>\n\t\n\t\t.sapMPage {\n\t\tbackground-color:#fff;\n\t}\n        h1 {\n            color: #007cc0;\n            font-size: 40px;\n            padding-bottom: 16px;\n            border-bottom: solid #cdcdcd 4px;\n            font-weight: normal;\n            margin: 0;\n            margin: 32px;\n            text-align: center;\n        }\n        .box p {\n            color: #666;\n            line-height: 20px;\n            margin: 1rem;\n            font-size: 16px;\n            text-align: center;\n        }\n        #contact {\n            width: 65%;\n            margin: 4vw auto 2vw auto;\n            text-align: justify;\n        }\n        #contact:after {\n            content: \"\";\n            width: 100%;\n            display: inline-block;\n        }\n        .box img {\n            display: inline-block;\n            vertical-align: top;\n        }\n        .box {\n            width: 30%;\n            text-align: center;\n            display: inline-table;\n            font-size: 0.8rem;\n            cursor: pointer;\n        }\n        .box a {\n            text-decoration: none;\n        }\n        /*smartphone*/\n        .sapUiMedia-Std-Phone #contact {\n            width: 100%;\n        }\n        .sapUiMedia-Std-Phone .box {\n            width: 100%;\n        }\n    </style>\n</head>\n<body>\n\n<h1>Contact Us</h1>\n<div id=\"contact\">\n    <div class=\"box\"><a href=\"mailto:marketing@sap.com?Subject=Contact%20request\" target=\"_top\">\n        <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAYAAAC49JeZAAACQElEQVR42u2YTSgFURTHn3xHvqJ8LJCUkpUFsbBTiIUUVpasZOErazthIUlWFhZiwUaJLFjoJSkklFIWiPJVhBj/U2fqmLx5974Zb6i3+PXmzT13zq+Ze++ZOz7DMHz/DV9E2itp3/jBIPgAxh+APAaU7jQCG8Gjx8IPoEH1Tqfwbyk480j4FJToDI9dUMzHGWAjzMKrIJ3zx4IRFel7cAOq+H8MmAyT8BiI5rypYI18VKXpAs+gWZzvAm+/JPsKOkSuAnDEbVrS5uztFm014NZl4UtQKXJUgGvRri1tMgqixF04cEl4B+SJ3M38hA1d6UBDYAEkcEwyWHYoPAcSRd4+8PlDnJK0XaItWlE4LgoMOy0YPNGnbeIdSxPHoFDEt/3wSJUKBq8Qq0H6uCJNXIFy0accXOgUDBzng0OFXK5J02Stt/TLBtvBCoaIbwfv4ZI+NCsmx7fSY+bjeDBrUzCyQJPoW8tDxi7fuVPpRVo5OC4aTPB5vynObb08zmXByBJL5bBYQsuCDK2QpWnGD4lE6WDdEmMVT7NMuB1L/JK4Ablgz03pO1An2kvASYAE38SFsD9A/D4VK7H2r7ghTRctsozB+yBDyC/GuJ2wCb0W1IghN+VEeh4kifM9GjsaEs3hYqQST1W401IdtaRJrF+M3zgwE0LlewmhD70Cx3DeFr6GknStOM4Em2HeBGyIV4VqmsDKu3Feis492m7RNq/UXCpVN7ZN4MnjjS1trBt1PiF8/qFPCIORL0wRaQ2+AEyEcFquFAxXAAAAAElFTkSuQmCC\">\n        <p>Send an email<br>\n        marketing@sap.com</p>\n    </a></div>\n    <div class=\"box\">\n        <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAYAAAC49JeZAAABX0lEQVR42tXYv0uCURTGca2pApdoaGqIpmgTgtrFpoai2T2awoi2XAuUhpaGoKWlX9BYNBVBEASBOOQfUDRFKUR2ey4c4UXOVdHgPO/wnVT4cL33vFcTzrlE3OrtQ8XnWXSBjunRQA6iPeSkXzTJjj6MgJvt06KBW1TAvjoaY0VfBdC+Aiv6sw36HY0wol2H1uK20i9oihF9GwB/oAnWPb0ZQG8zj7zpADrD/nB5UNCr7OgFBV1GA9QXJgDvFXiOHZ1GPy3oNzTKfjXdUVb7HCWZ0cOoosA3aNECn0G1FnQDrdCiBZ5TVvsbLQfen0FzpmiBlBS4X/F8c4/LL551OcC+rX7G5H+gPeg08LR8Qkeoqrx2jcZN0JGDedPF9dUpozJrgu4T7ts1QQt8CJ30gD4wQws8KQet0SX4zn9LpugIfh49dgBfopTZnm6Dz6Iz9CrQL5kcS2YjLzb/5Vn3B5Ia/uXZ04XxAAAAAElFTkSuQmCC\">\n        <p>Call us <br>\n            +1-800-872-1727</p>\n    </div>\n    <div class=\"box\">\n        <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAYAAAC49JeZAAAA9klEQVR42u3X7Q3CIBAG4I7QERihI7iBbqAb2A10A0dwBTeQEZo4AN0AN8CjwZQgpIUiPeP9ePunkHugfKSVUqpKSXV5NJAeogqmH+ouQJcGj/AFaLVaCE1oQhP6j9Dw2EGecztgQUfdbFjQitCEJvTvosVKaJEyYxvrz0UUB+u6CR07SJ16kwZu15unDg+2TxyxhrOM6LYEOjbnCXQNke6/IGq0tUekb/+gRRs4g1ynlkipo+sQucb1ctlCTvoL+NDMvLTjDuTuaTM3+5wnzYAOjJQ76DZ34W+gOwssc5/L2dFmF9vgBhP4A202ADdr+Ihtht95AS2qdNB1kzTMAAAAAElFTkSuQmCC\">\n        <p>Come visit<br>\n            Walldorf Dietmar-Hopp-Allee</p>\n    </div>\n</div>\n</body>\n</html>",
+                    "displayName": "HTML",
+                    "description": "{{resource_url_description}}",
+                    "id": "markup"
+                  }
+                }
+              },
+              "sap.flp": {
+                "_version": "1.1.0",
+                "config": {}
+              },
+              "sap.ui": {
+                "_version": "1.3.0",
+                "technology": "UI5"
+              },
+              "sap.ui5": {
+                "_version": "1.2.0",
+                "componentName": "htmlwidget.local",
+                "routing": {
+                  "config": {
+                    "routerClass": "sap.hana.uis.flp.routing.Router"
+                  }
+                }
+              },
+              "local": "true",
+              "sectionAlias": "page1.header"
+            },
+            "content": {
+              "_version": "1.3.0",
+              "sap.app": {
+                "_version": "1.1.0",
+                "id": "hcp://mapwidget/manifest.json",
+                "type": "application",
+                "i18n": "i18n/i18n.properties",
+                "applicationVersion": {
+                  "version": "1.0.0"
+                },
+                "title": "Map Widget",
+                "description": "{{appDescription}}",
+                "sourceTemplate": {
+                  "id": "ui5template.basicSAPUI5ApplicationProject",
+                  "version": "1.32.0"
+                }
+              },
+              "sap.ui": {
+                "_version": "1.1.0",
+                "technology": "UI5",
+                "icons": {
+                  "icon": "",
+                  "favIcon": "",
+                  "phone": "",
+                  "phone@2": "",
+                  "tablet": "",
+                  "tablet@2": ""
+                },
+                "deviceTypes": {
+                  "desktop": true,
+                  "tablet": true,
+                  "phone": true
+                },
+                "supportedThemes": [
+                  "sap_hcb",
+                  "sap_bluecrystal"
+                ]
+              },
+              "sap.ui5": {
+                "_version": "1.1.0",
+                "rootView": {
+                  "viewName": "MapWidget.view.Main",
+                  "type": "XML"
+                },
+                "dependencies": {
+                  "minUI5Version": "1.30.0",
+                  "libs": {
+                    "sap.ui.core": {},
+                    "sap.m": {},
+                    "sap.ui.layout": {}
+                  }
+                },
+                "contentDensities": {
+                  "compact": true,
+                  "cozy": true
+                },
+                "models": {
+                  "i18n": {
+                    "type": "sap.ui.model.resource.ResourceModel",
+                    "settings": {
+                      "bundleName": "MapWidget.i18n.i18n"
+                    }
+                  }
+                },
+                "resources": {
+                  "css": [
+                    {
+                      "uri": "css/style.css"
+                    }
+                  ]
+                },
+                "routing": {
+                  "config": {
+                    "routerClass": "sap.hana.uis.flp.routing.Router"
+                  }
+                },
+                "componentName": "MapWidget"
+              },
+              "sap.flp": {
+                "appType": "SAP_UI5_Component",
+                "config": {
+                  "editable": true,
+                  "deletable": true
+                }
+              },
+              "sap.platform.hcp": {
+                "uri": "/",
+                "appName": "mapwidget"
+              },
+              "sap.cloud.portal": {
+                "show.portal.settings": "false",
+                "settings": {
+                  "name": "SAP SE, Walldorf",
+                  "longitude": "8.641568",
+                  "latitude": "49.293789",
+                  "height": "460",
+                  "zoom": "16",
+                  "useDialog": true
+                }
+              },
+              "local": "true",
+              "sectionAlias": "page1.content"
+            },
+            "footer": {
+              "_version": "1.3.0",
+              "sap.app": {
+                "_version": "1.1.0",
+                "id": "hcp://socialnetworkswidget/manifest.json",
+                "type": "application",
+                "i18n": "i18n/i18n.properties",
+                "applicationVersion": {
+                  "version": "1.0.0"
+                },
+                "title": "Social Networks Widget",
+                "description": "{{appDescription}}",
+                "sourceTemplate": {
+                  "id": "ui5template.basicSAPUI5ApplicationProject",
+                  "version": "1.32.0"
+                }
+              },
+              "sap.ui": {
+                "_version": "1.1.0",
+                "technology": "UI5",
+                "icons": {
+                  "icon": "",
+                  "favIcon": "",
+                  "phone": "",
+                  "phone@2": "",
+                  "tablet": "",
+                  "tablet@2": ""
+                },
+                "deviceTypes": {
+                  "desktop": true,
+                  "tablet": true,
+                  "phone": true
+                },
+                "supportedThemes": [
+                  "sap_hcb",
+                  "sap_bluecrystal"
+                ]
+              },
+              "sap.ui5": {
+                "_version": "1.1.0",
+                "rootView": {
+                  "viewName": "SocialNetworksWidget.view.Main",
+                  "type": "XML"
+                },
+                "dependencies": {
+                  "minUI5Version": "1.30.0",
+                  "libs": {
+                    "sap.ui.core": {},
+                    "sap.m": {},
+                    "sap.ui.layout": {}
+                  }
+                },
+                "contentDensities": {
+                  "compact": true,
+                  "cozy": true
+                },
+                "models": {
+                  "i18n": {
+                    "type": "sap.ui.model.resource.ResourceModel",
+                    "settings": {
+                      "bundleName": "SocialNetworksWidget.i18n.i18n"
+                    }
+                  }
+                },
+                "resources": {
+                  "css": [
+                    {
+                      "uri": "css/style.css"
+                    }
+                  ]
+                },
+                "routing": {
+                  "config": {
+                    "routerClass": "sap.hana.uis.flp.routing.Router"
+                  }
+                },
+                "componentName": "SocialNetworksWidget"
+              },
+              "sap.flp": {
+                "appType": "SAP_UI5_Component",
+                "config": {
+                  "editable": true,
+                  "deletable": true
+                }
+              },
+              "sap.platform.hcp": {
+                "uri": "/",
+                "appName": "socialnetworkswidget"
+              },
+              "sap.cloud.portal": {
+                "show.portal.settings": "false",
+                "settings": {
+                  "size": "Medium",
+                  "orientation": "Center",
+                  "networks": [
+                    {
+                      "name": "Twitter",
+                      "isActive": true,
+                      "url": "https://twitter.com/PORTAL_SAP",
+                      "image": "twitter"
+                    },
+                    {
+                      "name": "Facebook",
+                      "isActive": true,
+                      "url": "https://www.facebook.com/sapportal",
+                      "image": "facebook"
+                    },
+                    {
+                      "name": "YouTube",
+                      "isActive": true,
+                      "url": "https://www.youtube.com/SAPNetWeaverPortals",
+                      "image": "youtube"
+                    },
+                    {
+                      "name": "Instagram",
+                      "isActive": false,
+                      "image": "instagram"
+                    },
+                    {
+                      "name": "LinkedIn",
+                      "isActive": true,
+                      "image": "linkedin",
+                      "url": "https://www.linkedin.com/company/sap"
+                    },
+                    {
+                      "name": "Tumblr",
+                      "isActive": false,
+                      "image": "tumblr"
+                    },
+                    {
+                      "name": "Google+",
+                      "isActive": false,
+                      "image": "googleplus"
+                    }
+                  ]
+                }
+              },
+              "local": "true",
+              "sectionAlias": "page1.footer"
+            }
+          }
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "run": [
+    {
+      "projectPath": "/marketingsitetemplate",
+      "filePath": "/marketingsitetemplate",
+      "appName": "marketingsitetemplate",
+      "orion": "/i054524trial$I054524-OrionContent/marketingsitetemplate/",
+      "provider": {
+        "providerAccount": "trial",
+        "name": "flpportal",
+        "url": "https://flpportal-i054524trial.dispatcher.hanatrial.ondemand.com"
+      },
+      "_metadata": {
+        "runnerId": "cpv2PreviewRunner",
+        "id": 8248846,
+        "displayName": "Run marketingsitetemplate"
+      }
+    }
+  ]
+}

@@ -9,7 +9,7 @@
 		"locked": "false",
 		"tags": [],
 		"entities": [
-			{
+		    {
 				"title": "{{marketing}}",
 				"target": {
 					"semanticObject": "page2",
@@ -32,7 +32,14 @@
 					"action": "Display"
 				},
 				"entityType": "PAGE"
-			}
-		]
+			},
+			{
+				"title": "{{contactus}}",
+				"target": {
+					"semanticObject": "page4",
+					"action": "Display"
+				},
+				"entityType": "PAGE"
+			}]
 	}
 }

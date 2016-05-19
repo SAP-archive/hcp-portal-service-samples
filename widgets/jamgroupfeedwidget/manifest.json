@@ -9,7 +9,7 @@
 			"version": "1.0.0"
 		},
 		"title": "Jam Group Feed",
-		"description": "{{appDescription}}",
+		"description": "Embed content from SAP Jam into your site pages",
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
 			"version": "1.32.0"

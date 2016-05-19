@@ -1,11 +1,9 @@
-[
-    {
-        "id": "hcp://marketingsitetemplate/marketingsite/shell.json",
-        "_entityType": "PORTAL_SITE_V2_TEMPLATE_SITE",
-        "name": "Marketing Site",
-        "description": "A site template that contains 3 pages. It is most suitable for the freestyle design of a site template. This template is provided by SAP.",
-        "path": "marketingsite",
-        "thumbnail": "marketingsite/thumbnail.jpg",
-        "category": "Samples"
-    }
-]
+[{
+	"id": "hcp://marketingsitetemplate/marketingsite/site.json",
+	"name": "Marketing Site",
+	"description": "",
+	"thumbnail": "marketingsite/thumbnail.jpg",
+	"path": "marketingsite",
+	"_entityType": "PORTAL_SITE_V2_TEMPLATE_SITE",
+	"category": "Samples"
+}]

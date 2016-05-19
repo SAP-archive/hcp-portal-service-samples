@@ -14,6 +14,8 @@ sap.ui.core.UIComponent.extend("cpv2.templates.template2.Component", {
 
 		version: "@version@",
 
+		//library : "sap.ushell.demo.cpv2",
+
 		includes: ["../../css/main.css"],
 
 		dependencies: {
@@ -21,21 +23,23 @@ sap.ui.core.UIComponent.extend("cpv2.templates.template2.Component", {
 			components: []
 		},
 
-		config: {
+		"config": {
 			fullWidth: true,
 			hideLightBackground: true
 		}
 	},
-    
+
 	createContent: function() {
 		"use strict";
-
+		//jQuery.sap.registerModulePath("sap.ushell.demo.cpv2","/sap/fiori/cpv2developer");
+		//jQuery.sap.registerModulePath("sap.ushell.demo.cpv2.controls","/sap/fiori/cpv2developer/controls");
+		//jQuery.sap.registerResourcePath('sap/ushell/demo/Layouts', '/ushell/test-resources/sap/ushell/demoapps/Layouts/');
 		this.oMainView = sap.ui.view({
 			type: sap.ui.core.mvc.ViewType.XML,
 			viewName: "cpv2.templates.template2.Template2",
 			id: this.createId("MainView")
 		});
-        
+
 		return this.oMainView;
 	}
 });

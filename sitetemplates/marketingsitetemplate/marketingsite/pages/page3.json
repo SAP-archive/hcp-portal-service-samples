@@ -1,206 +1,186 @@
 {
-  "sap.app": {
-    "_version": "1.1.0",
-    "id": "hcp://marketingsitetemplate/marketingsite/pages/page3.json",
-    "baseId": "hcp://marketingsitetemplate/marketingsite/pageTemplates/template3/manifest.json",
-    "title": "Training",
-    "description": "",
-    "crossNavigation": {
-      "context": {
-        "sapSite": {
-          "value":"hcp://marketingsitetemplate/marketingsite/shell.json"
-        }
-      },
-      "inbounds": [
-        {
-          "semanticObject": "page3",
-          "action": "Display"
-        }
-      ]
-    }
-  },
-  "sap.cloud.portal": {
-    "applicationType": "page",
-    "nodes": {
-      "section1": {
-        "sectionAlias": "page3.section1",
-        
-          "sap.app": {
-            "_version": "1.1.0",
-              "title": "HTML Widget",
-            "description": "A widget template that displays HTML files.",
-            "tags": {
-              "keywords": [
-                "keyword"
-              ]
-            },
-            "crossNavigation": {
-              "inbounds": [
-                {
-                  "semanticObject": "htmlwidget",
-                  "action": "show",
-                  "deviceTypes": { 
-                        "desktop": true, 
-                        "tablet": true,
-                        "phone": true 
-                    }
-                }
-              ],
-              "outbounds": [
-                {}
-              ]
-            }
-          },
-          "sap.platform.hcp": {
-            "_version": "1.1.0",
-            "appName": "portalapptemplates",
-            "componentName": "htmlwidget.local",
-            "uri": "/htmlwidget"
-          },
-          "sap.cloud.portal": {
-	"show.portal.settings":"false",
-            "settings": {
-            "markup": {
-              "isRequired": "false",
-              "storage_type": "html",
-               "value": "     <style>         .container {             padding: 0;             margin: 0;             font-family: Verdana;             overflow: hidden;             position: relative;          }                  img {             width: 100%;         }           .motto {             font-size: 2em;          }          .headline h2 {             font-size: 1em;             font-weight: normal;             color: #fff;             line-height: 20px;         }           .headline{             position: absolute;             bottom: 24px;             right: 24px;             background-color: rgba(0, 0, 0, 0.4);             padding: 16px;             margin: 20px 0 0 0;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;             line-height: 30px;             color: #FFF;         }           @media only screen and (max-width:690px) {            .motto {                 font-size: 1em;             }              .headline h2 {                 font-size: 0.6em;             }              .headline {                 bottom: 0;                 left: 0;                 padding: 5px;                 margin: 10px;             }         }      </style>  <div class=\"container\"> <img src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/jump.jpg\">     <div class=\"headline\">     <div class=\"motto\">September 9: Jump-Start Your Fiori UX Knowledge</div>     <h2>Learn about installation, configuration, and more.</h2>     </div>   </div>",
-               "displayName": "HTML",
-              "description": "resource_url_description",
-              "id": "markup"
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "hcp://marketingsitetemplate/marketingsite/pages/page3.json",
+		"baseId": "hcp://marketingsitetemplate/marketingsite/pageTemplates/template3/manifest.json",
+		"title": "Training",
+		"description": "",
+		"crossNavigation": {
+			"context": {},
+			"inbounds": [{
+				"semanticObject": "page3",
+				"action": "Display"
+			}]
 		}
-            }
-          },
-          "sap.flp": {
-            "appType": "UI5",
-            "config": {
-              "editable": true,
-              "deletable": true
-            }
-          },
-          "sap.ui": {
-            "_version": "1.1.0",
-            "technology": "UI5"
-          }
-      },
-      "section2": {
-        "sectionAlias": "page3.section2",
-          "sap.app": {
-            "_version": "1.1.0",
-             "title": "HTML Widget",
-            "description": "A widget template that displays HTML files.",
-            "tags": {
-              "keywords": [
-                "keyword"
-              ]
-            },
-            "crossNavigation": {
-              "inbounds": [
-                {
-                  "semanticObject": "htmlwidget",
-                  "action": "show",
-                  "deviceTypes": { 
-                        "desktop": true, 
-                        "tablet": true,
-                        "phone": true 
-                    }
-                }
-              ],
-              "outbounds": [
-                {}
-              ]
-            }
-          },
-          "sap.platform.hcp": {
-            "_version": "1.1.0",
-            "appName": "portalapptemplates",
-            "componentName": "htmlwidget.local",
-            "uri": "/htmlwidget"
-          },
-          "sap.cloud.portal": {
- 	"show.portal.settings":"false",
-            "settings": {
-            "markup": {
-              "isRequired": "false",
-              "storage_type": "html",
-              "value": " <style>          section#left {             background-color: #fff;             padding: 0;             margin: 0;             overflow: hidden;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;             padding: 16px;          }         section h1 {             color: #007cc0;             font-size: 20px;             padding-top: 48px;             padding-bottom: 16px;             border-bottom: solid #cdcdcd 4px;             font-weight: normal;             margin: 0;         }          section#left h1{             background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYhJREFUeNqsVt1xgzAMhlze005AOkG7QcgEyQjuE7yVTFA6Qekbb4EN6AQhGzQbwAbpBFS6k1OdsY1zWHc6Y5C/T7Z+TDgMQ+AiaZoKGARNq7IsK5d1y8Bd1qAbem5dF4XqDsjTDjxsab6HATUGjcisBy1AG7DryO4BnYD5j5GAwI80/SLgaMLJGo+MFEliTnIjUMDnyC8nWbAP18CPrFgy/BMAY0PbnSs1YGUjApYpXoXHALPk5An3SWYX34GYCNwrLAphfAT9mCDY33aQJEksq9OSkltZFyylcxjeDfZn0FxW8tSxXFRw5pCJYCNxFzPO2SmtXQie4TheNO+ze7Oos8QAe49g/QnBPy24B7At1G6KhfZmWIDEJwDuqd+sJhxvdEdUOOw4cgCvZQ2orQJffnsoskIbZOqmOw8EuSmLMk9tYkfOjgiwoi+sNRyoIl36/1mJQaWLwZVIarowClCcb+ldrwGu6ZqUziG4sN7Jlr8K3ntGQHMqWSedq+E9vy2t4dkqfwIMABummN6YkXoiAAAAAElFTkSuQmCC);             background-position: 100% 48px;             background-repeat: no-repeat;         }           section#left h2, section#right h2 {             font-size: 16px;             color: #666;             padding: 16px 0;             margin: 0;             cursor: pointer;         }          section#left p, section#right p {             font-size: 12px;             color: #666;             margin: 0;             padding-bottom: 16px;         }          p .link {             color: #007CC0;             cursor: pointer;         }          img.icon{             width: 18px;             height: 18px;             padding-right: 16px;             padding-bottom: 16px;         }          .item {             border-bottom: solid 1px #cdcdcd;          }          .item:last-child {             border-bottom: none;         }      </style>       <section id=\"left\">     <h1>Recommended Training</h1>     <div class=\"item\">         <h2 title=\"The Magic 8 Series - Generate Demand with SAP\">The Magic 8 Series - Generate Demand with SAP</h2>         <p>Tags <span class=\"link\"> Sell, Manage, English</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/star.png\">     </div>     <div class=\"item\">         <h2 title=\"Replay: SUSE Technical Webinar â Get started with Lumira CVOM extensions - the SAP and SUSE Campaign\">Replay: SUSE Technical Webinar - Get started with Lumira</h2>         <p>Tags <span class=\"link\"> Crystal Reports, SAP Predictive Analysis, SAP Business Intelligence, Market</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/star.png\">     </div>     <div class=\"item\">         <h2 title=\"Top Assets: Distribution Playbook (Data to Decisions with BI)\">Top Assets: Distribution Playbook (Data to Decisions with BI)</h2>         <p>Tags <span class=\"link\">SAP Crystal Reports, SAP BusinessObjects Edge, SAP BusinessObjects Mobile</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/star.png\">     </div>  </section>",
-              "displayName": "HTML",
-              "description": "resource_url_description",
-              "id": "markup"
+	},
+	"sap.cloud.portal": {
+		"applicationType": "page",
+		"nodes": {
+			"section1": {
+				"sectionAlias": "page3.section1",
+				"sap.app": {
+					"_version": "1.1.0",
+					"title": "HTML Widget",
+					"description": "A widget template that displays HTML files.",
+					"tags": {
+						"keywords": [
+							"keyword"
+						]
+					},
+					"crossNavigation": {
+						"inbounds": [{
+							"semanticObject": "htmlwidget",
+							"action": "show",
+							"deviceTypes": {
+								"desktop": true,
+								"tablet": true,
+								"phone": true
+							}
+						}],
+						"outbounds": [{}]
+					}
+				},
+				"sap.platform.hcp": {
+					"_version": "1.1.0",
+					"appName": "portalapptemplates",
+					"componentName": "htmlwidget.local",
+					"uri": "/htmlwidget"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"settings": {
+						"markup": {
+							"isRequired": "false",
+							"storage_type": "html",
+							"value": "     <style>         .container {             padding: 0;             margin: 0;             font-family: Verdana;             overflow: hidden;             position: relative;          }                  img {             width: 100%;         }           .motto {             font-size: 2em;          }          .headline h2 {             font-size: 1em;             font-weight: normal;             color: #fff;             line-height: 20px;         }           .headline{             position: absolute;             bottom: 24px;             right: 24px;             background-color: rgba(0, 0, 0, 0.4);             padding: 16px;             margin: 20px 0 0 0;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;             line-height: 30px;             color: #FFF;         }           @media only screen and (max-width:690px) {            .motto {                 font-size: 1em;             }              .headline h2 {                 font-size: 0.6em;             }              .headline {                 bottom: 0;                 left: 0;                 padding: 5px;                 margin: 10px;             }         }      </style>  <div class=\"container\"> <img src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/jump.jpg\">     <div class=\"headline\">     <div class=\"motto\">September 9: Jump-Start Your Fiori UX Knowledge</div>     <h2>Learn about installation, configuration, and more.</h2>     </div>   </div>",
+							"displayName": "HTML",
+							"description": "resource_url_description",
+							"id": "markup"
+						}
+					}
+				},
+				"sap.flp": {
+					"appType": "UI5",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5"
+				}
+			},
+			"section2": {
+				"sectionAlias": "page3.section2",
+				"sap.app": {
+					"_version": "1.1.0",
+					"title": "HTML Widget",
+					"description": "A widget template that displays HTML files.",
+					"tags": {
+						"keywords": [
+							"keyword"
+						]
+					},
+					"crossNavigation": {
+						"inbounds": [{
+							"semanticObject": "htmlwidget",
+							"action": "show",
+							"deviceTypes": {
+								"desktop": true,
+								"tablet": true,
+								"phone": true
+							}
+						}],
+						"outbounds": [{}]
+					}
+				},
+				"sap.platform.hcp": {
+					"_version": "1.1.0",
+					"appName": "portalapptemplates",
+					"componentName": "htmlwidget.local",
+					"uri": "/htmlwidget"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"settings": {
+						"markup": {
+							"isRequired": "false",
+							"storage_type": "html",
+							"value": " <style>          section#left {             background-color: #fff;             padding: 0;             margin: 0;             overflow: hidden;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;             padding: 16px;          }         section h1 {             color: #007cc0;             font-size: 20px;             padding-top: 48px;             padding-bottom: 16px;             border-bottom: solid #cdcdcd 4px;             font-weight: normal;             margin: 0;         }          section#left h1{             background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYhJREFUeNqsVt1xgzAMhlze005AOkG7QcgEyQjuE7yVTFA6Qekbb4EN6AQhGzQbwAbpBFS6k1OdsY1zWHc6Y5C/T7Z+TDgMQ+AiaZoKGARNq7IsK5d1y8Bd1qAbem5dF4XqDsjTDjxsab6HATUGjcisBy1AG7DryO4BnYD5j5GAwI80/SLgaMLJGo+MFEliTnIjUMDnyC8nWbAP18CPrFgy/BMAY0PbnSs1YGUjApYpXoXHALPk5An3SWYX34GYCNwrLAphfAT9mCDY33aQJEksq9OSkltZFyylcxjeDfZn0FxW8tSxXFRw5pCJYCNxFzPO2SmtXQie4TheNO+ze7Oos8QAe49g/QnBPy24B7At1G6KhfZmWIDEJwDuqd+sJhxvdEdUOOw4cgCvZQ2orQJffnsoskIbZOqmOw8EuSmLMk9tYkfOjgiwoi+sNRyoIl36/1mJQaWLwZVIarowClCcb+ldrwGu6ZqUziG4sN7Jlr8K3ntGQHMqWSedq+E9vy2t4dkqfwIMABummN6YkXoiAAAAAElFTkSuQmCC);             background-position: 100% 48px;             background-repeat: no-repeat;         }           section#left h2, section#right h2 {             font-size: 16px;             color: #666;             padding: 16px 0;             margin: 0;             cursor: pointer;         }          section#left p, section#right p {             font-size: 12px;             color: #666;             margin: 0;             padding-bottom: 16px;         }          p .link {             color: #007CC0;             cursor: pointer;         }          img.icon{             width: 18px;             height: 18px;             padding-right: 16px;             padding-bottom: 16px;         }          .item {             border-bottom: solid 1px #cdcdcd;          }          .item:last-child {             border-bottom: none;         }      </style>       <section id=\"left\">     <h1>Recommended Training</h1>     <div class=\"item\">         <h2 title=\"The Magic 8 Series - Generate Demand with SAP\">The Magic 8 Series - Generate Demand with SAP</h2>         <p>Tags <span class=\"link\"> Sell, Manage, English</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/star.png\">     </div>     <div class=\"item\">         <h2 title=\"Replay: SUSE Technical Webinar â Get started with Lumira CVOM extensions - the SAP and SUSE Campaign\">Replay: SUSE Technical Webinar - Get started with Lumira</h2>         <p>Tags <span class=\"link\"> Crystal Reports, SAP Predictive Analysis, SAP Business Intelligence, Market</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/star.png\">     </div>     <div class=\"item\">         <h2 title=\"Top Assets: Distribution Playbook (Data to Decisions with BI)\">Top Assets: Distribution Playbook (Data to Decisions with BI)</h2>         <p>Tags <span class=\"link\">SAP Crystal Reports, SAP BusinessObjects Edge, SAP BusinessObjects Mobile</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/star.png\">     </div>  </section>",
+							"displayName": "HTML",
+							"description": "resource_url_description",
+							"id": "markup"
+						}
+					}
+				},
+				"sap.flp": {
+					"appType": "UI5",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5"
+				}
+			},
+			"section3": {
+				"sectionAlias": "page3.section3",
+				"sap.app": {
+					"_version": "1.1.0",
+					"title": "HTML Widget",
+					"description": "A widget template that displays HTML files.",
+					"tags": {
+						"keywords": [
+							"keyword"
+						]
+					},
+					"crossNavigation": {
+						"inbounds": [{
+							"semanticObject": "htmlwidget",
+							"action": "show",
+							"deviceTypes": {
+								"desktop": true,
+								"tablet": true,
+								"phone": true
+							}
+						}],
+						"outbounds": [{}]
+					}
+				},
+				"sap.platform.hcp": {
+					"_version": "1.1.0",
+					"appName": "portalapptemplates",
+					"componentName": "htmlwidget.local",
+					"uri": "/htmlwidget"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"settings": {
+						"markup": {
+							"isRequired": "false",
+							"storage_type": "html",
+							"value": "      <style>          section#right {             padding: 16px;             background-color: #fff;             margin: 0;             overflow: hidden;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;         }         section h1 {             color: #007cc0;             font-size: 20px;             padding-top: 48px;             padding-bottom: 16px;             border-bottom: solid #cdcdcd 4px;             font-weight: normal;             margin: 0;         }          section#right h1{             background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYhJREFUeNq0VtFtgzAQdSL+225AJyidADpBsgH9g7/SCUgnKP3jMxuUThAyQbJB2glKN+iz9FJZ1mEcKCedbPnse2ffvYNFlmWhUuoR2tZ13aoZZAnVICU0UTNJMNVBnucJA9TaSi+ynAhQYdjxJWKOO6w33iDYHDpsGwxPPeYV7f0g2jmjOWHszAOGlAMXLXHu2nUTXW0rzq94ILLy4COJC0Rysp5SwpJIfDGTefTw/YMqa1wgW+jHeTP0DQf+HGPeGXY1FKjIEzj51M/D6uroVMqbdnQn2Pa0D5ORYH02DRwhkIL5innrLWzFKMazoiI66QwwTchqTOJtgJbMfoV+X1DCfjchP2JruTATyz3nJ6rMIvG9iRR1ZLWeAzSlHux25APSCGtmDqSWUwyCsHeFRoU9kBdf0GfyyCWdMydwrsvxnXNNwoLfh9ZB3FRYc95kfUm/YgC30Bfqjc2voCcHqSMffaTdePOETU1Hdm8z91+/8a52MkYW+CVKyObZJGC57ecE+RVgAM+7lVQNsa30AAAAAElFTkSuQmCC);             background-position: 100% 48px;             background-repeat: no-repeat;         }          section#left h2, section#right h2 {             font-size: 16px;             color: #666;             padding: 16px 0;             margin: 0;             cursor: pointer;         }          section#left p, section#right p {             font-size: 12px;             color: #666;             margin: 0;             padding-bottom: 16px;         }          p .link {             color: #007CC0;             cursor: pointer;         }          img.icon{             width: 18px;             height: 18px;             padding-right: 16px;             padding-bottom: 16px;         }          .item {             border-bottom: solid 1px #cdcdcd;          }          .item:last-child {             border-bottom: none;         }       </style>       <section id=\"right\">     <h1>Participate in Communities</h1>     <div class=\"item\">         <h2 title=\"Blitz Days in a Box Boost Revenue for SAP Business Suite Powered by SAP HANA\">Blitz Days in a Box Boost Revenue for SAP Business Suite..</h2>         <p>Tags <span class=\"link\">Global, All Partners, Value-Added Reseller (VAR), Extended Business Member</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">     </div>     <div class=\"item\">         <h2 title=\"SAP Language Service Partners Community\">SAP Language Service Partners Community</h2>         <p>Tags <span class=\"link\">All Partners, Language & Translation, English, Global</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">     </div>     <div class=\"item\">         <h2 title=\"What Do You Think About the SAP Learning Hub?\">What Do You Think About the SAP Learning Hub?</h2>         <p>Tags <span class=\"link\">Global, All Partners, Manage, Support</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">     </div>   </section>",
+							"displayName": "HTML",
+							"description": "resource_url_description",
+							"id": "markup"
+						}
+					}
+				},
+				"sap.flp": {
+					"appType": "UI5",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5"
+				}
+			}
 		}
-            }
-          },
-          "sap.flp": {
-            "appType": "UI5",
-            "config": {
-              "editable": true,
-              "deletable": true
-            }
-          },
-          "sap.ui": {
-            "_version": "1.1.0",
-            "technology": "UI5"
-          }
-
-      },
-      "section3": {
-        "sectionAlias": "page3.section3",
-          "sap.app": {
-            "_version": "1.1.0",
-             "title": "HTML Widget",
-            "description": "A widget template that displays HTML files.",
-            "tags": {
-              "keywords": [
-                "keyword"
-              ]
-            },
-            "crossNavigation": {
-              "inbounds": [
-                {
-                  "semanticObject": "htmlwidget",
-                  "action": "show",
-                  "deviceTypes": { 
-                        "desktop": true, 
-                        "tablet": true,
-                        "phone": true 
-                    }
-                }
-              ],
-              "outbounds": [
-                {}
-              ]
-            }
-          },
-          "sap.platform.hcp": {
-            "_version": "1.1.0",
-            "appName": "portalapptemplates",
-            "componentName": "htmlwidget.local",
-            "uri": "/htmlwidget"
-          },
-          "sap.cloud.portal": {
-	"show.portal.settings":"false",
-            "settings": {
-            "markup": {
-              "isRequired": "false",
-              "storage_type": "html",
-                "value": "      <style>          section#right {             padding: 16px;             background-color: #fff;             margin: 0;             overflow: hidden;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;         }         section h1 {             color: #007cc0;             font-size: 20px;             padding-top: 48px;             padding-bottom: 16px;             border-bottom: solid #cdcdcd 4px;             font-weight: normal;             margin: 0;         }          section#right h1{             background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYhJREFUeNq0VtFtgzAQdSL+225AJyidADpBsgH9g7/SCUgnKP3jMxuUThAyQbJB2glKN+iz9FJZ1mEcKCedbPnse2ffvYNFlmWhUuoR2tZ13aoZZAnVICU0UTNJMNVBnucJA9TaSi+ynAhQYdjxJWKOO6w33iDYHDpsGwxPPeYV7f0g2jmjOWHszAOGlAMXLXHu2nUTXW0rzq94ILLy4COJC0Rysp5SwpJIfDGTefTw/YMqa1wgW+jHeTP0DQf+HGPeGXY1FKjIEzj51M/D6uroVMqbdnQn2Pa0D5ORYH02DRwhkIL5innrLWzFKMazoiI66QwwTchqTOJtgJbMfoV+X1DCfjchP2JruTATyz3nJ6rMIvG9iRR1ZLWeAzSlHux25APSCGtmDqSWUwyCsHeFRoU9kBdf0GfyyCWdMydwrsvxnXNNwoLfh9ZB3FRYc95kfUm/YgC30Bfqjc2voCcHqSMffaTdePOETU1Hdm8z91+/8a52MkYW+CVKyObZJGC57ecE+RVgAM+7lVQNsa30AAAAAElFTkSuQmCC);             background-position: 100% 48px;             background-repeat: no-repeat;         }          section#left h2, section#right h2 {             font-size: 16px;             color: #666;             padding: 16px 0;             margin: 0;             cursor: pointer;         }          section#left p, section#right p {             font-size: 12px;             color: #666;             margin: 0;             padding-bottom: 16px;         }          p .link {             color: #007CC0;             cursor: pointer;         }          img.icon{             width: 18px;             height: 18px;             padding-right: 16px;             padding-bottom: 16px;         }          .item {             border-bottom: solid 1px #cdcdcd;          }          .item:last-child {             border-bottom: none;         }       </style>       <section id=\"right\">     <h1>Participate in Communities</h1>     <div class=\"item\">         <h2 title=\"Blitz Days in a Box Boost Revenue for SAP Business Suite Powered by SAP HANA\">Blitz Days in a Box Boost Revenue for SAP Business Suite..</h2>         <p>Tags <span class=\"link\">Global, All Partners, Value-Added Reseller (VAR), Extended Business Member</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">     </div>     <div class=\"item\">         <h2 title=\"SAP Language Service Partners Community\">SAP Language Service Partners Community</h2>         <p>Tags <span class=\"link\">All Partners, Language & Translation, English, Global</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">     </div>     <div class=\"item\">         <h2 title=\"What Do You Think About the SAP Learning Hub?\">What Do You Think About the SAP Learning Hub?</h2>         <p>Tags <span class=\"link\">Global, All Partners, Manage, Support</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">     </div>   </section>",
-               "displayName": "HTML",
-              "description": "resource_url_description",
-              "id": "markup"
-		 }
-            }
-          },
-          "sap.flp": {
-            "appType": "UI5",
-            "config": {
-              "editable": true,
-              "deletable": true
-            }
-          },
-          "sap.ui": {
-            "_version": "1.1.0",
-            "technology": "UI5"
-          }
-      }
-    }
-  }
+	}
 }

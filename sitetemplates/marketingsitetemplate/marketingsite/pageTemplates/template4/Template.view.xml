@@ -1,0 +1,20 @@
+<mvc:View controllerName="cpv2.templates.template4.Template" height="100%" xmlns:appContainer="sap.ushell.components.container"
+	xmlns:commons="sap.ui.commons" xmlns:core="sap.ui.core" xmlns:cpControls="sap.hana.uis.flp.control" xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" class='cpv2-page-1280'>
+	<Page showFooter="false" showHeader="false" enableScrolling="false">
+		<content>
+			<FlexBox direction="Column">
+				<items>
+					<cpControls:Widget alias="page1.header"></cpControls:Widget>
+					<l:VerticalLayout width="100%">
+						<l:layoutData>
+							<FlexItemData growFactor="1"/>
+						</l:layoutData>
+						<cpControls:Widget alias="page1.content"></cpControls:Widget>
+					</l:VerticalLayout>
+					<cpControls:Widget alias="page1.footer"></cpControls:Widget>
+				</items>
+			</FlexBox>
+		</content>
+	</Page>
+</mvc:View>

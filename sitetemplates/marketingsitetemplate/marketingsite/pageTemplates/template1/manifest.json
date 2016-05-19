@@ -8,20 +8,16 @@
 			"keywords": []
 		},
 		"crossNavigation": {
-			"inbounds": [
-				{
-					"semanticObject": "obj",
-					"action": "template1",
-					"deviceTypes": {
-						"desktop": true,
-						"tablet": true,
-						"phone": true
-					}
+			"inbounds": [{
+				"semanticObject": "obj",
+				"action": "template1",
+				"deviceTypes": {
+					"desktop": true,
+					"tablet": true,
+					"phone": true
 				}
-			],
-			"outbounds": [
-				{}
-			]
+			}],
+			"outbounds": [{}]
 		}
 	},
 	"sap.platform.hcp": {
