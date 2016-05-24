@@ -8,8 +8,8 @@
         <pages>
             <Page showHeader="false">
                 <content>
-                    <Button class="loginButton" id="loginButton" text="Log In" press="onLogin"/>
-                    <Button class="logoutButton" id="logoutButton" text="Log Out" press="onLogout"/>
+                    <Button class="loginButton" id="loginButton" text="Log On" press="onLogin"/>
+                    <Button class="logoutButton" id="logoutButton" text="Log Off" press="onLogout"/>
                 </content>
             </Page>
         </pages>

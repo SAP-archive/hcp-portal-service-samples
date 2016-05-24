@@ -20,8 +20,9 @@ sap.ui.define([
 			var renderer = sap.ushell.Container.getRenderer("fiori2");
 			renderer.addHeaderEndItem("sap.ushell.ui.shell.ShellHeadItem", {
 				id: isGuest ? "headerLoginButton" : "headerLogoutButton",
-				icon: isGuest ? "sap-icon://cause" : "sap-icon://log",
-				press: isGuest ? this.login.bind(this) : this.logout
+				icon: "sap-icon://log",
+				press: isGuest ? this.login.bind(this) : this.logout,
+				tooltip: isGuest ? "Log On" : "Log Off"
 			}, true, false);
 
 			if (this.sciConfig.useOverlay) {

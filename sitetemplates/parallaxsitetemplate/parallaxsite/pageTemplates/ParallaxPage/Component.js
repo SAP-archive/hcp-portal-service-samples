@@ -26,6 +26,16 @@ sap.ui.core.UIComponent.extend("parallaxPage.Component", {
 		}
 	},
 
+	init: function() {
+		if (!sap.ushell.Container.getService("SiteService").isDesignTime()) {
+			var oRenderer = sap.ushell.Container.getRenderer("fiori2");
+			if (oRenderer.setHeaderVisibility) {
+				oRenderer.setHeaderVisibility(false, false, ["home", "app"]);
+			}
+		}
+		sap.ui.core.UIComponent.prototype.init.apply(this, arguments);
+	},
+
 	createContent: function() {
 		"use strict";
 		this.oMainView = sap.ui.view({

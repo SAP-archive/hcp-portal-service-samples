@@ -1,0 +1,46 @@
+{
+  "_version": "1.0",
+  "identification": {
+    "id": "hcp://parallaxsitetemplate/parallaxsite/site.json",
+    "namespace": "",
+    "entityType": "site",
+    "layer": "vendor",
+    "description": "",
+    "i18n": "",
+    "title": "Parallax Site"
+  },
+  "payload": {
+    "homeApp": {
+      "semanticObject": "ParallaxPage",
+      "action": "Display"
+    },
+    "config": {
+      "ushellConfig": {
+        "modulePaths": {
+          "PoweredByPlugin": "/sap/fiori/poweredbyplugin"
+        },
+        "bootstrapPlugins": {
+          "BootstrapExtensionPlugin": {
+            "component": "PoweredByPlugin",
+            "url": "/sap/fiori/poweredbyplugin"
+          }
+        }
+      }
+    },
+    "sap.cloud.portal": {
+      "_version": "1.2.0",
+      "availablePageTemplates": [
+        {
+          "namespace": "",
+          "id": "hcp://parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/manifest.json"
+        }
+      ],
+      "config": {
+        "isOnline": "false",
+        "icon": "parallaxsitetemplate/parallaxsite/thumbnail.png",
+        "theme.id": "sap_bluecrystal",
+        "theme.active": "[\"sap_bluecrystal\",\"sap_hcb\"]"
+      }
+    }
+  }
+}
