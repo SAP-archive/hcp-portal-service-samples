@@ -15,17 +15,22 @@ sap.ui.define([
 		},
 
 		onLogin: function() {
+			if (!sap.ushell.Container.getService("SiteService").isRuntime()) {
+				return;
+			}
 			var sciConfig = this.getOwnerComponent().getMetadata().getConfig().sci;
 			if (sciConfig.useOverlay) {
 				$("#hiddenLoginButton").find("a").click();
 			}
 			else {
-				var search = window.location.search === "" ? "?hc_login" : window.location.search + "&hc_login";
-				window.location.search = search;
+				window.location.search = encodeURI(window.location.search === "" ? "?hc_login" : window.location.search + "&hc_login");
 			}
 		},
 
 		onLogout: function() {
+			if (!sap.ushell.Container.getService("SiteService").isRuntime()) {
+				return;
+			}
 			sap.ushell.Container.logout();
 		}
 

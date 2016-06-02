@@ -13,9 +13,9 @@ sap.ui.define([
 			UIComponent.prototype.init.apply(this, arguments);
 
 			var sciConfig = this.getMetadata().getConfig().sci;
-			if (sciConfig.useOverlay) {
+			if (sciConfig.useOverlay && sap.ushell.Container.getService("SiteService").isRuntime()) {
 				var search = window.location.search === "" ? "?hc_login" : window.location.search + "&hc_login";
-				var href = window.location.origin + window.location.pathname + search;
+				var href = encodeURI(window.location.origin + window.location.pathname + search);
 				$("#shell").append("<div id=\"hiddenLoginButton\" style=\"display: none;\"><a href=" + href + " rel=\"IDS_login\">Login</a></div>");
 
 				jQuery.sap.require("sap.ui.thirdparty.datajs");

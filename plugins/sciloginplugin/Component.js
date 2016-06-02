@@ -1,5 +1,5 @@
 sap.ui.define([
-    "sap/ui/core/UIComponent"
+	"sap/ui/core/UIComponent"
 ], function(UIComponent) {
 	"use strict";
 
@@ -25,9 +25,9 @@ sap.ui.define([
 				tooltip: isGuest ? "Log On" : "Log Off"
 			}, true, false);
 
-			if (this.sciConfig.useOverlay) {
+			if (this.sciConfig.useOverlay && sap.ushell.Container.getService("SiteService").isRuntime()) {
 				var search = window.location.search === "" ? "?hc_login" : window.location.search + "&hc_login";
-				var href = window.location.origin + window.location.pathname + search;
+				var href = encodeURI(window.location.origin + window.location.pathname + search);
 				$("#shell").append("<div id=\"hiddenLoginButton\" style=\"display: none;\"><a href=" + href + " rel=\"IDS_login\">Login</a></div>");
 				jQuery.sap.require("sap.ui.thirdparty.datajs");
 				jQuery.sap.includeScript(this.sciConfig.sci_tenant + this.sciConfig.sap_ids_path);
@@ -35,16 +35,21 @@ sap.ui.define([
 		},
 
 		login: function() {
+			if (!sap.ushell.Container.getService("SiteService").isRuntime()) {
+				return;
+			}
 			if (this.sciConfig.useOverlay) {
 				$("#hiddenLoginButton").find("a").click();
 			}
 			else {
-				var search = window.location.search === "" ? "?hc_login" : window.location.search + "&hc_login";
-				window.location.search = search;
+				window.location.search = encodeURI(window.location.search === "" ? "?hc_login" : window.location.search + "&hc_login");
 			}
 		},
 
 		logout: function() {
+			if (!sap.ushell.Container.getService("SiteService").isRuntime()) {
+				return;
+			}
 			sap.ushell.Container.logout();
 		}
 
