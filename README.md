@@ -84,4 +84,6 @@ SAP HCP portal service site templates are offered as a demonstration of some of 
 
 * Marketing Site: This site template contains marketing-related content. It is built mostly using HTML widgets. You can view the project structure in SAP Web IDE, and preview the site from there, or from the Site Designer.
 
-* Parallax Site: A site template which implements many types of parallax scrolling effects and transitions in the sample "Parallax Page", built of portal service widgets. The background image includes a built-in editor for choosing between an image and a video, setting the pace of the scroll and the image/video alignment. The other elements which make up the scrolling effects can be configured in SAP Web IDE.
+* Parallax Site: A site template which implements many types of parallax scrolling effects and transitions in the sample "Parallax Page", built of portal service widgets. A prerequisite for working with the parallax site is deployment of the social networks widget, also available in the SAP HCP portal service GitHub account.
+
+    The first parallax element includes a built-in editor for choosing between an image and a video, setting the pace of the scroll and the image/video alignment. The other elements which make up the scrolling effects can be configured in SAP Web IDE. For more information on configuring the parallax site template, see [this blog post](http://scn.sap.com/community/hana-cloud-portal/blog/2016/05/05/customizing-a-parallax-page-in-sap-hana-cloud-portal).
