@@ -1,4 +1,5 @@
 {
+	 "_version": "1.3.0",
 	"sap.app": {
 		"_version": "1.1.0",
 		"id": "hcp://marketingsitetemplate/marketingsite/pages/page3.json",
@@ -7,10 +8,12 @@
 		"description": "",
 		"crossNavigation": {
 			"context": {},
-			"inbounds": [{
+			"inbounds": {
+				"0":{
 				"semanticObject": "page3",
 				"action": "Display"
-			}]
+				}
+			}
 		}
 	},
 	"sap.cloud.portal": {
@@ -19,7 +22,7 @@
 			"section1": {
 				"sectionAlias": "page3.section1",
 				"sap.app": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"title": "HTML Widget",
 					"description": "A widget template that displays HTML files.",
 					"tags": {
@@ -28,24 +31,29 @@
 						]
 					},
 					"crossNavigation": {
-						"inbounds": [{
+						"inbounds": {
+							"0":{
 							"semanticObject": "htmlwidget",
-							"action": "show",
+							"action": "Display",
 							"deviceTypes": {
 								"desktop": true,
 								"tablet": true,
 								"phone": true
+								}
 							}
-						}],
-						"outbounds": [{}]
+						}
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.1.0",
+					"_version": "1.2.0",
 					"appName": "portalapptemplates",
 					"componentName": "htmlwidget.local",
 					"uri": "/htmlwidget"
 				},
+				 "sap.ui5":{
+        		 "_version": "1.2.0",
+        		 "componentName": "htmlwidget.local"
+        		},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
 					"settings": {
@@ -59,22 +67,20 @@
 						}
 					}
 				},
-				"sap.flp": {
-					"appType": "UI5",
-					"config": {
-						"editable": true,
-						"deletable": true
-					}
-				},
+				 "sap.flp": {
+            	"_version": "1.1.0",
+            	"config": {}
+        		},
 				"sap.ui": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"technology": "UI5"
 				}
 			},
 			"section2": {
 				"sectionAlias": "page3.section2",
+				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"title": "HTML Widget",
 					"description": "A widget template that displays HTML files.",
 					"tags": {
@@ -83,24 +89,30 @@
 						]
 					},
 					"crossNavigation": {
-						"inbounds": [{
+						"inbounds": {
+							"0":{
 							"semanticObject": "htmlwidget",
-							"action": "show",
+							"action": "Display",
 							"deviceTypes": {
 								"desktop": true,
 								"tablet": true,
 								"phone": true
+								}
 							}
-						}],
-						"outbounds": [{}]
+						}
+						
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.1.0",
+					"_version": "1.2.0",
 					"appName": "portalapptemplates",
 					"componentName": "htmlwidget.local",
 					"uri": "/htmlwidget"
 				},
+				"sap.ui5":{
+            	"_version": "1.2.0",
+            	"componentName": "htmlwidget.local"
+        		},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
 					"settings": {
@@ -115,19 +127,17 @@
 					}
 				},
 				"sap.flp": {
-					"appType": "UI5",
-					"config": {
-						"editable": true,
-						"deletable": true
-					}
-				},
+            	"_version": "1.1.0",
+            	"config": {}
+        		},
 				"sap.ui": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"technology": "UI5"
 				}
 			},
 			"section3": {
 				"sectionAlias": "page3.section3",
+				"_version": "1.3.0",
 				"sap.app": {
 					"_version": "1.1.0",
 					"title": "HTML Widget",
@@ -138,24 +148,29 @@
 						]
 					},
 					"crossNavigation": {
-						"inbounds": [{
+						"inbounds": {
+							"0":{
 							"semanticObject": "htmlwidget",
-							"action": "show",
+							"action": "Display",
 							"deviceTypes": {
 								"desktop": true,
 								"tablet": true,
 								"phone": true
+								}
 							}
-						}],
-						"outbounds": [{}]
+						}
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.1.0",
+					"_version": "1.2.0",
 					"appName": "portalapptemplates",
 					"componentName": "htmlwidget.local",
 					"uri": "/htmlwidget"
 				},
+				"sap.ui5":{
+            	"_version": "1.2.0",
+            	"componentName": "htmlwidget.local"
+        		},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
 					"settings": {
@@ -170,14 +185,11 @@
 					}
 				},
 				"sap.flp": {
-					"appType": "UI5",
-					"config": {
-						"editable": true,
-						"deletable": true
-					}
-				},
+            	"_version": "1.1.0",
+            	"config": {}
+        		},
 				"sap.ui": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"technology": "UI5"
 				}
 			}

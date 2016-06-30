@@ -50,7 +50,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -68,7 +68,7 @@
 							"storage_type": "html",
 							"value": "<article class=\" footer-links\">\n                                <h2>Learn the Latest</h2>\n                                <ul>\n                                    <li class=\"doc\">\n                                            <a href=\"https://help.hana.ondemand.com/cloud_portal/frameset.htm?33abce6ba2044b62a990e34737d65445.html\" target=\"_blank\">SAP HCP Portal Service Release Notes</a></li>\n                                    </ul>\n                            </article>",
 							"displayName": "HTML",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"id": "markup"
 						}
 					}
@@ -106,7 +106,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -124,7 +124,7 @@
 							"storage_type": "html",
 							"value": "<article class=\" footer-links\">\n                                <h2>Product Overview</h2>\n                                <ul>\n                                    <li class=\"doc\">\n                                            <a href=\"http://scn.sap.com/docs/DOC-26416\" target=\"_blank\">SAP HCP Portal Service Overview Deck</a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"https://www.sapstore.com/medias/SAP-HANA-Cloud-Portal-Solution-Brief.pdf?context=bWFzdGVyfHBkZnN8NTQ2NzE5fGFwcGxpY2F0aW9uL3BkZnxwZGZzL2g1Ni9oOTEvODc5NjQyOTgxMTc0Mi5wZGZ8Y2U1ZTBjZDZjMzM1ZTlkYmYwMzgxZTgwYjM1ZjMwNjdkOGVmOGM4NWVkNzc1OGVhNmIyODU3YjE3M2E4NGYyNw\" target=\"_blank\">SAP HCP Portal Service Solution Brief</a></li>\n                                    </ul>\n                            </article>",
 							"displayName": "HTML",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"id": "markup"
 						}
 					}
@@ -162,7 +162,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -180,7 +180,7 @@
 							"storage_type": "html",
 							"value": "<div style=\"color: white; font-size: 24px;font-family: verdana;padding:0px 20px 0 0\">What can I do with SAP HANA Cloud Platform?</div>\n<div style=\"color: white; font-family: verdana;line-height: 21px;padding:20px 20px 0 0;white-space: pre-line;\">You're a manager, an engineer, or maybe even a CIO. Most of all-youre a person who takes on challenges of all sizes.\n\nAnd you need the tools to meet those challenges.\n\nWhat if you could quickly build exactly what you need to deliver on your business goals right now?\n\nYou can with SAP HANA Cloud Platform!<div></div></div>\n<div style=\"padding:20px 0\">\n<a   style=\"\n    font-size: 16px;\n    font-family: 'bentonsansbold';\n   color: #16a1e1;\n    white-space: normal;\n    border: none;\ntext-decoration:none;\n\n    outline: none;font-family:verdana; font-weight: bold\" href=\"https://hcp.sap.com/scenarios.html\" title=\"\" target=\"_blank\">> Click here to learn more about what you can do with SAP HANA Cloud Platform</a></div>",
 							"displayName": "HTML",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"id": "markup"
 						}
 					}
@@ -218,7 +218,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -236,7 +236,7 @@
 							"storage_type": "html",
 							"value": "<article class=\" footer-links\">\n                                <h2>Getting Started</h2>\n                                <ul>\n                                    <li class=\"doc\">\n                                            <a href=\"/content/dam/website/skywalker/en_us/PDFs/Developing Applications for SAP HANA Cloud Portal.pdf\" target=\"_blank\">Prerequisites for Developing Applications with SAP HCP Portal Service</a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"https://help.hana.ondemand.com/cloud_portal/frameset.htm\" target=\"_blank\">SAP HCP Portal Service Online Help </a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"https://account.hanatrial.ondemand.com/\" target=\"_blank\">Free trial</a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"http://scn.sap.com/docs/DOC-49937\" target=\"_blank\">Experience SAP HCP Portal Service</a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"https://demo.cloudportal.sap.com\" target=\"_blank\">SAP HCP portal service demos</a></li>\n                                    </ul>\n                            </article>",
 							"displayName": "HTML",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"id": "markup"
 						}
 					}
@@ -274,7 +274,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "ImageWidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -292,7 +292,7 @@
 							"storage_type": "url",
 							"value": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/balloon.png",
 							"displayName": "ImageURL",
-							"description": "{{resource_url_description}}"
+							"description": ""
 						},
 						"imageScaling": {
 							"isRequired": "true",
@@ -350,7 +350,7 @@
 						"markup": {
 							"id": "markup",
 							"isRequired": "false",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"value": "<br>\n<br>\n<div style=\"font-size: 24px;font-family: verdana;padding:0px 20px 0 0\">Quickly Create Engaging Business Sites</div>\n<div style=\"font-family: verdana;line-height: 21px;padding:20px 20px 0 0;white-space: pre-line;color: black;\">With the SAP HCP portal service you can quickly create engaging websites to deliver web-based access to your on-premise systems. SAP HCP portal service combines the lightweight, low learning curve of site authoring with the full power of enterprise-grade access management, asset management and integration.\n\nSAP HCP portal service has out-of-the-box integration to SuccessFactors, SAP Cloud For Customer, as well as on-premise SAP systems and is used by customers to build order fulfillment sites, customer support sites, partner portals and much more!<div></div></div>\n<div style=\"padding:20px 0\">\n<a  href=\"http://scn.sap.com/community/hana-cloud-portal\"   style=\"padding: 8px 22px 10px;\n    font-size: 16px;\n    text-decoration: none;\n    font-family: 'bentonsansbold';\n    color: #fff;\n    background-color: #16a1e1;\n    white-space: normal;\n    border: none;\n    border-radius:5px;\n\n    outline: none;font-family:verdana;\" target=\"_blank\">Learn more</a></div>",
 							"displayName": "HTML",
 							"storage_type": "html"
@@ -384,7 +384,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -429,7 +429,7 @@
 							"storage_type": "url",
 							"value": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/HCP_Cap.png",
 							"displayName": "ImageURL",
-							"description": "{{resource_url_description}}"
+							"description": ""
 						},
 						"imagePosition": {
 							"isRequired": "true",
@@ -467,7 +467,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "ImageWidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -489,7 +489,7 @@
 						"markup": {
 							"id": "markup",
 							"isRequired": "false",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"value": "<div style=\"font-size: 24px;font-family: verdana;padding:0px 20px 0 0\">Build Role-Based Sites</div>\n<div style=\"font-family: verdana;line-height: 21px;padding:20px 20px 0 0;white-space: pre-line;color: black;\">A role is basically a collection of permissions that defines a function within a portal to which users and/or groups are assigned. Roles and authorizations are created for various job functions within organizations.\n\nWith the new role-based authorizations concept provided by SAP HCP portal service, you can now easily manage user access and permissions at the site and page levels.\n\nThe ability to build role-based sites in SAP HCP portal service makes your navigation smarter, and more targeted towards your business scenario.<div></div></div>\n<div style=\"padding:20px 0\">\n<a   style=\"\n    font-size: 16px;\n    font-family: 'bentonsansbold';\n   color: #16a1e1;\n    white-space: normal;\n    border: none;\ntext-decoration:none;\n\n    outline: none;font-family:verdana;\" href=\"http://scn.sap.com/community/hana-cloud-portal/blog/2014/06/18/the-new-roles-and-authorizations-in-sap-hana-cloud-portal\" title=\"\" target=\"_blank\">Blog: How to Manage Roles & Groups</a></div>",
 							"displayName": "HTML",
 							"storage_type": "html"
@@ -523,7 +523,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -549,7 +549,7 @@
 						"version": "1.0.0"
 					},
 					"title": "Social Networks Widget",
-					"description": "{{appDescription}}",
+					"description": "",
 					"sourceTemplate": {
 						"id": "ui5template.basicSAPUI5ApplicationProject",
 						"version": "1.32.0"
@@ -673,7 +673,7 @@
 						"markup": {
 							"id": "markup",
 							"isRequired": "false",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"value": "<br>\n<br><div style=\"font-size: 24px;font-family: verdana;padding:0px 20px 0 0\">Engage with Your Partners</div>\n<div style=\"font-family: verdana;line-height: 21px;padding:20px 20px 0 0;white-space: pre-line;color: black;\">Extend and efficiently manage your partner network with an intuitive partner channel management solution and self-service portal integrated with SAP Cloud for Customer.<div></div></div>\n<div style=\"padding:20px 0\">\n<a   style=\"\n    font-size: 16px;\n    font-family: 'bentonsansbold';\n   color: #16a1e1;\n    white-space: normal;\n    border: none;\ntext-decoration:none;\n    outline: none;font-family:verdana;\" href=\"http://scn.sap.com/community/hana-cloud-portal/blog/2015/05/04/improve-partner-engagement-with-new-partner-portal-for-sap-cloud-for-customer\" title=\"\" target=\"_blank\">Engage on SCN</a></div>",
 							"displayName": "HTML",
 							"storage_type": "html"
@@ -707,7 +707,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -752,7 +752,7 @@
 							"storage_type": "url",
 							"value": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/Demo_Kit.png",
 							"displayName": "ImageURL",
-							"description": "{{resource_url_description}}"
+							"description": ""
 						},
 						"imagePosition": {
 							"isRequired": "true",
@@ -790,7 +790,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "ImageWidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -819,7 +819,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -837,7 +837,7 @@
 							"storage_type": "html",
 							"value": "<div style=\"text-align:center;font-family:verdana\"><div style=\"font-size:48px;color: #0D2938;\">SAP HANA Cloud Platform</div>\n<div style=\"white-space:pre-line;margin-top: 20px;font-size: 20px;color: rgba(0,0,0,0.9);text-shadow: 1px 1px rgba(244,244,244,0.6);\">Create Business Sites to Engage Customers,\nPartners and Employees with SAP HCP portal service</div></div>",
 							"displayName": "HTML",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"id": "markup"
 						}
 					}
@@ -891,7 +891,7 @@
 							"storage_type": "url",
 							"value": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/PartnerPortal.png",
 							"displayName": "ImageURL",
-							"description": "{{resource_url_description}}"
+							"description": ""
 						},
 						"imagePosition": {
 							"isRequired": "true",
@@ -929,7 +929,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "ImageWidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -958,7 +958,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -976,7 +976,7 @@
 							"storage_type": "html",
 							"value": "  <style>\n        .footer-links{\n            font-family: 'verdana';\n            color: #000;\n        }\n        .footer-links>h2{\n            font-size:20px;\n\n        }\n        .footer-links li.doc{\n            list-style-type: none;\n            position: relative;\n\n        }\n        .footer-links ul{\n            padding: 0;\n        }\n        .footer-links  .doc>a{\n            font-family: 'verdana';\n            color: #000;\n            font-size: 14px;\n            line-height: 21px;\n            display: block;\n            text-decoration: none;\n\n            padding: 0px 10px 10px 40px;\n\n        }\n        .footer-links  li.doc:before{\n          position: absolute;\n    content: \"\\e1b4\";\n    font-family: SAP-icons;\n    color: #08c;\n    left: 5px;\n    top: 0;\n    font-size: 20px;\n        }\n\n    </style>\n    <article class=\"footer-links\">\n    <h2>Tutorial</h2>\n    <ul>\n        <li class=\"doc\">\n            <a  href=\"http://scn.sap.com/docs/DOC-30601\" target=\"_blank\">SAP HCP Portal Service Developer\n                Center</a></li>\n    </ul>\n</article>",
 							"displayName": "HTML",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"id": "markup"
 						}
 					}
@@ -1014,7 +1014,7 @@
 						"inbounds": {
 							"0": {
 								"semanticObject": "htmlwidget",
-								"action": "show"
+								"action": "Display"
 							}
 						}
 					}
@@ -1032,7 +1032,7 @@
 							"storage_type": "html",
 							"value": "<div style=\"display:inline-block;max-width:320px;padding:20px;background: rgba(0,0,0,0.7);color:#fff;\"><div style=\"\n    font-size: 30px;\n    font-family: verdana;\n\">Access Fiori-based Sites</div>\n<div style=\"\n    font-size: 16px;\n    font-family: verdana;\n    margin-top: 5px;\n\">Easily access SAP Fiori apps and business applications via SAP Fiori launchpad; a context-aware, role-based and personalized aggregation point.</div>\n<div style=\"padding:20px 0\">\n<a   style=\"\n    font-size: 16px;\n    font-family: 'bentonsansbold';\n   color: #16a1e1;\n    white-space: normal;\n    border: none;\ntext-decoration:none;\n    outline: none;font-family:verdana;\" href=\"http://www.sap.com/fiori-demo\" title=\"\" target=\"_blank\">See demo in action</a></div>\n</div>",
 							"displayName": "HTML",
-							"description": "{{resource_url_description}}",
+							"description": "",
 							"id": "markup"
 						}
 					}

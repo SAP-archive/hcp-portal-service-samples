@@ -3,7 +3,10 @@
   "identification": {
     "id": "Everyone",
     "namespace": "",
-    "entityType": "role"
+    "entityType": "role",
+    "title": "",
+    "description": "",
+    "i18n": ""
   },
   "payload": {
     "catalogs": [{

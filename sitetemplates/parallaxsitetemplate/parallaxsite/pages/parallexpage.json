@@ -12,7 +12,11 @@
 				"0": {
 					"semanticObject": "ParallaxPage",
 					"action": "Display"
-				}
+				},
+          "1": {
+              "semanticObject": "Home",
+              "action": "show"
+          }
 			}
 		}
 	}

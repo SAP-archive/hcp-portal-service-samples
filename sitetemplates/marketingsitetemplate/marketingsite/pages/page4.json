@@ -33,7 +33,7 @@
                   "inbounds": {
                     "0": {
                       "semanticObject": "htmlwidget",
-                      "action": "show"
+                      "action": "Display"
                     }
                   }
                 }
@@ -51,7 +51,7 @@
                     "storage_type": "html",
                     "value": "<!DOCTYPE html>\n<html>\n<head lang=\"en\">\n    <meta charset=\"UTF-8\">\n    <style>\n\t\n\t\t.sapMPage {\n\t\tbackground-color:#fff;\n\t}\n        h1 {\n            color: #007cc0;\n            font-size: 40px;\n            padding-bottom: 16px;\n            border-bottom: solid #cdcdcd 4px;\n            font-weight: normal;\n            margin: 0;\n            margin: 32px;\n            text-align: center;\n        }\n        .box p {\n            color: #666;\n            line-height: 20px;\n            margin: 1rem;\n            font-size: 16px;\n            text-align: center;\n        }\n        #contact {\n            width: 65%;\n            margin: 4vw auto 2vw auto;\n            text-align: justify;\n        }\n        #contact:after {\n            content: \"\";\n            width: 100%;\n            display: inline-block;\n        }\n        .box img {\n            display: inline-block;\n            vertical-align: top;\n        }\n        .box {\n            width: 30%;\n            text-align: center;\n            display: inline-table;\n            font-size: 0.8rem;\n            cursor: pointer;\n        }\n        .box a {\n            text-decoration: none;\n        }\n        /*smartphone*/\n        .sapUiMedia-Std-Phone #contact {\n            width: 100%;\n        }\n        .sapUiMedia-Std-Phone .box {\n            width: 100%;\n        }\n    </style>\n</head>\n<body>\n\n<h1>Contact Us</h1>\n<div id=\"contact\">\n    <div class=\"box\"><a href=\"mailto:marketing@sap.com?Subject=Contact%20request\" target=\"_top\">\n        <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAYAAAC49JeZAAACQElEQVR42u2YTSgFURTHn3xHvqJ8LJCUkpUFsbBTiIUUVpasZOErazthIUlWFhZiwUaJLFjoJSkklFIWiPJVhBj/U2fqmLx5974Zb6i3+PXmzT13zq+Ze++ZOz7DMHz/DV9E2itp3/jBIPgAxh+APAaU7jQCG8Gjx8IPoEH1Tqfwbyk480j4FJToDI9dUMzHGWAjzMKrIJ3zx4IRFel7cAOq+H8MmAyT8BiI5rypYI18VKXpAs+gWZzvAm+/JPsKOkSuAnDEbVrS5uztFm014NZl4UtQKXJUgGvRri1tMgqixF04cEl4B+SJ3M38hA1d6UBDYAEkcEwyWHYoPAcSRd4+8PlDnJK0XaItWlE4LgoMOy0YPNGnbeIdSxPHoFDEt/3wSJUKBq8Qq0H6uCJNXIFy0accXOgUDBzng0OFXK5J02Stt/TLBtvBCoaIbwfv4ZI+NCsmx7fSY+bjeDBrUzCyQJPoW8tDxi7fuVPpRVo5OC4aTPB5vynObb08zmXByBJL5bBYQsuCDK2QpWnGD4lE6WDdEmMVT7NMuB1L/JK4Ablgz03pO1An2kvASYAE38SFsD9A/D4VK7H2r7ghTRctsozB+yBDyC/GuJ2wCb0W1IghN+VEeh4kifM9GjsaEs3hYqQST1W401IdtaRJrF+M3zgwE0LlewmhD70Cx3DeFr6GknStOM4Em2HeBGyIV4VqmsDKu3Feis492m7RNq/UXCpVN7ZN4MnjjS1trBt1PiF8/qFPCIORL0wRaQ2+AEyEcFquFAxXAAAAAElFTkSuQmCC\">\n        <p>Send an email<br>\n        marketing@sap.com</p>\n    </a></div>\n    <div class=\"box\">\n        <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAYAAAC49JeZAAABX0lEQVR42tXYv0uCURTGca2pApdoaGqIpmgTgtrFpoai2T2awoi2XAuUhpaGoKWlX9BYNBVBEASBOOQfUDRFKUR2ey4c4UXOVdHgPO/wnVT4cL33vFcTzrlE3OrtQ8XnWXSBjunRQA6iPeSkXzTJjj6MgJvt06KBW1TAvjoaY0VfBdC+Aiv6sw36HY0wol2H1uK20i9oihF9GwB/oAnWPb0ZQG8zj7zpADrD/nB5UNCr7OgFBV1GA9QXJgDvFXiOHZ1GPy3oNzTKfjXdUVb7HCWZ0cOoosA3aNECn0G1FnQDrdCiBZ5TVvsbLQfen0FzpmiBlBS4X/F8c4/LL551OcC+rX7G5H+gPeg08LR8Qkeoqrx2jcZN0JGDedPF9dUpozJrgu4T7ts1QQt8CJ30gD4wQws8KQet0SX4zn9LpugIfh49dgBfopTZnm6Dz6Iz9CrQL5kcS2YjLzb/5Vn3B5Ia/uXZ04XxAAAAAElFTkSuQmCC\">\n        <p>Call us <br>\n            +1-800-872-1727</p>\n    </div>\n    <div class=\"box\">\n        <img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAYAAAC49JeZAAAA9klEQVR42u3X7Q3CIBAG4I7QERihI7iBbqAb2A10A0dwBTeQEZo4AN0AN8CjwZQgpIUiPeP9ePunkHugfKSVUqpKSXV5NJAeogqmH+ouQJcGj/AFaLVaCE1oQhP6j9Dw2EGecztgQUfdbFjQitCEJvTvosVKaJEyYxvrz0UUB+u6CR07SJ16kwZu15unDg+2TxyxhrOM6LYEOjbnCXQNke6/IGq0tUekb/+gRRs4g1ynlkipo+sQucb1ctlCTvoL+NDMvLTjDuTuaTM3+5wnzYAOjJQ76DZ34W+gOwssc5/L2dFmF9vgBhP4A202ADdr+Ihtht95AS2qdNB1kzTMAAAAAElFTkSuQmCC\">\n        <p>Come visit<br>\n            Walldorf Dietmar-Hopp-Allee</p>\n    </div>\n</div>\n</body>\n</html>",
                     "displayName": "HTML",
-                    "description": "{{resource_url_description}}",
+                    "description": "A widget template that displays HTML files.",
                     "id": "markup"
                   }
                 }
@@ -87,7 +87,7 @@
                   "version": "1.0.0"
                 },
                 "title": "Map Widget",
-                "description": "{{appDescription}}",
+                "description": "Embed a map in a site page",
                 "sourceTemplate": {
                   "id": "ui5template.basicSAPUI5ApplicationProject",
                   "version": "1.32.0"
@@ -190,7 +190,7 @@
                   "version": "1.0.0"
                 },
                 "title": "Social Networks Widget",
-                "description": "{{appDescription}}",
+                "description": "Add quick links to your company's social pages",
                 "sourceTemplate": {
                   "id": "ui5template.basicSAPUI5ApplicationProject",
                   "version": "1.32.0"

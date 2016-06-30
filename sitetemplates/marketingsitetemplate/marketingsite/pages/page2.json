@@ -1,6 +1,7 @@
 {
+	 "_version": "1.3.0",
 	"sap.app": {
-		"_version": "1.1.0",
+		"_version": "1.3.0",
 		"id": "hcp://marketingsitetemplate/marketingsite/pages/page2.json",
 		"baseId": "hcp://marketingsitetemplate/marketingsite/pageTemplates/template2/manifest.json",
 		"title": "Marketing",
@@ -24,8 +25,9 @@
 		"nodes": {
 			"section1": {
 				"sectionAlias": "page2.section1",
+				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"title": "HTML Widget",
 					"description": "A widget template that displays HTML files.",
 					"tags": {
@@ -34,24 +36,28 @@
 						]
 					},
 					"crossNavigation": {
-						"inbounds": [{
+						"inbounds": {
+							"0":{
 							"semanticObject": "htmlwidget",
-							"action": "show",
+							"action": "Display",
 							"deviceTypes": {
 								"desktop": true,
 								"tablet": true,
 								"phone": true
 							}
-						}],
-						"outbounds": [{}]
+						}
+						}
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.1.0",
+					"_version": "1.2.0",
 					"appName": "portalapptemplates",
-					"componentName": "htmlwidget.local",
 					"uri": "/htmlwidget"
 				},
+				"sap.ui5":{
+          "_version": "1.2.0",
+          "componentName": "htmlwidget.local"
+        },
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
 					"settings": {
@@ -65,22 +71,20 @@
 						}
 					}
 				},
-				"sap.flp": {
-					"appType": "UI5",
-					"config": {
-						"editable": true,
-						"deletable": true
-					}
-				},
+				 "sap.flp": {
+            		"_version": "1.1.0",
+            		"config": {}
+          },
 				"sap.ui": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"technology": "UI5"
 				}
 			},
 			"section2": {
 				"sectionAlias": "page2.section2",
+				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
 					"title": "HTML Widget",
 					"description": "A widget template that displays HTML files.",
@@ -90,24 +94,28 @@
 						]
 					},
 					"crossNavigation": {
-						"inbounds": [{
+						"inbounds": {
+						"0":{	
 							"semanticObject": "htmlwidget",
-							"action": "show",
+							"action": "Display",
 							"deviceTypes": {
 								"desktop": true,
 								"tablet": true,
 								"phone": true
 							}
-						}],
-						"outbounds": [{}]
+						}
+						}
 					}
 				},
 				"sap.platform.hcp": {
 					"_version": "1.1.0",
 					"appName": "portalapptemplates",
-					"componentName": "htmlwidget.local",
 					"uri": "/htmlwidget"
 				},
+				"sap.ui5":{
+            	"_version": "1.2.0",
+            	"componentName": "htmlwidget.local"
+        		},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
 					"settings": {
@@ -122,21 +130,19 @@
 					}
 				},
 				"sap.flp": {
-					"appType": "UI5",
-					"config": {
-						"editable": true,
-						"deletable": true
-					}
-				},
+            	"_version": "1.1.0",
+            	"config": {}
+        		},
 				"sap.ui": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"technology": "UI5"
 				}
 			},
 			"section3": {
 				"sectionAlias": "page2.section3",
+				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
 					"title": "HTML Widget",
 					"description": "A widget template that displays HTML files.",
@@ -146,24 +152,28 @@
 						]
 					},
 					"crossNavigation": {
-						"inbounds": [{
+						"inbounds": {
+							"0":{
 							"semanticObject": "htmlwidget",
-							"action": "show",
+							"action": "Display",
 							"deviceTypes": {
 								"desktop": true,
 								"tablet": true,
 								"phone": true
 							}
-						}],
-						"outbounds": [{}]
+						}
+						}
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.1.0",
+					"_version": "1.2.0",
 					"appName": "portalapptemplates",
-					"componentName": "htmlwidget.local",
 					"uri": "/htmlwidget"
 				},
+				 "sap.ui5":{
+            	"_version": "1.2.0",
+            	"componentName": "htmlwidget.local"
+        		},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
 					"settings": {
@@ -178,14 +188,11 @@
 					}
 				},
 				"sap.flp": {
-					"appType": "UI5",
-					"config": {
-						"editable": true,
-						"deletable": true
-					}
-				},
+            	"_version": "1.1.0",
+            	"config": {}
+        		},
 				"sap.ui": {
-					"_version": "1.1.0",
+					"_version": "1.3.0",
 					"technology": "UI5"
 				}
 			}

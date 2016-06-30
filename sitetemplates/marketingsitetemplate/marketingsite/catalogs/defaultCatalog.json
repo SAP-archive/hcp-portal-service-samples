@@ -4,7 +4,7 @@
 		"id": "hcp://marketingsitetemplate/marketingsite/catalogs/defaultCatalog.json",
 		"title": "Everyone",
 		"description": "",
-		"entityType": "assignmentPackage"
+		"entityType": "catalog"
 	},
 	"payload": {
 		"appDescriptors": [

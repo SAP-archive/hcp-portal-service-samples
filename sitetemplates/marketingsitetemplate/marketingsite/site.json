@@ -18,13 +18,13 @@
 			"ushellConfig": {
 				"modulePaths": {
 					"sap.ushell.apps.cpv2MenuPlugin": "/sap.ushell.apps.cpv2MenuPlugin",
-					"PoweredByPlugin": "/sap/fiori/poweredbyplugin"
+					"PoweredByPlugin": "/sap/fiori/portaltrialcontent/poweredbyplugin"
 				},
 				"bootstrapPlugins": {
-				    "BootstrapExtensionPlugin": {
-                    "component": "PoweredByPlugin",
-                    "url": "/sap/fiori/poweredbyplugin"
-                },
+					"BootstrapExtensionPlugin": {
+						"component": "PoweredByPlugin",
+						"url": "/sap/fiori/poweredbyplugin"
+					},
 					"menuplugin": {
 						"component": "sap.ushell.apps.cpv2MenuPlugin"
 					}
@@ -53,8 +53,6 @@
 			],
 			"config": {
 				"icon": "marketingsitetemplate/marketingsite/thumbnail.jpg",
-				"editable": true,
-				"deletable": true,
 				"theme.id": "sap_bluecrystal",
 				"theme.active": "[\"supportsiteteched\",\"sap_bluecrystal\",\"sap_hcb\"]"
 			}

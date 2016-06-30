@@ -27,10 +27,10 @@
 		"appName": "marketingsitetemplate",
 		"uri": "/marketingsite/pageTemplates/template4"
 	},
-	"sap.ui5": {
-		"_version": "1.2.0",
-		"componentName": "cpv2.templates.template4"
-	},
+	"sap.ui5":{
+    "_version": "1.2.0",
+    "componentName":"cpv2.templates.template4"
+  },
 	"sap.cloud.portal": {
 		"applicationType": "page",
 		"thumbnail": "preview.png"

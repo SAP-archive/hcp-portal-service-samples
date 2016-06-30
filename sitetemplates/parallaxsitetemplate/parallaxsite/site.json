@@ -11,18 +11,18 @@
   },
   "payload": {
     "homeApp": {
-      "semanticObject": "ParallaxPage",
-      "action": "Display"
+      "semanticObject": "Home",
+      "action": "show"
     },
     "config": {
       "ushellConfig": {
         "modulePaths": {
-          "PoweredByPlugin": "/sap/fiori/poweredbyplugin"
+          "PoweredByPlugin": "/sap/fiori/portaltrialcontent/poweredbyplugin"
         },
         "bootstrapPlugins": {
           "BootstrapExtensionPlugin": {
             "component": "PoweredByPlugin",
-            "url": "/sap/fiori/poweredbyplugin"
+            "url": "/sap/fiori/portaltrialcontent/poweredbyplugin"
           }
         }
       }
