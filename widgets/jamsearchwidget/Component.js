@@ -17,6 +17,7 @@ sap.ui.define([
 		config: null,
 		view: null,
 		isRuntime: null,
+		mockData: false,
 
 		icons: {
 			"ContentItem/Document": "document",
@@ -30,6 +31,10 @@ sap.ui.define([
 		},
 
 		init: function() {
+			/*if (window.location.href.indexOf("mockData") !== -1) {
+				this.mockData = true;
+			}*/
+
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
 
@@ -49,8 +54,13 @@ sap.ui.define([
 		},
 
 		createModel: function() {
-			this.view.setBusy(true);
-			var url = jQuery.sap.getModulePath("JamSearchWidget") + this.config.jamUrl.replace("{query}", this.config.searchQuery);
+			var url;
+			if (this.mockData) {
+				url = jQuery.sap.getModulePath("JamSearchWidget") + "/mock/search.json";
+			} else {
+				this.view.setBusy(true);
+				url = jQuery.sap.getModulePath("JamSearchWidget") + this.config.jamUrl.replace("{query}", this.config.searchQuery);
+			}
 			var model = new sap.ui.model.json.JSONModel(url);
 			model.attachRequestCompleted(this.onModelRequestCompleted.bind(this));
 			model.attachRequestFailed(this.onModelRequestFailed.bind(this));

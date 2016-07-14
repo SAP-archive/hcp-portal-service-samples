@@ -1,0 +1,2149 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "gDSyb9UZsFcAOU1cW9IBf0",
+                "Title": "[Solar Energy - New Product Training] Michele Howard shared an idea",
+                "Text": "To help better utilize the available maximum power output make sure we utilize a maximum power point tracker",
+                "TextWithPlaceholders": "",
+                "Action": "shared the idea To help better utilize the available maximum power output make sure we utilize a maximum power point tracker",
+                "ActionOnly": "shared an idea",
+                "ActionWithPlaceholders": "shared the idea @@o{0}",
+                "CreatedAt": "/Date(1440095206000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": false,
+                "CanReply": false,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/gDSyb9UZsFcAOU1cW9IBf0",
+                "Read": true,
+                "TopLevelId": "gDSyb9UZsFcAOU1cW9IBf0",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "mf5Ybk0vhZ6eGLKvqhA4gu",
+                    "FirstName": "Michele",
+                    "LastName": "Howard",
+                    "Nickname": null,
+                    "Title": "Senior Consultant",
+                    "Email": "mhoward@innojam12.com",
+                    "FullName": "Michele Howard",
+                    "Role": "company",
+                    "IsFollowing": false,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/mf5Ybk0vhZ6eGLKvqhA4gu",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('mf5Ybk0vhZ6eGLKvqhA4gu')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='Pbzc0PFYFzxD9zFRNSeG81',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='Pbzc0PFYFzxD9zFRNSeG81',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "Pbzc0PFYFzxD9zFRNSeG81",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('gDSyb9UZsFcAOU1cW9IBf0')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "ePA17RphlP3etDXfUh6TWy",
+                "Title": "[Solar Energy - New Product Training] Brett Colbert wrote on the group wall",
+                "Text": "Automakers such as General Motors and Nissan are building electric car charging stations that use solar power. Up until now, solar retailers have largely focused on selling solar energy equipment and installation services. But as they grow in size and generate more money, they might want to diversify to offer other clean tech equipment and services. A great opportunity for Ace Corp!",
+                "TextWithPlaceholders": "Automakers such as General Motors and Nissan are building electric car charging stations that use solar power. Up until now, solar retailers have largely focused on selling solar energy equipment and installation services. But as they grow in size and generate more money, they might want to diversify to offer other clean tech equipment and services. A great opportunity for Ace Corp!",
+                "Action": "wrote on the group wall",
+                "ActionOnly": "wrote on a group wall",
+                "ActionWithPlaceholders": "wrote on the group wall",
+                "CreatedAt": "/Date(1440095206000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/ePA17RphlP3etDXfUh6TWy",
+                "Read": true,
+                "TopLevelId": "ePA17RphlP3etDXfUh6TWy",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "Hl8KdxaxPDik1X5hYdAu9G",
+                    "FirstName": "Brett",
+                    "LastName": "Colbert",
+                    "Nickname": null,
+                    "Title": "Director, Product Marketing",
+                    "Email": "bcolbert@innojam12.com",
+                    "FullName": "Brett Colbert",
+                    "Role": "company",
+                    "IsFollowing": true,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/Hl8KdxaxPDik1X5hYdAu9G",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "wQ7UunTutsXIUyZxKDK7T8",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('ePA17RphlP3etDXfUh6TWy')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "8hGueO7fwPHS1hSjNt4Xmc",
+                "Title": "[Solar Energy - New Product Training] Colby Evans created the task: #852-1 - Create a Learning Plan for the Dynasol 1000 Product",
+                "Text": "Clinton, I would like to use this learning plan for the entire group of consultants that works with the Dynasol products",
+                "TextWithPlaceholders": "Clinton, I would like to use this learning plan for the entire group of consultants that works with the Dynasol products",
+                "Action": "created the task: #852-1 - Create a Learning Plan for the Dynasol 1000 Product",
+                "ActionOnly": "created a task",
+                "ActionWithPlaceholders": "created the task: @@o{0}",
+                "CreatedAt": "/Date(1440095206000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/8hGueO7fwPHS1hSjNt4Xmc",
+                "Read": true,
+                "TopLevelId": "8hGueO7fwPHS1hSjNt4Xmc",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('KtHUNjJZKosyFjpnon7t6s')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "KtHUNjJZKosyFjpnon7t6s",
+                    "FirstName": "Colby",
+                    "LastName": "Evans",
+                    "Nickname": null,
+                    "Title": "Client Service Director, UK \u0026 Ireland",
+                    "Email": "cevans@innojam12.com",
+                    "FullName": "Colby Evans",
+                    "Role": "company",
+                    "IsFollowing": false,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/KtHUNjJZKosyFjpnon7t6s",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('KtHUNjJZKosyFjpnon7t6s')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='JEmEbPWoXRJdSGSouZZNZJ',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='JEmEbPWoXRJdSGSouZZNZJ',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "JEmEbPWoXRJdSGSouZZNZJ",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('8hGueO7fwPHS1hSjNt4Xmc')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "OBWmwb89Xi5pa0lycHe0iR",
+                "Title": "[Solar Energy - New Product Training] Shirley Nielson commented on the video The Ace Advantage at frame 01:00",
+                "Text": "Great video.  Do these value propositions also resonate with customers in the Asia region?",
+                "TextWithPlaceholders": "Great video.  Do these value propositions also resonate with customers in the Asia region?",
+                "Action": "commented on the video The Ace Advantage at frame 01:00",
+                "ActionOnly": "commented on a video",
+                "ActionWithPlaceholders": "commented on the video @@o{0} at frame 01:00",
+                "CreatedAt": "/Date(1440095204000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 1,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/OBWmwb89Xi5pa0lycHe0iR",
+                "Read": true,
+                "TopLevelId": "ixwQFkunJE1XyS0XyJUnoz",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('WkthlM8d9OXsdZL6aenpTB')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "WkthlM8d9OXsdZL6aenpTB",
+                    "FirstName": "Shirley",
+                    "LastName": "Nielson",
+                    "Nickname": null,
+                    "Title": "Senior Consultant",
+                    "Email": "snielson@innojam12.com",
+                    "FullName": "Shirley Nielson",
+                    "Role": "company",
+                    "IsFollowing": false,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/WkthlM8d9OXsdZL6aenpTB",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('WkthlM8d9OXsdZL6aenpTB')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='BsVkP9kwknd6zN0W5qskiC',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='BsVkP9kwknd6zN0W5qskiC',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "BsVkP9kwknd6zN0W5qskiC",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('OBWmwb89Xi5pa0lycHe0iR')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "lRrslQ0KsxmYWCbATNrwDX",
+                "Title": "[Solar Energy - New Product Training] Brett Colbert added the video The Ace Advantage",
+                "Text": "This video has the best elevator pitch I've seen for why customers should choose Ace solutions.",
+                "TextWithPlaceholders": "This video has the best elevator pitch I've seen for why customers should choose Ace solutions.",
+                "Action": "added the video The Ace Advantage",
+                "ActionOnly": "added a video",
+                "ActionWithPlaceholders": "added the video @@o{0}",
+                "CreatedAt": "/Date(1440095190000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/lRrslQ0KsxmYWCbATNrwDX",
+                "Read": true,
+                "TopLevelId": "lRrslQ0KsxmYWCbATNrwDX",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "Hl8KdxaxPDik1X5hYdAu9G",
+                    "FirstName": "Brett",
+                    "LastName": "Colbert",
+                    "Nickname": null,
+                    "Title": "Director, Product Marketing",
+                    "Email": "bcolbert@innojam12.com",
+                    "FullName": "Brett Colbert",
+                    "Role": "company",
+                    "IsFollowing": true,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/Hl8KdxaxPDik1X5hYdAu9G",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "wQ7UunTutsXIUyZxKDK7T8",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('lRrslQ0KsxmYWCbATNrwDX')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "BSIDI9HoXueRfcXioneYep",
+                "Title": "[Solar Energy - New Product Training] Ursala Chan voted in the poll What's the most exciting green technology advance to come out this year? with Eve Mansfield, and 10 others",
+                "Text": "Solar-Thermal Engine",
+                "TextWithPlaceholders": "Solar-Thermal Engine",
+                "Action": "voted in the poll What's the most exciting green technology advance to come out this year? with Eve Mansfield, and 10 others",
+                "ActionOnly": "",
+                "ActionWithPlaceholders": "voted in the poll @@o{1} with @@o{0}, and 10 others",
+                "CreatedAt": "/Date(1440095167000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 12,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/consolidated/BSIDI9HoXueRfcXioneYep",
+                "Read": true,
+                "TopLevelId": "I5oYvxfbQM1OxLJyH3AkUd",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('SIuip8bV9VxPycTIzZDOUj')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "SIuip8bV9VxPycTIzZDOUj",
+                    "FirstName": "Ursala",
+                    "LastName": "Chan",
+                    "Nickname": null,
+                    "Title": "Manager, Learning and Development",
+                    "Email": "uchan@innojam12.com",
+                    "FullName": "Ursala Chan",
+                    "Role": "company",
+                    "IsFollowing": true,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/SIuip8bV9VxPycTIzZDOUj",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='dOKeg3jSrxz9hx3neYyrbz',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='dOKeg3jSrxz9hx3neYyrbz',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "dOKeg3jSrxz9hx3neYyrbz",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BSIDI9HoXueRfcXioneYep')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "Hidf7autMIRVE9J15OHEpE",
+                "Title": "[Solar Energy - New Product Training] Clinton Tse created a new poll ",
+                "Text": "What's the most exciting green technology advance to come out this year?",
+                "TextWithPlaceholders": "What's the most exciting green technology advance to come out this year?",
+                "Action": "created a new poll ",
+                "ActionOnly": "created a new poll",
+                "ActionWithPlaceholders": "created a new poll @@o{0}",
+                "CreatedAt": "/Date(1440095167000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/Hidf7autMIRVE9J15OHEpE",
+                "Read": true,
+                "TopLevelId": "Hidf7autMIRVE9J15OHEpE",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "u9evOw6vEGS9qvCjXbE3k6",
+                    "FirstName": "Clinton",
+                    "LastName": "Tse",
+                    "Nickname": null,
+                    "Title": "Analyst",
+                    "Email": "ctse@innojam12.com",
+                    "FullName": "Clinton Tse",
+                    "Role": "company",
+                    "IsFollowing": false,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/u9evOw6vEGS9qvCjXbE3k6",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('u9evOw6vEGS9qvCjXbE3k6')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='CQRdZsHzm8KyNigPnHZN9S',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='CQRdZsHzm8KyNigPnHZN9S',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "CQRdZsHzm8KyNigPnHZN9S",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('Hidf7autMIRVE9J15OHEpE')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "mZYMPSDU8eWV1ehd2UBCJo",
+                "Title": "[Solar Energy - New Product Training] Brett Colbert posted the document Competitive Analysis.pdf",
+                "Text": "Competitive Analysis",
+                "TextWithPlaceholders": "Competitive Analysis",
+                "Action": "posted the document Competitive Analysis.pdf",
+                "ActionOnly": "posted the document",
+                "ActionWithPlaceholders": "posted the document @@o{0}",
+                "CreatedAt": "/Date(1440095160000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/mZYMPSDU8eWV1ehd2UBCJo",
+                "Read": true,
+                "TopLevelId": "mZYMPSDU8eWV1ehd2UBCJo",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "Hl8KdxaxPDik1X5hYdAu9G",
+                    "FirstName": "Brett",
+                    "LastName": "Colbert",
+                    "Nickname": null,
+                    "Title": "Director, Product Marketing",
+                    "Email": "bcolbert@innojam12.com",
+                    "FullName": "Brett Colbert",
+                    "Role": "company",
+                    "IsFollowing": true,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/Hl8KdxaxPDik1X5hYdAu9G",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "wQ7UunTutsXIUyZxKDK7T8",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('mZYMPSDU8eWV1ehd2UBCJo')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "zKNaIH7Qjl9WPvfJcMGuhx",
+                "Title": "[Solar Energy - New Product Training] Charles Hale posted the document Implementation Guide.pdf",
+                "Text": "Implementation Guide",
+                "TextWithPlaceholders": "Implementation Guide",
+                "Action": "posted the document Implementation Guide.pdf",
+                "ActionOnly": "posted the document",
+                "ActionWithPlaceholders": "posted the document @@o{0}",
+                "CreatedAt": "/Date(1440095153000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 5,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/zKNaIH7Qjl9WPvfJcMGuhx",
+                "Read": true,
+                "TopLevelId": "zKNaIH7Qjl9WPvfJcMGuhx",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "bnuAxa1wnnP81CWpUIFEtY",
+                    "FirstName": "Charles",
+                    "LastName": "Hale",
+                    "Nickname": null,
+                    "Title": "Consultant",
+                    "Email": "chale@innojam12.com",
+                    "FullName": "Charles Hale",
+                    "Role": "company",
+                    "IsFollowing": false,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/bnuAxa1wnnP81CWpUIFEtY",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('bnuAxa1wnnP81CWpUIFEtY')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='7j8Khe9YXadXKnX4imqJJr',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='7j8Khe9YXadXKnX4imqJJr',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "7j8Khe9YXadXKnX4imqJJr",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('zKNaIH7Qjl9WPvfJcMGuhx')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "hnGnQa6u98IxeF3F6nbbrq",
+                "Title": "[Solar Energy - New Product Training] Brett Colbert posted the document Solution Roadmap.pdf",
+                "Text": "Solution Roadmap",
+                "TextWithPlaceholders": "Solution Roadmap",
+                "Action": "posted the document Solution Roadmap.pdf",
+                "ActionOnly": "posted the document",
+                "ActionWithPlaceholders": "posted the document @@o{0}",
+                "CreatedAt": "/Date(1440095084000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 4,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/hnGnQa6u98IxeF3F6nbbrq",
+                "Read": true,
+                "TopLevelId": "hnGnQa6u98IxeF3F6nbbrq",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "Hl8KdxaxPDik1X5hYdAu9G",
+                    "FirstName": "Brett",
+                    "LastName": "Colbert",
+                    "Nickname": null,
+                    "Title": "Director, Product Marketing",
+                    "Email": "bcolbert@innojam12.com",
+                    "FullName": "Brett Colbert",
+                    "Role": "company",
+                    "IsFollowing": true,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/Hl8KdxaxPDik1X5hYdAu9G",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "wQ7UunTutsXIUyZxKDK7T8",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('hnGnQa6u98IxeF3F6nbbrq')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "cR8D2sRuhRzRowLzteSZL3",
+                "Title": "[Solar Energy - New Product Training] Barry Chen posted the document Whats New.pdf",
+                "Text": "What's New",
+                "TextWithPlaceholders": "What's New",
+                "Action": "posted the document Whats New.pdf",
+                "ActionOnly": "posted the document",
+                "ActionWithPlaceholders": "posted the document @@o{0}",
+                "CreatedAt": "/Date(1440095076000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/cR8D2sRuhRzRowLzteSZL3",
+                "Read": true,
+                "TopLevelId": "cR8D2sRuhRzRowLzteSZL3",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "zmsCYG4HF0K8fHUbvluHbf",
+                    "FirstName": "Barry",
+                    "LastName": "Chen",
+                    "Nickname": null,
+                    "Title": "Director, Product Management",
+                    "Email": "bchen@innojam12.com",
+                    "FullName": "Barry Chen",
+                    "Role": "company",
+                    "IsFollowing": true,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/zmsCYG4HF0K8fHUbvluHbf",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('zmsCYG4HF0K8fHUbvluHbf')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='0jjKPF4wrsDQ7f8g1xhkA1',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='0jjKPF4wrsDQ7f8g1xhkA1',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "0jjKPF4wrsDQ7f8g1xhkA1",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cR8D2sRuhRzRowLzteSZL3')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "06wDmT7dnjw7WjlYuoL8Fw",
+                "Title": "[Solar Energy - New Product Training] Brett Colbert posted the document Solution Overview Presentation.pdf",
+                "Text": "Solution Overview Presentation",
+                "TextWithPlaceholders": "Solution Overview Presentation",
+                "Action": "posted the document Solution Overview Presentation.pdf",
+                "ActionOnly": "posted the document",
+                "ActionWithPlaceholders": "posted the document @@o{0}",
+                "CreatedAt": "/Date(1440095069000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/06wDmT7dnjw7WjlYuoL8Fw",
+                "Read": true,
+                "TopLevelId": "06wDmT7dnjw7WjlYuoL8Fw",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "Hl8KdxaxPDik1X5hYdAu9G",
+                    "FirstName": "Brett",
+                    "LastName": "Colbert",
+                    "Nickname": null,
+                    "Title": "Director, Product Marketing",
+                    "Email": "bcolbert@innojam12.com",
+                    "FullName": "Brett Colbert",
+                    "Role": "company",
+                    "IsFollowing": true,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/Hl8KdxaxPDik1X5hYdAu9G",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('Hl8KdxaxPDik1X5hYdAu9G')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='wQ7UunTutsXIUyZxKDK7T8',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "wQ7UunTutsXIUyZxKDK7T8",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('06wDmT7dnjw7WjlYuoL8Fw')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "BHrnmeImqb6axP4c0sbkeT",
+                "Title": "[Solar Energy - New Product Training] Ursala Chan set a new photo for the group",
+                "Text": "",
+                "TextWithPlaceholders": null,
+                "Action": "set a new photo for the group",
+                "ActionOnly": "set a new photo for the group",
+                "ActionWithPlaceholders": "set a new photo for the group",
+                "CreatedAt": "/Date(1440095067000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/BHrnmeImqb6axP4c0sbkeT",
+                "Read": true,
+                "TopLevelId": "BHrnmeImqb6axP4c0sbkeT",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('SIuip8bV9VxPycTIzZDOUj')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "SIuip8bV9VxPycTIzZDOUj",
+                    "FirstName": "Ursala",
+                    "LastName": "Chan",
+                    "Nickname": null,
+                    "Title": "Manager, Learning and Development",
+                    "Email": "uchan@innojam12.com",
+                    "FullName": "Ursala Chan",
+                    "Role": "company",
+                    "IsFollowing": true,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/SIuip8bV9VxPycTIzZDOUj",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='dOKeg3jSrxz9hx3neYyrbz',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='dOKeg3jSrxz9hx3neYyrbz',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "dOKeg3jSrxz9hx3neYyrbz",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('BHrnmeImqb6axP4c0sbkeT')/LastReply"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')",
+                    "type": "SAPJam.FeedEntry"
+                },
+                "Id": "cZ4NpLSuSOGRet3HbIPjaH",
+                "Title": "[Solar Energy - New Product Training] Ursala Chan created the group Solar Energy - New Product Training",
+                "Text": null,
+                "TextWithPlaceholders": null,
+                "Action": "created the group Solar Energy - New Product Training",
+                "ActionOnly": "created a group",
+                "ActionWithPlaceholders": "created the group @@o{0}",
+                "CreatedAt": "/Date(1440095065000)/",
+                "Bookmarked": false,
+                "Liked": false,
+                "LikesCount": 0,
+                "RepliesCount": 0,
+                "CanDelete": true,
+                "CanLike": true,
+                "CanReply": true,
+                "ConsolidatedCount": 0,
+                "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/feed/item/cZ4NpLSuSOGRet3HbIPjaH",
+                "Read": true,
+                "TopLevelId": "cZ4NpLSuSOGRet3HbIPjaH",
+                "ContentType": "text/plain",
+                "Replies": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')/Replies"
+                    }
+                },
+                "Likers": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')/Likers"
+                    }
+                },
+                "Creator": {
+                    "__metadata": {
+                        "uri": "Members('SIuip8bV9VxPycTIzZDOUj')",
+                        "type": "SAPJam.Member"
+                    },
+                    "Id": "SIuip8bV9VxPycTIzZDOUj",
+                    "FirstName": "Ursala",
+                    "LastName": "Chan",
+                    "Nickname": null,
+                    "Title": "Manager, Learning and Development",
+                    "Email": "uchan@innojam12.com",
+                    "FullName": "Ursala Chan",
+                    "Role": "company",
+                    "IsFollowing": true,
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamgroupfeedwidget/destinations/jam/profile/wall/SIuip8bV9VxPycTIzZDOUj",
+                    "IsAway": false,
+                    "FeedEntries": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/FeedEntries"
+                        }
+                    },
+                    "ProfilePhoto": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/ProfilePhoto"
+                        }
+                    },
+                    "Following": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Following"
+                        }
+                    },
+                    "Followers": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Followers"
+                        }
+                    },
+                    "ThumbnailImage": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/ThumbnailImage"
+                        }
+                    },
+                    "MemberProfile": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/MemberProfile"
+                        }
+                    },
+                    "Managers": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Managers"
+                        }
+                    },
+                    "DirectReports": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/DirectReports"
+                        }
+                    },
+                    "Assistants": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/Assistants"
+                        }
+                    },
+                    "MemberKudos": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/MemberKudos"
+                        }
+                    },
+                    "AwayAlerts": {
+                        "__deferred": {
+                            "uri": "Members('SIuip8bV9VxPycTIzZDOUj')/AwayAlerts"
+                        }
+                    }
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')/Group"
+                    }
+                },
+                "ConsolidatedEntries": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')/ConsolidatedEntries"
+                    }
+                },
+                "ThumbnailImage": {
+                    "__metadata": {
+                        "uri": "ThumbnailImages(Id='dOKeg3jSrxz9hx3neYyrbz',ThumbnailImageType='48x48')",
+                        "type": "SAPJam.ThumbnailImage",
+                        "media_src": "ThumbnailImages(Id='dOKeg3jSrxz9hx3neYyrbz',ThumbnailImageType='48x48')/$value",
+                        "content_type": "image/jpeg"
+                    },
+                    "Id": "dOKeg3jSrxz9hx3neYyrbz",
+                    "ThumbnailImageType": "48x48"
+                },
+                "AtMentions": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')/AtMentions"
+                    }
+                },
+                "TargetObjectReference": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')/TargetObjectReference"
+                    }
+                },
+                "ActionObjectReferences": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')/ActionObjectReferences"
+                    }
+                },
+                "PreviewImage": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')/PreviewImage"
+                    }
+                },
+                "LastReply": {
+                    "__deferred": {
+                        "uri": "FeedEntries('cZ4NpLSuSOGRet3HbIPjaH')/LastReply"
+                    }
+                }
+            }
+        ],
+        "__next": "Groups('aUgLhUsF7UmrcKvaWsZclz')/FeedEntries?%24expand=%27Creator%2CThumbnailImage%27\u0026%24skiptoken=k7cc4rfu6qt2l3wphg86ddae29s96sy8h6"
+    }
+}

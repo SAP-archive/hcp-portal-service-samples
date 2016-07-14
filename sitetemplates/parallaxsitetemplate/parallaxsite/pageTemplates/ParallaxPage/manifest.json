@@ -261,88 +261,78 @@
 				"sectionAlias": "parallaxpage.widget10"
 			},
 			"parallaxContent1": {
-				"_version": "1.3.0",
-				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/sapimagewidget/manifest.json",
-					"title": "Image Widget",
-					"description": "A widget template that displays images.",
-					"tags": {
-						"keywords": []
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "ImageWidget",
-								"action": "Display"
-							}
-						}
-					}
-				},
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/sapimagewidget"
-				},
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"imageResource": {
-							"isRequired": "true",
-							"storage_type": "url",
-							"value": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/balloon.png",
-							"displayName": "ImageURL",
-							"description": ""
-						},
-						"imageScaling": {
-							"isRequired": "true",
-							"type": "string",
-							"value": "CONTAIN",
-							"displayName": "Image Scaling",
-							"description": ""
-						},
-						"imagePosition": {
-							"isRequired": "true",
-							"type": "number",
-							"value": 7,
-							"displayName": "Image Position",
-							"description": "}"
-						},
-						"height": {
-							"isRequired": "true",
-							"type": "int",
-							"value": "300",
-							"displayName": "Height",
-							"description": ""
-						},
-						"unit": {
-							"isRequired": "true",
-							"type": "string",
-							"value": "POINTS",
-							"displayName": "",
-							"description": ""
-						}
-					}
-				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "imageview.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				},
-				"sectionAlias": "parallaxpage.parallaxContent1"
-			},
+        "_version": "1.3.0",
+        "sap.app": {
+          "_version": "1.3.0",
+          "id": "hcp://portalapptemplates/imageWidget/manifest.json",
+          "title": "Image Widget",
+          "description": "A widget template that displays images."
+        },
+        "sap.platform.hcp": {
+          "_version": "1.2.0",
+          "appName": "portalapptemplates",
+          "uri": "/imageWidget"
+        },
+        "sap.cloud.portal": {
+          "show.portal.settings": "false",
+          "settings": {
+            "source": {
+              "value": "0"
+            },
+            "resources": {
+              "url": [
+                {
+                  "value": "/pageTemplates/ParallaxPage/assets/balloon.png"
+                }
+              ]
+            },
+            "state": {
+              "value": "2"
+            },
+            "height": {
+              "value": "300"
+            },
+            "units": {
+              "value": "pt"
+            },
+            "alignment": {
+              "value": 7
+            },
+            "isTemplateResource": true
+          }
+        },
+        "sap.flp": {
+          "config": {}
+        },
+        "sap.ui": {
+          "_version": "1.3.0",
+          "technology": "UI5"
+        },
+        "sap.ui5": {
+          "_version": "1.2.0",
+          "componentName": "sap.cp.widgets.image",
+          "routing": {
+            "config": {
+              "routerClass": "sap.hana.uis.flp.routing.Router"
+            }
+          },
+          "rootView": "sap.cp.widgets.image.view.Widget",
+          "models": {
+            "i18nApp": {
+              "type": "sap.ui.model.resource.ResourceModel",
+              "uri": "i18n/i18n.properties"
+            }
+          },
+          "resources": {
+            "css": [
+              {
+                "uri": "css/style.css"
+              }
+            ]
+          }
+        },
+        "sectionAlias": "parallaxpage.parallaxContent1"
+      },
 			"widget2": {
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
@@ -399,89 +389,79 @@
 					}
 				}
 			},
-			"widget1": {
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"unit": {
-							"isRequired": "true",
-							"type": "string",
-							"value": "POINTS",
-							"displayName": "",
-							"description": ""
-						},
-						"height": {
-							"isRequired": "true",
-							"description": "",
-							"value": "250",
-							"type": "int",
-							"displayName": "Height"
-						},
-						"imageScaling": {
-							"isRequired": "true",
-							"type": "string",
-							"value": "CONTAIN",
-							"displayName": "Image Scaling",
-							"description": ""
-						},
-						"imageResource": {
-							"isRequired": "true",
-							"storage_type": "url",
-							"value": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/HCP_Cap.png",
-							"displayName": "ImageURL",
-							"description": ""
-						},
-						"imagePosition": {
-							"isRequired": "true",
-							"type": "number",
-							"value": 4,
-							"displayName": "Image Position",
-							"description": "}"
-						}
-					}
-				},
-				"_version": "1.3.0",
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/sapimagewidget"
-				},
-				"sectionAlias": "parallaxpage.widget1",
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/sapimagewidget/manifest.json",
-					"title": "Image Widget",
-					"description": "A widget template that displays images.",
-					"tags": {
-						"keywords": []
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "ImageWidget",
-								"action": "Display"
-							}
-						}
-					}
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "imageview.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				}
-			},
+			"widget1":  {
+        "_version": "1.3.0",
+        "sap.app": {
+          "_version": "1.3.0",
+          "id": "hcp://portalapptemplates/imageWidget/manifest.json",
+          "title": "Image Widget",
+          "description": "A widget template that displays images."
+        },
+        "sap.platform.hcp": {
+          "_version": "1.2.0",
+          "appName": "portalapptemplates",
+          "uri": "/imageWidget"
+        },
+        "sap.cloud.portal": {
+          "show.portal.settings": "false",
+          "settings": {
+            "source": {
+              "value": "0"
+            },
+            "resources": {
+              "url": [
+                {
+                  "value": "/pageTemplates/ParallaxPage/assets/HCP_Cap.png"
+                }
+              ]
+            },
+            "state": {
+              "value": "2"
+            },
+            "height": {
+              "value": "250"
+            },
+            "units": {
+              "value": "pt"
+            },
+            "alignment": {
+              "value": 7
+            },
+            "isTemplateResource": true
+          }
+        },
+        "sap.flp": {
+          "config": {}
+        },
+        "sap.ui": {
+          "_version": "1.3.0",
+          "technology": "UI5"
+        },
+        "sap.ui5": {
+          "_version": "1.2.0",
+          "componentName": "sap.cp.widgets.image",
+          "routing": {
+            "config": {
+              "routerClass": "sap.hana.uis.flp.routing.Router"
+            }
+          },
+          "rootView": "sap.cp.widgets.image.view.Widget",
+          "models": {
+            "i18nApp": {
+              "type": "sap.ui.model.resource.ResourceModel",
+              "uri": "i18n/i18n.properties"
+            }
+          },
+          "resources": {
+            "css": [
+              {
+                "uri": "css/style.css"
+              }
+            ]
+          }
+        },
+        "sectionAlias": "parallaxpage.widget1"
+      },
 			"widget6": {
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
@@ -723,88 +703,78 @@
 				}
 			},
 			"widget5": {
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"unit": {
-							"isRequired": "true",
-							"type": "string",
-							"value": "POINTS",
-							"displayName": "",
-							"description": ""
-						},
-						"height": {
-							"isRequired": "true",
-							"description": "",
-							"value": "250",
-							"type": "int",
-							"displayName": "Height"
-						},
-						"imageScaling": {
-							"isRequired": "true",
-							"type": "string",
-							"value": "CONTAIN",
-							"displayName": "Image Scaling",
-							"description": ""
-						},
-						"imageResource": {
-							"isRequired": "true",
-							"storage_type": "url",
-							"value": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/Demo_Kit.png",
-							"displayName": "ImageURL",
-							"description": ""
-						},
-						"imagePosition": {
-							"isRequired": "true",
-							"type": "number",
-							"value": 4,
-							"displayName": "Image Position",
-							"description": "}"
-						}
-					}
-				},
-				"_version": "1.3.0",
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/sapimagewidget"
-				},
-				"sectionAlias": "parallaxpage.widget5",
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/sapimagewidget/manifest.json",
-					"title": "Image Widget",
-					"description": "A widget template that displays images.",
-					"tags": {
-						"keywords": []
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "ImageWidget",
-								"action": "Display"
-							}
-						}
-					}
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "imageview.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				}
-			},
+        "_version": "1.3.0",
+        "sap.app": {
+          "_version": "1.3.0",
+          "id": "hcp://portalapptemplates/imageWidget/manifest.json",
+          "title": "Image Widget",
+          "description": "A widget template that displays images."
+        },
+        "sap.platform.hcp": {
+          "_version": "1.2.0",
+          "appName": "portalapptemplates",
+          "uri": "/imageWidget"
+        },
+        "sap.cloud.portal": {
+          "show.portal.settings": "false",
+          "settings": {
+            "source": {
+              "value": "0"
+            },
+            "resources": {
+              "url": [
+                {
+                  "value": "/pageTemplates/ParallaxPage/assets/Demo_Kit.png"
+                }
+              ]
+            },
+            "state": {
+              "value": "2"
+            },
+            "height": {
+              "value": "250"
+            },
+            "units": {
+              "value": "pt"
+            },
+            "alignment": {
+              "value": 7
+            },
+            "isTemplateResource": true
+          }
+        },
+        "sap.flp": {
+          "config": {}
+        },
+        "sap.ui": {
+          "_version": "1.3.0",
+          "technology": "UI5"
+        },
+        "sap.ui5": {
+          "_version": "1.2.0",
+          "componentName": "sap.cp.widgets.image",
+          "routing": {
+            "config": {
+              "routerClass": "sap.hana.uis.flp.routing.Router"
+            }
+          },
+          "rootView": "sap.cp.widgets.image.view.Widget",
+          "models": {
+            "i18nApp": {
+              "type": "sap.ui.model.resource.ResourceModel",
+              "uri": "i18n/i18n.properties"
+            }
+          },
+          "resources": {
+            "css": [
+              {
+                "uri": "css/style.css"
+              }
+            ]
+          }
+        },
+        "sectionAlias": "parallaxpage.widget5"
+      },
 			"parallaxContent2": {
 				"_version": "1.3.0",
 				"sap.app": {
@@ -862,88 +832,78 @@
 				"sectionAlias": "parallaxpage.parallaxContent2"
 			},
 			"widget8": {
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"unit": {
-							"isRequired": "true",
-							"type": "string",
-							"value": "POINTS",
-							"displayName": "",
-							"description": ""
-						},
-						"height": {
-							"isRequired": "true",
-							"description": "",
-							"value": "250",
-							"type": "int",
-							"displayName": "Height"
-						},
-						"imageScaling": {
-							"isRequired": "true",
-							"type": "string",
-							"value": "CONTAIN",
-							"displayName": "Image Scaling",
-							"description": ""
-						},
-						"imageResource": {
-							"isRequired": "true",
-							"storage_type": "url",
-							"value": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/PartnerPortal.png",
-							"displayName": "ImageURL",
-							"description": ""
-						},
-						"imagePosition": {
-							"isRequired": "true",
-							"type": "number",
-							"value": 4,
-							"displayName": "Image Position",
-							"description": "}"
-						}
-					}
-				},
-				"_version": "1.3.0",
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/sapimagewidget"
-				},
-				"sectionAlias": "parallaxpage.widget8",
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/sapimagewidget/manifest.json",
-					"title": "Image Widget",
-					"description": "A widget template that displays images.",
-					"tags": {
-						"keywords": []
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "ImageWidget",
-								"action": "Display"
-							}
-						}
-					}
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "imageview.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				}
-			},
+        "_version": "1.3.0",
+        "sap.app": {
+          "_version": "1.3.0",
+          "id": "hcp://portalapptemplates/imageWidget/manifest.json",
+          "title": "Image Widget",
+          "description": "A widget template that displays images."
+        },
+        "sap.platform.hcp": {
+          "_version": "1.2.0",
+          "appName": "portalapptemplates",
+          "uri": "/imageWidget"
+        },
+        "sap.cloud.portal": {
+          "show.portal.settings": "false",
+          "settings": {
+            "source": {
+              "value": "0"
+            },
+            "resources": {
+              "url": [
+                {
+                  "value": "/pageTemplates/ParallaxPage/assets/PartnerPortal.png"
+                }
+              ]
+            },
+            "state": {
+              "value": "2"
+            },
+            "height": {
+              "value": "250"
+            },
+            "units": {
+              "value": "pt"
+            },
+            "alignment": {
+              "value": 7
+            },
+            "isTemplateResource": true
+          }
+        },
+        "sap.flp": {
+          "config": {}
+        },
+        "sap.ui": {
+          "_version": "1.3.0",
+          "technology": "UI5"
+        },
+        "sap.ui5": {
+          "_version": "1.2.0",
+          "componentName": "sap.cp.widgets.image",
+          "routing": {
+            "config": {
+              "routerClass": "sap.hana.uis.flp.routing.Router"
+            }
+          },
+          "rootView": "sap.cp.widgets.image.view.Widget",
+          "models": {
+            "i18nApp": {
+              "type": "sap.ui.model.resource.ResourceModel",
+              "uri": "i18n/i18n.properties"
+            }
+          },
+          "resources": {
+            "css": [
+              {
+                "uri": "css/style.css"
+              }
+            ]
+          }
+        },
+        "sectionAlias": "parallaxpage.widget8"
+      },
 			"widget9": {
 				"_version": "1.3.0",
 				"sap.app": {

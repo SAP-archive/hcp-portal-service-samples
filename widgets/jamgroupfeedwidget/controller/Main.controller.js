@@ -6,6 +6,12 @@ sap.ui.define([
 
 	return Controller.extend("JamGroupFeedWidget.controller.Main", {
 
+		mockData: false,
+
+		onInit: function() {
+			this.mockData = this.getOwnerComponent().mockData;
+		},
+
 		onPost: function(oEvent) {
 			this.getView().byId("feedInput").setBusy(true);
 			var config = this.getOwnerComponent().config;
@@ -30,6 +36,9 @@ sap.ui.define([
 		},
 
 		iconPathFormatter: function(str) {
+			if (this.mockData) {
+				return str;
+			}
 			var config = this.getOwnerComponent().config;
 			return jQuery.sap.getModulePath("JamGroupFeedWidget") + config.jamUrl + "/" + str;
 		}

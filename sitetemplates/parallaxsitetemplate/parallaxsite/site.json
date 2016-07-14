@@ -17,12 +17,12 @@
     "config": {
       "ushellConfig": {
         "modulePaths": {
-          "PoweredByPlugin": "/sap/fiori/portaltrialcontent/poweredbyplugin"
+          "PoweredByPlugin": "/sap/fiori/poweredbyplugin"
         },
         "bootstrapPlugins": {
           "BootstrapExtensionPlugin": {
             "component": "PoweredByPlugin",
-            "url": "/sap/fiori/portaltrialcontent/poweredbyplugin"
+            "url": "/sap/fiori/poweredbyplugin"
           }
         }
       }

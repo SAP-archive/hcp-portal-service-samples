@@ -10,6 +10,9 @@ sap.ui.define([
 		},
 		
 		onSearch: function(oEvent) {
+			/*if (window.location.href.indexOf("mockData") !== -1) {
+				return;
+			}*/
 			var component = this.getOwnerComponent();
 			component.config.searchQuery = oEvent.getParameter("query");
 			component.createModel();

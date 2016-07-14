@@ -18,7 +18,7 @@
 			"ushellConfig": {
 				"modulePaths": {
 					"sap.ushell.apps.cpv2MenuPlugin": "/sap.ushell.apps.cpv2MenuPlugin",
-					"PoweredByPlugin": "/sap/fiori/portaltrialcontent/poweredbyplugin"
+					"PoweredByPlugin": "/sap/fiori/poweredbyplugin"
 				},
 				"bootstrapPlugins": {
 					"BootstrapExtensionPlugin": {
@@ -45,10 +45,6 @@
 				{
 					"namespace": "",
 					"id": "hcp://marketingsitetemplate/marketingsite/pageTemplates/template3/manifest.json"
-				},
-				{
-					"namespace": "",
-					"id": "hcp://marketingsitetemplate/marketingsite/pageTemplates/template4/manifest.json"
 				}
 			],
 			"config": {

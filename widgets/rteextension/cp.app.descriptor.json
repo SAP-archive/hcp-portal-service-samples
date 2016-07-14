@@ -1,0 +1,10 @@
+[
+	{
+		"id": "hcp://rteextension/manifest.json",
+		"_entityType": "PORTAL_SITE_V2_TEMPLATE_APP_CONFIG",
+		"path": "",
+		"name": "RTE Extension",
+		"thumbnail": "sap-icon://attachment-text-file",
+		"preview": ""
+	}
+]

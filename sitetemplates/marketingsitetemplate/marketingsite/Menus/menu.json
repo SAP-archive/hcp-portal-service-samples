@@ -32,14 +32,6 @@
 					"action": "Display"
 				},
 				"entityType": "PAGE"
-			},
-			{
-				"title": "{{contactus}}",
-				"target": {
-					"semanticObject": "page4",
-					"action": "Display"
-				},
-				"entityType": "PAGE"
 			}]
 	}
 }

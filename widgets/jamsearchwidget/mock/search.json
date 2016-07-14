@@ -1,0 +1,867 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InBwdmFlZkVFaVVtZWtKYmF3SlNDZU0ifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InBwdmFlZkVFaVVtZWtKYmF3SlNDZU0ifQ",
+                "LastModifiedAt": "/Date(1444114349000)/",
+                "CreatedAt": "/Date(1444114349000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJwcHZhZWZFRWlVbWVrSmJhd0pTQ2VNIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJwcHZhZWZFRWlVbWVrSmJhd0pTQ2VNIn0",
+                    "Type": "ContentItem",
+                    "Title": "Catalog of SAP Fiori Apps.docx",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/ppvaefEEiUmekJbawJSCeM",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='ppvaefEEiUmekJbawJSCeM',ContentItemType='Document')",
+                    "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InBwdmFlZkVFaVVtZWtKYmF3SlNDZU0ifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InBwdmFlZkVFaVVtZWtKYmF3SlNDZU0ifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InBwdmFlZkVFaVVtZWtKYmF3SlNDZU0ifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlRzUTNNQWZ4SnpmVEFaVTFlZ2lMcHAifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlRzUTNNQWZ4SnpmVEFaVTFlZ2lMcHAifQ",
+                "LastModifiedAt": "/Date(1443702659000)/",
+                "CreatedAt": "/Date(1443702659000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJUc1EzTUFmeEp6ZlRBWlUxZWdpTHBwIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJUc1EzTUFmeEp6ZlRBWlUxZWdpTHBwIn0",
+                    "Type": "ContentItem",
+                    "Title": "SAP UI theme designer .pdf",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/TsQ3MAfxJzfTAZU1egiLpp",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='TsQ3MAfxJzfTAZU1egiLpp',ContentItemType='Document')",
+                    "ContentType": "application/pdf",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlRzUTNNQWZ4SnpmVEFaVTFlZ2lMcHAifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlRzUTNNQWZ4SnpmVEFaVTFlZ2lMcHAifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlRzUTNNQWZ4SnpmVEFaVTFlZ2lMcHAifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9OOVh1cXMwcFFnQnphV3J5TlJMME4ifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9OOVh1cXMwcFFnQnphV3J5TlJMME4ifQ",
+                "LastModifiedAt": "/Date(1444110798000)/",
+                "CreatedAt": "/Date(1443702131000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJPTjlYdXFzMHBRZ0J6YVdyeU5STDBOIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJPTjlYdXFzMHBRZ0J6YVdyeU5STDBOIn0",
+                    "Type": "ContentItem",
+                    "Title": "SAP HANA Web Workbench - Hello World!.html",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/ON9Xuqs0pQgBzaWryNRL0N",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='ON9Xuqs0pQgBzaWryNRL0N',ContentItemType='Document')",
+                    "ContentType": "text/html",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9OOVh1cXMwcFFnQnphV3J5TlJMME4ifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9OOVh1cXMwcFFnQnphV3J5TlJMME4ifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9OOVh1cXMwcFFnQnphV3J5TlJMME4ifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlBOcXdRelZ4cFdRM1c4WDVkT0k1Y1gifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlBOcXdRelZ4cFdRM1c4WDVkT0k1Y1gifQ",
+                "LastModifiedAt": "/Date(1444110799000)/",
+                "CreatedAt": "/Date(1443702224000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJQTnF3UXpWeHBXUTNXOFg1ZE9JNWNYIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJQTnF3UXpWeHBXUTNXOFg1ZE9JNWNYIn0",
+                    "Type": "ContentItem",
+                    "Title": "SAP HANA Web Workbench - Hello World!.html",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/PNqwQzVxpWQ3W8X5dOI5cX",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='PNqwQzVxpWQ3W8X5dOI5cX',ContentItemType='Document')",
+                    "ContentType": "text/html",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlBOcXdRelZ4cFdRM1c4WDVkT0k1Y1gifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlBOcXdRelZ4cFdRM1c4WDVkT0k1Y1gifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlBOcXdRelZ4cFdRM1c4WDVkT0k1Y1gifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiTWVtYmVyIiwiaWQiOiJtUEJHZUJTY2lxYzNLWkJwVGgzdlg4In0')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiTWVtYmVyIiwiaWQiOiJtUEJHZUJTY2lxYzNLWkJwVGgzdlg4In0",
+                "LastModifiedAt": "/Date(1440094886000)/",
+                "CreatedAt": "/Date(1440094886000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='mPBGeBSciqc3KZBpTh3vX8',Type='Member')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "mPBGeBSciqc3KZBpTh3vX8",
+                    "Type": "Member",
+                    "Title": "Sap Worker",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/wall/mPBGeBSciqc3KZBpTh3vX8",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/Members('mPBGeBSciqc3KZBpTh3vX8')",
+                    "ContentType": "",
+                    "FullPath": "Member"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiTWVtYmVyIiwiaWQiOiJtUEJHZUJTY2lxYzNLWkJwVGgzdlg4In0')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiTWVtYmVyIiwiaWQiOiJtUEJHZUJTY2lxYzNLWkJwVGgzdlg4In0')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiTWVtYmVyIiwiaWQiOiJtUEJHZUJTY2lxYzNLWkJwVGgzdlg4In0')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9FZktERFFtNXF5ZlB3UmdKN2E0SjAifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9FZktERFFtNXF5ZlB3UmdKN2E0SjAifQ",
+                "LastModifiedAt": "/Date(1443702657000)/",
+                "CreatedAt": "/Date(1443702657000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJPRWZLRERRbTVxeWZQd1JnSjdhNEowIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJPRWZLRERRbTVxeWZQd1JnSjdhNEowIn0",
+                    "Type": "ContentItem",
+                    "Title": "Fiori Learning Materials.pdf",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/OEfKDDQm5qyfPwRgJ7a4J0",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='OEfKDDQm5qyfPwRgJ7a4J0',ContentItemType='Document')",
+                    "ContentType": "application/pdf",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9FZktERFFtNXF5ZlB3UmdKN2E0SjAifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9FZktERFFtNXF5ZlB3UmdKN2E0SjAifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Ik9FZktERFFtNXF5ZlB3UmdKN2E0SjAifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IldKOEV4aWtrRDJxQjFZSVd6dFBwNFMifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IldKOEV4aWtrRDJxQjFZSVd6dFBwNFMifQ",
+                "LastModifiedAt": "/Date(1444111134000)/",
+                "CreatedAt": "/Date(1444111134000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 1,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJXSjhFeGlra0QycUIxWUlXenRQcDRTIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJXSjhFeGlra0QycUIxWUlXenRQcDRTIn0",
+                    "Type": "ContentItem",
+                    "Title": "Signing Up for a Developer Account.docx",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/WJ8ExikkD2qB1YIWztPp4S",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='WJ8ExikkD2qB1YIWztPp4S',ContentItemType='Document')",
+                    "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IldKOEV4aWtrRDJxQjFZSVd6dFBwNFMifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IldKOEV4aWtrRDJxQjFZSVd6dFBwNFMifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IldKOEV4aWtrRDJxQjFZSVd6dFBwNFMifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im9JMWR0dG4zU3BEc0RZY0R3TUtRRm8ifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im9JMWR0dG4zU3BEc0RZY0R3TUtRRm8ifQ",
+                "LastModifiedAt": "/Date(1453248657000)/",
+                "CreatedAt": "/Date(1453248657000)/",
+                "Description": "Company Strategy.pptx",
+                "LikesCount": 69,
+                "ViewsCount": 97,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJvSTFkdHRuM1NwRHNEWWNEd01LUUZvIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJvSTFkdHRuM1NwRHNEWWNEd01LUUZvIn0",
+                    "Type": "ContentItem",
+                    "Title": "Company Strategy",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/NUqlZO9lAvUhUNlVMTxNhc/documents/oI1dttn3SpDsDYcDwMKQFo",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='oI1dttn3SpDsDYcDwMKQFo',ContentItemType='Document')",
+                    "ContentType": "application/vnd.ms-powerpoint",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im9JMWR0dG4zU3BEc0RZY0R3TUtRRm8ifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im9JMWR0dG4zU3BEc0RZY0R3TUtRRm8ifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im9JMWR0dG4zU3BEc0RZY0R3TUtRRm8ifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ",
+                "LastModifiedAt": "/Date(1453247132000)/",
+                "CreatedAt": null,
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='1875',Type='FeedEntry')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "1875",
+                    "Type": "FeedEntry",
+                    "Title": "Susan, what exactly is the problem with this Sales Order 12068 , why is it on delivery block? This is an important pilot at National Rivera. I will create a group in SAP Jam to collaborate around a solution.",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/feed/item/CEz5WILq8QmEPwIBzykbai",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/FeedEntries('CEz5WILq8QmEPwIBzykbai')",
+                    "ContentType": "",
+                    "FullPath": "FeedEntry"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkhDYnF4VVpDV0ttdHY2WGNKcURjcTIifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkhDYnF4VVpDV0ttdHY2WGNKcURjcTIifQ",
+                "LastModifiedAt": "/Date(1444110656000)/",
+                "CreatedAt": "/Date(1444110656000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJIQ2JxeFVaQ1dLbXR2NlhjSnFEY3EyIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJIQ2JxeFVaQ1dLbXR2NlhjSnFEY3EyIn0",
+                    "Type": "ContentItem",
+                    "Title": "Configure Fiori Apps using Fiori Configuration Cockpit.docx",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/HCbqxUZCWKmtv6XcJqDcq2",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='HCbqxUZCWKmtv6XcJqDcq2',ContentItemType='Document')",
+                    "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkhDYnF4VVpDV0ttdHY2WGNKcURjcTIifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkhDYnF4VVpDV0ttdHY2WGNKcURjcTIifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkhDYnF4VVpDV0ttdHY2WGNKcURjcTIifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkRESjViY3VOWEpSS1BiZUg5WmVha3MifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkRESjViY3VOWEpSS1BiZUg5WmVha3MifQ",
+                "LastModifiedAt": "/Date(1444114350000)/",
+                "CreatedAt": "/Date(1444114350000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJEREo1YmN1TlhKUktQYmVIOVplYWtzIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJEREo1YmN1TlhKUktQYmVIOVplYWtzIn0",
+                    "Type": "ContentItem",
+                    "Title": "Configure Fiori Apps using Fiori Configuration Cockpit.docx",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/DDJ5bcuNXJRKPbeH9Zeaks",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='DDJ5bcuNXJRKPbeH9Zeaks',ContentItemType='Document')",
+                    "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkRESjViY3VOWEpSS1BiZUg5WmVha3MifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkRESjViY3VOWEpSS1BiZUg5WmVha3MifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IkRESjViY3VOWEpSS1BiZUg5WmVha3MifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlphZlVnOW5EYzIydjRhN3B3aElMSjAifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlphZlVnOW5EYzIydjRhN3B3aElMSjAifQ",
+                "LastModifiedAt": "/Date(1444111132000)/",
+                "CreatedAt": "/Date(1444111132000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJaYWZVZzluRGMyMnY0YTdwd2hJTEowIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJaYWZVZzluRGMyMnY0YTdwd2hJTEowIn0",
+                    "Type": "ContentItem",
+                    "Title": "Configure Fiori Apps using Fiori Configuration Cockpit.docx",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/ZafUg9nDc22v4a7pwhILJ0",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='ZafUg9nDc22v4a7pwhILJ0',ContentItemType='Document')",
+                    "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlphZlVnOW5EYzIydjRhN3B3aElMSjAifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlphZlVnOW5EYzIydjRhN3B3aElMSjAifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6IlphZlVnOW5EYzIydjRhN3B3aElMSjAifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJ6M1BzZFdPV1hjWjZFUGpaelB3UWgwIn0')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJ6M1BzZFdPV1hjWjZFUGpaelB3UWgwIn0",
+                "LastModifiedAt": "/Date(1443701094000)/",
+                "CreatedAt": "/Date(1443701094000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 3,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkJsb2dFbnRyeSIsImlkIjoiejNQc2RXT1dYY1o2RVBqWnpQd1FoMCJ9',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkJsb2dFbnRyeSIsImlkIjoiejNQc2RXT1dYY1o2RVBqWnpQd1FoMCJ9",
+                    "Type": "ContentItem",
+                    "Title": "Fiori Launchpad Sites (Part 1): Developing \u0026 Managing Business Apps",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/blogs/show/z3PsdWOWXcZ6EPjZzPwQh0",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='z3PsdWOWXcZ6EPjZzPwQh0',ContentItemType='BlogEntry')",
+                    "ContentType": "",
+                    "FullPath": "ContentItem/BlogEntry"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJ6M1BzZFdPV1hjWjZFUGpaelB3UWgwIn0')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJ6M1BzZFdPV1hjWjZFUGpaelB3UWgwIn0')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJ6M1BzZFdPV1hjWjZFUGpaelB3UWgwIn0')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im5LVTJWSVBXTVdMOUJrdmpVck9GdTkifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im5LVTJWSVBXTVdMOUJrdmpVck9GdTkifQ",
+                "LastModifiedAt": "/Date(1444111133000)/",
+                "CreatedAt": "/Date(1444111133000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJuS1UyVklQV01XTDlCa3ZqVXJPRnU5In0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJuS1UyVklQV01XTDlCa3ZqVXJPRnU5In0",
+                    "Type": "ContentItem",
+                    "Title": "Creating a HelloWorld Application.docx",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/PmKlRjGVYReLTzkA6Vcdcf/documents/nKU2VIPWMWL9BkvjUrOFu9",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='nKU2VIPWMWL9BkvjUrOFu9',ContentItemType='Document')",
+                    "ContentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im5LVTJWSVBXTVdMOUJrdmpVck9GdTkifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im5LVTJWSVBXTVdMOUJrdmpVck9GdTkifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6Im5LVTJWSVBXTVdMOUJrdmpVck9GdTkifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ",
+                "LastModifiedAt": "/Date(1453246024000)/",
+                "CreatedAt": null,
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='1869',Type='FeedEntry')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "1869",
+                    "Type": "FeedEntry",
+                    "Title": "@USSALESREP02 I created an opportunity for the Configuration prospect Rob Bortz created on-line. This is a high value opportunity so I will also create an SAP Jam Deal Room and invite the experts we need to close this deal quickly,",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/feed/item/SmpZyV4GmWBVdTjkm8ADMu",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/FeedEntries('SmpZyV4GmWBVdTjkm8ADMu')",
+                    "ContentType": "",
+                    "FullPath": "FeedEntry"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiR3JvdXBXYWxsQ29tbWVudCIsImlkIjpudWxsfQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJQRWViV0RoRloyNVBRaE9pVXVXb0RnIn0')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJQRWViV0RoRloyNVBRaE9pVXVXb0RnIn0",
+                "LastModifiedAt": "/Date(1443701226000)/",
+                "CreatedAt": "/Date(1443701226000)/",
+                "Description": null,
+                "LikesCount": 0,
+                "ViewsCount": 2,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkJsb2dFbnRyeSIsImlkIjoiUEVlYldEaEZaMjVQUWhPaVV1V29EZyJ9',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkJsb2dFbnRyeSIsImlkIjoiUEVlYldEaEZaMjVQUWhPaVV1V29EZyJ9",
+                    "Type": "ContentItem",
+                    "Title": "Fiori Launchpad Sites (Part 2): Customizing Fiori Application Launch Tiles",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/blogs/show/PEebWDhFZ25PQhOiUuWoDg",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='PEebWDhFZ25PQhOiUuWoDg',ContentItemType='BlogEntry')",
+                    "ContentType": "",
+                    "FullPath": "ContentItem/BlogEntry"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJQRWViV0RoRloyNVBRaE9pVXVXb0RnIn0')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJQRWViV0RoRloyNVBRaE9pVXVXb0RnIn0')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiQmxvZ0VudHJ5IiwiaWQiOiJQRWViV0RoRloyNVBRaE9pVXVXb0RnIn0')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6ImllZ0lHM2loQ1YwM0R1a2FwaXhicUEifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6ImllZ0lHM2loQ1YwM0R1a2FwaXhicUEifQ",
+                "LastModifiedAt": "/Date(1453249779000)/",
+                "CreatedAt": "/Date(1453249779000)/",
+                "Description": "90 Day Induction Plan.pptx",
+                "LikesCount": 31,
+                "ViewsCount": 78,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJpZWdJRzNpaENWMDNEdWthcGl4YnFBIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJpZWdJRzNpaENWMDNEdWthcGl4YnFBIn0",
+                    "Type": "ContentItem",
+                    "Title": "90 Day Induction Plan",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/NUqlZO9lAvUhUNlVMTxNhc/documents/iegIG3ihCV03DukapixbqA",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='iegIG3ihCV03DukapixbqA',ContentItemType='Document')",
+                    "ContentType": "application/vnd.ms-powerpoint",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6ImllZ0lHM2loQ1YwM0R1a2FwaXhicUEifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6ImllZ0lHM2loQ1YwM0R1a2FwaXhicUEifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6ImllZ0lHM2loQ1YwM0R1a2FwaXhicUEifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InhIYWxHWmZCNHF1TGZTUVRmMUxCaDAifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InhIYWxHWmZCNHF1TGZTUVRmMUxCaDAifQ",
+                "LastModifiedAt": "/Date(1453249615000)/",
+                "CreatedAt": "/Date(1453249615000)/",
+                "Description": "New Hire Mentorship Program.pptx",
+                "LikesCount": 54,
+                "ViewsCount": 87,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJ4SGFsR1pmQjRxdUxmU1FUZjFMQmgwIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJ4SGFsR1pmQjRxdUxmU1FUZjFMQmgwIn0",
+                    "Type": "ContentItem",
+                    "Title": "New Hire Mentorship Program",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/NUqlZO9lAvUhUNlVMTxNhc/documents/xHalGZfB4quLfSQTf1LBh0",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='xHalGZfB4quLfSQTf1LBh0',ContentItemType='Document')",
+                    "ContentType": "application/vnd.ms-powerpoint",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InhIYWxHWmZCNHF1TGZTUVRmMUxCaDAifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InhIYWxHWmZCNHF1TGZTUVRmMUxCaDAifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InhIYWxHWmZCNHF1TGZTUVRmMUxCaDAifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlsQU5FUHY3QU5TMzM4QWJqdmdLY2gifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlsQU5FUHY3QU5TMzM4QWJqdmdLY2gifQ",
+                "LastModifiedAt": "/Date(1453246927000)/",
+                "CreatedAt": "/Date(1453246927000)/",
+                "Description": "National Rivera Statement of Work",
+                "LikesCount": 0,
+                "ViewsCount": 0,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJ5bEFORVB2N0FOUzMzOEFianZnS2NoIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJ5bEFORVB2N0FOUzMzOEFianZnS2NoIn0",
+                    "Type": "ContentItem",
+                    "Title": "National Rivera Statement of Work DRAFT.pdf",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/ADpzetUKyj3ceEXju0OWgf/documents/ylANEPv7ANS338AbjvgKch",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='ylANEPv7ANS338AbjvgKch',ContentItemType='Document')",
+                    "ContentType": "application/pdf",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlsQU5FUHY3QU5TMzM4QWJqdmdLY2gifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlsQU5FUHY3QU5TMzM4QWJqdmdLY2gifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlsQU5FUHY3QU5TMzM4QWJqdmdLY2gifQ')/Featurer"
+                    }
+                }
+            },
+            {
+                "__metadata": {
+                    "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlVTGJKT3BENDJaOGJpRndMeXduMEgifQ')",
+                    "type": "SAPJam.SearchResult"
+                },
+                "Id": "eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlVTGJKT3BENDJaOGJpRndMeXduMEgifQ",
+                "LastModifiedAt": "/Date(1453249426000)/",
+                "CreatedAt": "/Date(1453249426000)/",
+                "Description": "social-collaboration-employee-engagement.pdf",
+                "LikesCount": 23,
+                "ViewsCount": 74,
+                "FollowersCount": 0,
+                "IsFeatured": false,
+                "Tags": "",
+                "ObjectReference": {
+                    "__metadata": {
+                        "uri": "ObjectReferences(Id='eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJ5VUxiSk9wRDQyWjhiaUZ3THl3bjBIIn0',Type='ContentItem')",
+                        "type": "SAPJam.ObjectReference"
+                    },
+                    "Id": "eyJjbGFzcyI6IkRvY3VtZW50IiwiaWQiOiJ5VUxiSk9wRDQyWjhiaUZ3THl3bjBIIn0",
+                    "Type": "ContentItem",
+                    "Title": "Six ways social collaboration can help your onboarding",
+                    "WebURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/profile/NUqlZO9lAvUhUNlVMTxNhc/documents/yULbJOpD42Z8biFwLywn0H",
+                    "ODataURL": "https://flpdevelopment-xec1041b1.dispatcher.neo.ondemand.com/sap/fiori/jamsearchwidget/destinations/jam/api/v1/OData/ContentItems(Id='yULbJOpD42Z8biFwLywn0H',ContentItemType='Document')",
+                    "ContentType": "application/pdf",
+                    "FullPath": "ContentItem/Document"
+                },
+                "Group": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlVTGJKT3BENDJaOGJpRndMeXduMEgifQ')/Group"
+                    }
+                },
+                "Creator": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlVTGJKT3BENDJaOGJpRndMeXduMEgifQ')/Creator"
+                    }
+                },
+                "Featurer": {
+                    "__deferred": {
+                        "uri": "SearchResults('eyJRdWVyeSI6IlNBUCIsImNsYXNzIjoiRG9jdW1lbnQiLCJpZCI6InlVTGJKT3BENDJaOGJpRndMeXduMEgifQ')/Featurer"
+                    }
+                }
+            }
+        ],
+        "__next": "Search?%24expand=%27ObjectReference%27\u0026%24format=json\u0026%24skiptoken=2cymey80fp7fyq204ntbw5wd1a4e34b0fqw1din9dxekj1gt6vpnq3m0kbgoodpm\u0026Query=%27SAP%27"
+    }
+}

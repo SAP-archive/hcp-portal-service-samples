@@ -1,0 +1,116 @@
+{
+	"_version": "1.3.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "hcp://rteextension/manifest.json",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "RTE Extension",
+		"description": "An editor for adding and formatting text, tables and more",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.32.0"
+		}
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_bluecrystal"
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"rootView": {
+			"viewName": "RTEExtension.view.Main",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.ui.layout": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "/sap/fiori/portalapptemplates/rtewidget/css/style.css"
+				},
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"componentName": "RTEExtension"
+	},
+	"sap.flp": {
+		"appType": "SAP_UI5_Component",
+		"config": {
+			"editable": true,
+			"deletable": true
+		}
+	},
+	"sap.platform.hcp": {
+		"uri": "/",
+		"appName": "rteextension"
+	},
+	"sap.cloud.portal": {
+		"show.portal.settings": "false",
+		"menu": {
+			"actions": {
+				"properties": {
+					"element": "OverflowToolbarButton",
+					"events": {
+						"press": "onEditButtonPress"
+					},
+					"attributes": {
+						"icon": "sap-icon://edit",
+						"tooltip": "Edit"
+					}
+				}
+			}
+		},
+		"settings": {
+			"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap",
+			"portalplugins": "imageuploader templateutils",
+			"customplugins": "myplugin",
+			"menu": {
+				"file": {"title" : "Edit", "items": "undo redo | cut copy paste pastetext | selectall | searchreplace"},
+				"insert": {"title" : "Insert", "items": "image imageuploader link | charmap hr insertdatetime"},
+				"format": {"title" : "Format", "items": "bold italic underline strikethrough superscript subscript | formats | removeformat"},
+				"template": {"title": "Templates", "items": "template | cutitem copyitem pasteitem deleteitem"}
+			},
+			"toolbar": [
+				"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+			],
+			"templates": [
+				{
+					"title": "My Template",
+					"url": "/templates/mytemplate.html"
+				}
+			]
+		}
+	}
+}
