@@ -37,8 +37,7 @@ sap.ui.define([
 			}.bind(this));
 
 			var siteService = sap.ushell.Container.getService("SiteService");
-			if (!siteService.isRuntime()) {
-
+			if (siteService.isDesignTime()) {
 				$.each($paralaxImages, function() {
 					var $bg_parallax = $(this);
 					var $ps = $("<div class='parallax-settings'>");
