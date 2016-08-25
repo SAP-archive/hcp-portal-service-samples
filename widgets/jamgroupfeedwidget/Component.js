@@ -49,7 +49,7 @@ sap.ui.define([
 				this.view.byId("feedInput").setPlaceholder("Post something in " + this.config.groupName);
 			}
 			else {
-				this.view.byId("feedList").setNoDataText("Select a Jam group by opening the widget settings");
+				this.view.byId("feedList").setNoDataText("Select a SAP Jam group by opening the widget settings");
 				this.view.byId("feedInput").setEnabled(false);
 			}
 		},

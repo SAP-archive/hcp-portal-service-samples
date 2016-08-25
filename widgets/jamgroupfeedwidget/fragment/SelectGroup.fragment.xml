@@ -2,7 +2,7 @@
         xmlns:data="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1" contentWidth="500px"
         contentHeight="400px">
     <buttons>
-        <Button class="closeSelectGroup" text="Close" press="onCloseSelectGroup"></Button>
+        <Button class="closeSelectGroup" text="Cancel" press="onCloseSelectGroup"></Button>
     </buttons>
     <subHeader>
         <Toolbar>

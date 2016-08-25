@@ -8,7 +8,7 @@
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
-		"title": "Jam Group Feed",
+		"title": "SAP Jam Group Feed",
 		"description": "Embed content from SAP Jam into your site pages",
 		"sourceTemplate": {
 			"id": "ui5template.basicSAPUI5ApplicationProject",
@@ -98,7 +98,7 @@
 		"show.portal.settings": "false",
 		"settings": {
 			"groupId": {
-				"displayName": "Jam group ID",
+				"displayName": "SAP Jam group ID",
 				"value": ""
 			}
 		}
