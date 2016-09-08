@@ -3,7 +3,7 @@
           xmlns:data="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
     <SearchField id="jamSearchField" class="jamSearchField" search="onSearch"
                  placeholder="Search for content in SAP Jam"/>
-    <List id="resultsList" items="{/}" mode="SingleSelectMaster" selectionChange="onSelectionChange" class="searchList">
+    <List id="searchList" items="{/}" mode="SingleSelectMaster" selectionChange="onSelectionChange" class="searchList">
         <StandardListItem title="{ObjectReference/Title}" description="{Description}"
                           icon="{= ${Icon} ? 'sap-icon://{Icon}' : ''}" data:webUrl="{ObjectReference/WebURL}"/>
     </List>

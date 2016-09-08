@@ -1,0 +1,5622 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "uri": "Groups('XDfB1juize9bvmdpAg0dSt')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "XDfB1juize9bvmdpAg0dSt",
+        "Name": "2012 Performance Reviews",
+        "Description": "Timelines, process and training for this year's Performance Review cycle.",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "Welcome to the Ace company new hire group",
+        "OverviewAsLanding": false,
+        "Participation": "full",
+        "InvitePolicy": null,
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1440095207000)/",
+        "LastModifiedAt": "/Date(1440095315000)/",
+        "LastActivityAt": "/Date(1470637966000)/",
+        "MembersCount": 54,
+        "AutoGroup": true,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/XDfB1juize9bvmdpAg0dSt",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('XDfB1juize9bvmdpAg0dSt')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "Lz5gKwq8h27D0yB7O4mk6W",
+        "Name": "Account Executives Onboarding",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": null,
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453247433000)/",
+        "LastModifiedAt": "/Date(1453247439000)/",
+        "LastActivityAt": "/Date(1453247621000)/",
+        "MembersCount": 3,
+        "AutoGroup": true,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/Lz5gKwq8h27D0yB7O4mk6W",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('Lz5gKwq8h27D0yB7O4mk6W')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "VLtMhmUWfUXmL7o0fBMtLL",
+        "Name": "Ace Mentoring Program Resources",
+        "Description": "This group provides content and information to guide mentors and mentees on how to derive the most from the mentorship program at Ace Corp.",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453248559000)/",
+        "LastModifiedAt": "/Date(1453248559000)/",
+        "LastActivityAt": "/Date(1460920880000)/",
+        "MembersCount": 14,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/VLtMhmUWfUXmL7o0fBMtLL",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('VLtMhmUWfUXmL7o0fBMtLL')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "AZP9gC0EkOnRwjBpCWO7cd",
+        "Name": "ACE Sales Enablement Group",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": null,
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453247266000)/",
+        "LastModifiedAt": "/Date(1453247300000)/",
+        "LastActivityAt": "/Date(1453247427000)/",
+        "MembersCount": 6,
+        "AutoGroup": true,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/AZP9gC0EkOnRwjBpCWO7cd",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('AZP9gC0EkOnRwjBpCWO7cd')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "ycOnmiX4YROq96jpT5OjQp",
+        "Name": "Advertising Campaign Planning Mentoring",
+        "Description": "This group is for brand managers gearing up for their first ad campaign. We will be going through all aspects of running an ad campaign from creative copy to agency management.",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453248377000)/",
+        "LastModifiedAt": "/Date(1453248377000)/",
+        "LastActivityAt": "/Date(1460753485000)/",
+        "MembersCount": 17,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/ycOnmiX4YROq96jpT5OjQp",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('ycOnmiX4YROq96jpT5OjQp')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "3lKWO5oWtsRgPzx3l9LFb0",
+        "Name": "Box demo",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "admins",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1447881759000)/",
+        "LastModifiedAt": "/Date(1447881759000)/",
+        "LastActivityAt": "/Date(1459834709000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/3lKWO5oWtsRgPzx3l9LFb0",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('3lKWO5oWtsRgPzx3l9LFb0')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "frUksY35Zri8Y8GWRRJUP9",
+        "Name": "Collaborative Editing Demo",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "admins",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1455944668000)/",
+        "LastModifiedAt": "/Date(1455944695000)/",
+        "LastActivityAt": "/Date(1455945080000)/",
+        "MembersCount": 2,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/frUksY35Zri8Y8GWRRJUP9",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('frUksY35Zri8Y8GWRRJUP9')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "H8V2NebJkGNwWuiunSHD3y",
+        "Name": "Customer Service Excellence",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1440095375000)/",
+        "LastModifiedAt": "/Date(1440095382000)/",
+        "LastActivityAt": "/Date(1440095383000)/",
+        "MembersCount": 7,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/H8V2NebJkGNwWuiunSHD3y",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('H8V2NebJkGNwWuiunSHD3y')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('QiZcukijJhyqyez22Mn2eo')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "QiZcukijJhyqyez22Mn2eo",
+        "Name": "Customer Support",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1443684207000)/",
+        "LastModifiedAt": "/Date(1443702296000)/",
+        "LastActivityAt": "/Date(1470329899000)/",
+        "MembersCount": 5,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/QiZcukijJhyqyez22Mn2eo",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('QiZcukijJhyqyez22Mn2eo')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('t8lbGXOPjvojahocb0xN5p')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "t8lbGXOPjvojahocb0xN5p",
+        "Name": "Demo auto group",
+        "Description": "",
+        "IsActive": false,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": false,
+        "Participation": "full",
+        "InvitePolicy": null,
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453234839000)/",
+        "LastModifiedAt": "/Date(1453234839000)/",
+        "LastActivityAt": "/Date(1453234839000)/",
+        "MembersCount": 2,
+        "AutoGroup": true,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/t8lbGXOPjvojahocb0xN5p",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('t8lbGXOPjvojahocb0xN5p')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "LJcPscD0xy1MU4FcxATzEr",
+        "Name": "Demo Jam",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "admins",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453235324000)/",
+        "LastModifiedAt": "/Date(1453235324000)/",
+        "LastActivityAt": "/Date(1459753099000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/LJcPscD0xy1MU4FcxATzEr",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('LJcPscD0xy1MU4FcxATzEr')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "yVMnIU5NyMZwRy1XvpVwVN",
+        "Name": "Employee Onboarding Group",
+        "Description": "This group is intended for all new hires and employees transferring to new regions and geographies. Here you will find all the need-to-know information to help jump-start your new role!",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453248600000)/",
+        "LastModifiedAt": "/Date(1453248600000)/",
+        "LastActivityAt": "/Date(1453250252000)/",
+        "MembersCount": 115,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/yVMnIU5NyMZwRy1XvpVwVN",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('yVMnIU5NyMZwRy1XvpVwVN')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "yTCRmz7jflpsFYZQM8nFby",
+        "Name": "Excavator Series 123",
+        "Description": "The purpose of this group is to bring all the key players to the table to quickly make decisions and create the best proposal possible for the customer.",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453245970000)/",
+        "LastModifiedAt": "/Date(1453245976000)/",
+        "LastActivityAt": "/Date(1453246154000)/",
+        "MembersCount": 13,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/yTCRmz7jflpsFYZQM8nFby",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('yTCRmz7jflpsFYZQM8nFby')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "xpStxIcRbveq1nR0Iwin7N",
+        "Name": "HCP Order to Cash",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1461274795000)/",
+        "LastModifiedAt": "/Date(1461274796000)/",
+        "LastActivityAt": "/Date(1461274795000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/xpStxIcRbveq1nR0Iwin7N",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('xpStxIcRbveq1nR0Iwin7N')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "UUP36WKOBMIdaZwk3kC0FE",
+        "Name": "HCP Sales team opp",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "admins",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1461274556000)/",
+        "LastModifiedAt": "/Date(1461274557000)/",
+        "LastActivityAt": "/Date(1461274556000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/UUP36WKOBMIdaZwk3kC0FE",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('UUP36WKOBMIdaZwk3kC0FE')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('O3nya661PEuTRHU6H74ego')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "O3nya661PEuTRHU6H74ego",
+        "Name": "Leadership Development Program Group",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1440098114000)/",
+        "LastModifiedAt": "/Date(1447883411000)/",
+        "LastActivityAt": "/Date(1465307571000)/",
+        "MembersCount": 7,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/O3nya661PEuTRHU6H74ego",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('O3nya661PEuTRHU6H74ego')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "k41XENRwMWFfbs30Jc1mCD",
+        "Name": "Live! - Mega Machine Dealer Community",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453248368000)/",
+        "LastModifiedAt": "/Date(1453248368000)/",
+        "LastActivityAt": "/Date(1453248371000)/",
+        "MembersCount": 13,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/k41XENRwMWFfbs30Jc1mCD",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('k41XENRwMWFfbs30Jc1mCD')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "u6R42NeU1qRL4gLLUue2Mp",
+        "Name": "Market Launch \"Dynasol NG\"",
+        "Description": "Group to plan and execute the launch project for our new \"Dynasol NG\" product.",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453245764000)/",
+        "LastModifiedAt": "/Date(1453245764000)/",
+        "LastActivityAt": "/Date(1453245863000)/",
+        "MembersCount": 16,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/u6R42NeU1qRL4gLLUue2Mp",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('u6R42NeU1qRL4gLLUue2Mp')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "5CMdoyW1hlVeRPsscnGiIb",
+        "Name": "Mega Machine Dealer Community",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453245959000)/",
+        "LastModifiedAt": "/Date(1453245959000)/",
+        "LastActivityAt": "/Date(1453246022000)/",
+        "MembersCount": 14,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/5CMdoyW1hlVeRPsscnGiIb",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('5CMdoyW1hlVeRPsscnGiIb')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "HWq31MqHIMD5m7fRUyUL8u",
+        "Name": "Mega Machine Four Corners Dealership",
+        "Description": "The purpose of this group is to enable tight collaboration between dealers and corporate across the entire configure, price, quote (CPQ) process. ",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453245965000)/",
+        "LastModifiedAt": "/Date(1453245976000)/",
+        "LastActivityAt": "/Date(1453246119000)/",
+        "MembersCount": 14,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/HWq31MqHIMD5m7fRUyUL8u",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('HWq31MqHIMD5m7fRUyUL8u')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "qbTAJqifkSL0a3oHKaKmHO",
+        "Name": "Mike Malone",
+        "Description": "This is the private mentoring sub-group for Mike Malone",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453248500000)/",
+        "LastModifiedAt": "/Date(1453248500000)/",
+        "LastActivityAt": "/Date(1453248559000)/",
+        "MembersCount": 15,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/qbTAJqifkSL0a3oHKaKmHO",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('qbTAJqifkSL0a3oHKaKmHO')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "I9hJsX3meHN0lkfWD6AwQp",
+        "Name": "National Rivera - Implementation",
+        "Description": "Collaborate and synch up on the ongoing National Rivera DynaSol 1000 implementation project.",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": false,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_external",
+        "CreatedAt": "/Date(1453245667000)/",
+        "LastModifiedAt": "/Date(1453245667000)/",
+        "LastActivityAt": "/Date(1453245759000)/",
+        "MembersCount": 18,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/I9hJsX3meHN0lkfWD6AwQp",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('I9hJsX3meHN0lkfWD6AwQp')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "ulkZqaDTPPRoGqbsJigK0e",
+        "Name": "National Rivera -- Sales Strategy",
+        "Description": "Decide on sales strategy for Solar Energy Transformation project at National Rivera",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": false,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453245546000)/",
+        "LastModifiedAt": "/Date(1453245546000)/",
+        "LastActivityAt": "/Date(1453245620000)/",
+        "MembersCount": 16,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/ulkZqaDTPPRoGqbsJigK0e",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('ulkZqaDTPPRoGqbsJigK0e')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "HHOmnz7MHoI491P1CrM9Lv",
+        "Name": "National Rivera Canada Account Group",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453246162000)/",
+        "LastModifiedAt": "/Date(1453246175000)/",
+        "LastActivityAt": "/Date(1456913478000)/",
+        "MembersCount": 16,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/HHOmnz7MHoI491P1CrM9Lv",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('HHOmnz7MHoI491P1CrM9Lv')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "hu3pLxBlxvgR9owIdf43dJ",
+        "Name": "National Rivera Mexico",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453245870000)/",
+        "LastModifiedAt": "/Date(1453245875000)/",
+        "LastActivityAt": "/Date(1453245915000)/",
+        "MembersCount": 15,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/hu3pLxBlxvgR9owIdf43dJ",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('hu3pLxBlxvgR9owIdf43dJ')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('JngN39cTr88s5RC50sPhSg')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "JngN39cTr88s5RC50sPhSg",
+        "Name": "National Rivera North America Account Group",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453247717000)/",
+        "LastModifiedAt": "/Date(1453247728000)/",
+        "LastActivityAt": "/Date(1453248084000)/",
+        "MembersCount": 14,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/JngN39cTr88s5RC50sPhSg",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('JngN39cTr88s5RC50sPhSg')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "WTdxX2eQ2tYFz1seQj5Uh3",
+        "Name": "Onboarding demo",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "admins",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453328088000)/",
+        "LastModifiedAt": "/Date(1453328089000)/",
+        "LastActivityAt": "/Date(1453328088000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/WTdxX2eQ2tYFz1seQj5Uh3",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('WTdxX2eQ2tYFz1seQj5Uh3')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "eoF98mP2aMwMGnMAXJhGIJ",
+        "Name": "Order 12068 - Wind Turbine Pilot",
+        "Description": "This group will be used to find the best solution for keeping the Wind Turbine pilot Order on track and to resolve the issues with the delayed OEM parts.",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_external",
+        "CreatedAt": "/Date(1453247133000)/",
+        "LastModifiedAt": "/Date(1453247139000)/",
+        "LastActivityAt": "/Date(1453247140000)/",
+        "MembersCount": 16,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/eoF98mP2aMwMGnMAXJhGIJ",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('eoF98mP2aMwMGnMAXJhGIJ')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "pFvFq1pEk52afwh0XLqVKb",
+        "Name": "Quarterly Product Updates",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453247150000)/",
+        "LastModifiedAt": "/Date(1453247150000)/",
+        "LastActivityAt": "/Date(1453247260000)/",
+        "MembersCount": 16,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/pFvFq1pEk52afwh0XLqVKb",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('pFvFq1pEk52afwh0XLqVKb')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "ZFo2sxTRSkbuhaAdL3iLAo",
+        "Name": "Recycle infrastructure",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "admins",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1446218193000)/",
+        "LastModifiedAt": "/Date(1446218194000)/",
+        "LastActivityAt": "/Date(1463058708000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/ZFo2sxTRSkbuhaAdL3iLAo",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('ZFo2sxTRSkbuhaAdL3iLAo')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "vLOiF4yJGDvS5BMmNvTjUi",
+        "Name": "Resolve Solar Issue Group",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453948018000)/",
+        "LastModifiedAt": "/Date(1453948020000)/",
+        "LastActivityAt": "/Date(1453948023000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/vLOiF4yJGDvS5BMmNvTjUi",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('vLOiF4yJGDvS5BMmNvTjUi')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('POVACC8TA3Er25bJSw2mtK')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "POVACC8TA3Er25bJSw2mtK",
+        "Name": "Sales Tools",
+        "Description": "Collaboration Group for Ace Sales Tools",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": false,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1440095383000)/",
+        "LastModifiedAt": "/Date(1440095383000)/",
+        "LastActivityAt": "/Date(1440098830000)/",
+        "MembersCount": 8,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/POVACC8TA3Er25bJSw2mtK",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": false,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('POVACC8TA3Er25bJSw2mtK')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('0k06toYeAhzIDtwn7C781p')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "0k06toYeAhzIDtwn7C781p",
+        "Name": "Selenium Test Group 1",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1459712710000)/",
+        "LastModifiedAt": "/Date(1459712710000)/",
+        "LastActivityAt": "/Date(1459712751000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/0k06toYeAhzIDtwn7C781p",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('0k06toYeAhzIDtwn7C781p')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "PRh20MB8QCgzuYEJjpzKIt",
+        "Name": "Selenium Test Group 2",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "admins",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1459712823000)/",
+        "LastModifiedAt": "/Date(1459712823000)/",
+        "LastActivityAt": "/Date(1469466667000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/PRh20MB8QCgzuYEJjpzKIt",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('PRh20MB8QCgzuYEJjpzKIt')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "aUgLhUsF7UmrcKvaWsZclz",
+        "Name": "Solar Energy - New Product Training",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": false,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1440095065000)/",
+        "LastModifiedAt": "/Date(1440095065000)/",
+        "LastActivityAt": "/Date(1440095207000)/",
+        "MembersCount": 13,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/aUgLhUsF7UmrcKvaWsZclz",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('aUgLhUsF7UmrcKvaWsZclz')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "VxpAwYtC6vaamo8gmupPzp",
+        "Name": "Solar Optimization Bundle",
+        "Description": "Decide if we want to bundle Solar Optimization in with solar panel hardware as a package deal.",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": false,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453247626000)/",
+        "LastModifiedAt": "/Date(1453247626000)/",
+        "LastActivityAt": "/Date(1453247658000)/",
+        "MembersCount": 15,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/VxpAwYtC6vaamo8gmupPzp",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('VxpAwYtC6vaamo8gmupPzp')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "VcfGZqkQXGWH9nZrObBbcd",
+        "Name": "Solar Optimization Forum",
+        "Description": "Discussion and Q\u0026A's on Solar optimization software",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": false,
+        "Participation": "full",
+        "InvitePolicy": "followers",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1453247659000)/",
+        "LastModifiedAt": "/Date(1453247659000)/",
+        "LastActivityAt": "/Date(1453247707000)/",
+        "MembersCount": 15,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/VcfGZqkQXGWH9nZrObBbcd",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": false,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('VcfGZqkQXGWH9nZrObBbcd')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "vlOgORnaJkWFUjQmOP1FpV",
+        "Name": "turbine upgrade",
+        "Description": "",
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": "",
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "admins",
+        "UploadPolicy": "followers",
+        "ModerationPolicy": false,
+        "GroupType": "private_internal",
+        "CreatedAt": "/Date(1456352152000)/",
+        "LastModifiedAt": "/Date(1456352154000)/",
+        "LastActivityAt": "/Date(1456352152000)/",
+        "MembersCount": 1,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/vlOgORnaJkWFUjQmOP1FpV",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('vlOgORnaJkWFUjQmOP1FpV')/UpcomingEvents"
+          }
+        }
+      },
+      {
+        "__metadata": {
+          "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')",
+          "type": "SAPJam.Group"
+        },
+        "Id": "6fiH16Uq1oqcNpzjoRGZOz",
+        "Name": "Wind Turbine Upgrade Deal Room",
+        "Description": null,
+        "IsActive": true,
+        "AutoSubscribe": false,
+        "Announcement": null,
+        "OverviewAsLanding": true,
+        "Participation": "full",
+        "InvitePolicy": "all",
+        "UploadPolicy": "all",
+        "ModerationPolicy": false,
+        "GroupType": "public_internal",
+        "CreatedAt": "/Date(1453245916000)/",
+        "LastModifiedAt": "/Date(1453245921000)/",
+        "LastActivityAt": "/Date(1453245949000)/",
+        "MembersCount": 14,
+        "AutoGroup": false,
+        "DisableAtNotify": false,
+        "TermsOfUse": null,
+        "WebURL": "https://flpguy1-nwcp.dispatcher.neo.ondemand.com/sap/fiori/portaltrialcontent/jamgroupfeedwidget/destinations/jam/groups/6fiH16Uq1oqcNpzjoRGZOz",
+        "ContentsVisible": true,
+        "QuestionsVisible": true,
+        "IdeasVisible": true,
+        "DiscussionsVisible": true,
+        "TasksVisible": true,
+        "EventsVisible": true,
+        "LinksVisible": true,
+        "SubgroupsVisible": true,
+        "RecommendationsVisible": true,
+        "HasOverview": true,
+        "TaskPolicy": "readonly",
+        "IsAdmin": true,
+        "EmailFrequency": "none",
+        "PrimaryGadgetObject": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/PrimaryGadgetObject"
+          }
+        },
+        "FeedEntries": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/FeedEntries"
+          }
+        },
+        "ParentGroup": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/ParentGroup"
+          }
+        },
+        "SubGroups": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/SubGroups"
+          }
+        },
+        "Creator": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/Creator"
+          }
+        },
+        "ProfilePhoto": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/ProfilePhoto"
+          }
+        },
+        "ContentItems": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/ContentItems"
+          }
+        },
+        "AllContentItems": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/AllContentItems"
+          }
+        },
+        "Folders": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/Folders"
+          }
+        },
+        "AllFolders": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/AllFolders"
+          }
+        },
+        "ContentListItems": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/ContentListItems"
+          }
+        },
+        "Forums": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/Forums"
+          }
+        },
+        "Memberships": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/Memberships"
+          }
+        },
+        "FeaturedExternalObjects": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/FeaturedExternalObjects"
+          }
+        },
+        "PrimaryExternalObject": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/PrimaryExternalObject"
+          }
+        },
+        "AllDiscussions": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/AllDiscussions"
+          }
+        },
+        "AllIdeas": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/AllIdeas"
+          }
+        },
+        "AllQuestions": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/AllQuestions"
+          }
+        },
+        "Template": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/Template"
+          }
+        },
+        "Tasks": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/Tasks"
+          }
+        },
+        "UpcomingEvents": {
+          "__deferred": {
+            "uri": "Groups('6fiH16Uq1oqcNpzjoRGZOz')/UpcomingEvents"
+          }
+        }
+      }
+    ]
+  }
+}

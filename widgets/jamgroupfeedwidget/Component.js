@@ -19,13 +19,8 @@ sap.ui.define([
 		fragment: null,
 		view: null,
 		groupsModel: null,
-		mockData: false,
 
 		init: function() {
-			/*if (window.location.href.indexOf("mockData") !== -1) {
-				this.mockData = true;
-			}*/
-
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
 
@@ -42,9 +37,9 @@ sap.ui.define([
 		onConfigChange: function() {
 			var settings = this.getMetadata().getManifest()["sap.cloud.portal"].settings;
 			this.config.groupId = settings.groupId.value;
-			this.config.groupName = this.mockData ? "Solar Energy - New Product Support" : settings.groupName;
+			this.config.groupName = settings.groupName;
 
-			if (this.config.groupId !== "" || this.mockData) {
+			if (this.config.groupId !== "") {
 				this.createModel();
 				this.view.byId("feedInput").setPlaceholder("Post something in " + this.config.groupName);
 			}
@@ -86,23 +81,14 @@ sap.ui.define([
 		},
 
 		createModel: function() {
-			var url, model;
-			if (this.mockData) {
-				url = jQuery.sap.getModulePath("JamGroupFeedWidget") + "/mock/feeditems.json";
-				model = new sap.ui.model.json.JSONModel(url);
-				model.attachRequestCompleted(this.onModelRequestCompleted.bind(this));
-				this.setModel(model);
-				this.view.byId("feedInput").setEnabled(false);
-			} else {
-				this.view.setBusy(true);
-				this.view.byId("feedList").data("groupId", this.config.groupId);
+			this.view.setBusy(true);
+			this.view.byId("feedList").data("groupId", this.config.groupId);
 
-				url = jQuery.sap.getModulePath("JamGroupFeedWidget") + this.config.jamUrl + this.config.feedEntries.replace("{groupId}", this.config.groupId) + this.config.expandQuery;
+			var url = jQuery.sap.getModulePath("JamGroupFeedWidget") + this.config.jamUrl + this.config.feedEntries.replace("{groupId}", this.config.groupId) + this.config.expandQuery,
 				model = new sap.ui.model.json.JSONModel(url);
-				model.attachRequestCompleted(this.onModelRequestCompleted.bind(this));
-				model.attachRequestFailed(this.onModelRequestFailed.bind(this));
-				this.setModel(model);
-			}
+			model.attachRequestCompleted(this.onModelRequestCompleted.bind(this));
+			model.attachRequestFailed(this.onModelRequestFailed.bind(this));
+			this.setModel(model);
 		},
 
 		onModelRequestCompleted: function(oEvent) {
@@ -118,9 +104,6 @@ sap.ui.define([
 				for (var i = 0; i < results.length; i++) {
 					createdAt = results[i].CreatedAt;
 					results[i].CreatedDate = new Date(parseInt(createdAt.substring(createdAt.indexOf("(") + 1, createdAt.indexOf(")")))).toLocaleString();
-					if (this.mockData) {
-						results[i].ThumbnailImage.__metadata.media_src = modulePath + "/mock/" + results[i].Creator.FirstName + ".jpeg";
-					}
 				}
 				model.setData(results);
 

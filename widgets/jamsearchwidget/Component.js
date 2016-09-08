@@ -17,7 +17,6 @@ sap.ui.define([
 		config: null,
 		view: null,
 		isRuntime: null,
-		mockData: false,
 
 		icons: {
 			"ContentItem/Document": "document",
@@ -31,10 +30,6 @@ sap.ui.define([
 		},
 
 		init: function() {
-			/*if (window.location.href.indexOf("mockData") !== -1) {
-				this.mockData = true;
-			}*/
-
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
 
@@ -54,13 +49,8 @@ sap.ui.define([
 		},
 
 		createModel: function() {
-			var url;
-			if (this.mockData) {
-				url = jQuery.sap.getModulePath("JamSearchWidget") + "/mock/search.json";
-			} else {
-				this.view.setBusy(true);
-				url = jQuery.sap.getModulePath("JamSearchWidget") + this.config.jamUrl.replace("{query}", this.config.searchQuery);
-			}
+			var url = jQuery.sap.getModulePath("JamSearchWidget") + this.config.jamUrl.replace("{query}", this.config.searchQuery);
+			this.view.setBusy(true);
 			var model = new sap.ui.model.json.JSONModel(url);
 			model.attachRequestCompleted(this.onModelRequestCompleted.bind(this));
 			model.attachRequestFailed(this.onModelRequestFailed.bind(this));
@@ -83,14 +73,14 @@ sap.ui.define([
 				model.setData(results);
 
 				this.view.setBusy(false);
-				this.view.byId("resultsList").setVisible(true);
+				this.view.byId("searchList").setVisible(true);
 				this.view.byId("jamErrorHtml").setVisible(false);
 			}
 		},
 
 		onModelRequestFailed: function() {
 			this.view.setBusy(false);
-			this.view.byId("resultsList").setVisible(false);
+			this.view.byId("searchList").setVisible(false);
 			this.view.byId("jamErrorHtml").setVisible(true);
 
 			if (sap.ushell.Container.getService("SiteService").isDesignTime() && !window.jamAdminErrorShown) {
