@@ -10,7 +10,7 @@
             class="sapUiPopupWithPadding jamContentWidgetDialog">
         <VBox>
             <CheckBox selected="{Settings>/showGroupName}" select="onSelectShowGroupName"
-                      text="Show group name in widget" width="100%" id="showGroupName"/>
+                      text="Show group name in widget" width="100%" id="showGroupName" class="showGroupName"/>
             <Label text="Widget Height (pixels)"/>
             <Input
                     type="Number"

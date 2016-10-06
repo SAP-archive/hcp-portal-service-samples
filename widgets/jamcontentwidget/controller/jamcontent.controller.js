@@ -188,9 +188,14 @@ sap.ui.define([
 			}
 		},
 		createModel: function() {
+			var settings = this.oCmp.getMetadata().getManifest()["sap.cloud.portal"].settings;
 			this.view.byId("groupListItems").setBusyIndicatorDelay(0);
 			this.view.byId("groupListItems").setBusy(true);
-			this.getContentItemsAndFolders(true);
+			this.getContentItemsAndFolders({
+				isGroup: true,
+				showGroupName: settings.showGroupName === "true" || settings.showGroupName === true,
+				isGroupSet: true
+			});
 		},
 		onWidgetHeightChange: function(oEvent) {
 			var widgetHeight = oEvent.getSource();
@@ -219,7 +224,11 @@ sap.ui.define([
 					href: settings.groupId,
 					name: settings.groupName
 				});
-				this.getContentItemsAndFolders(true);
+				this.getContentItemsAndFolders({
+					isGroup: true,
+					showGroupName: settings.showGroupName === "true" || settings.showGroupName === true,
+					isGroupSet: true
+				});
 			} else {
 				this.isGroupSet = false;
 			}
@@ -260,7 +269,11 @@ sap.ui.define([
 			groupList.removeStyleClass("on-group-error");
 			sap.ui.getCore().byId("messageStripGroupError").setVisible(false);
 			this.view.byId("groupListItems").removeStyleClass("groupContentLoaded");
-			this.getContentItemsAndFolders(true);
+			this.getContentItemsAndFolders({
+				isGroup: true,
+				showGroupName: sap.ui.getCore().byId("showGroupName").getSelected(),
+				isGroupSet: true
+			});
 		},
 		onSettingsSubmit: function(oEvent) {
 			this.isJamHostValid();
@@ -322,10 +335,10 @@ sap.ui.define([
 			var isSelected = oEvent.getSource().getSelected();
 			this.view.byId("groupName").setVisible(isSelected);
 		},
-		getContentItemsAndFolders: function(isGroup) {
+		getContentItemsAndFolders: function(modelConfig) {
 			this.view.byId("groupListItems").setBusy(true);
 			var path;
-			if (isGroup) {
+			if (modelConfig.isGroup) {
 				path = "/Groups('" + this.folderTrail[this.folderTrail.length - 1].href + "')";
 			} else {
 				path = this.folderTrail[this.folderTrail.length - 1].href;
@@ -334,38 +347,42 @@ sap.ui.define([
 			this.foldersRequestCompleted = false;
 			var requestPath = jQuery.sap.getModulePath("jamcontentwidget") + this.config.jamUrl + path;
 			this.contentItemsModel = new sap.ui.model.json.JSONModel(requestPath + this.config.contentItems + this.config.expandQuery);
-			this.contentItemsModel.attachRequestCompleted(this.onContentItemsRequestCompleted.bind(this));
+			this.contentItemsModel.attachRequestCompleted(function(oEvent) {
+				this.onContentItemsRequestCompleted(oEvent, modelConfig);
+			}.bind(this));
 			this.contentItemsModel.attachRequestFailed(this.onRequestFailed.bind(this));
 			this.foldersModel = new sap.ui.model.json.JSONModel(requestPath + this.config.folderItems + this.config.expandQuery);
-			this.foldersModel.attachRequestCompleted(this.onFoldersRequestCompleted.bind(this));
+			this.foldersModel.attachRequestCompleted(function(oEvent) {
+				this.onFoldersRequestCompleted(oEvent, modelConfig);
+			}.bind(this));
 			this.foldersModel.attachRequestFailed(this.onRequestFailed.bind(this));
 		},
-		onContentItemsRequestCompleted: function(oEvent) {
+		onContentItemsRequestCompleted: function(oEvent, modelConfig) {
 			if (oEvent.getParameter("success")) {
 				this.contentItemResult = this.contentItemsModel.oData.d.results;
 				for (var i = 0; i < this.contentItemResult.length; i++) {
 					this.contentItemResult[i].Href = jQuery.sap.getModulePath("jamcontentwidget") + this.config.jamUrl + "/" + this.contentItemResult[i].__metadata.media_src;
 				}
 				this.contentItemsRequestCompleted = true;
-				this.onAfterRequestCompleted();
+				this.onAfterRequestCompleted(modelConfig);
 			} else {
 				this.onRequestFailed();
 			}
 
 		},
-		onFoldersRequestCompleted: function(oEvent) {
+		onFoldersRequestCompleted: function(oEvent, modelConfig) {
 			if (oEvent.getParameter("success")) {
 				this.folderResults = this.foldersModel.oData.d.results;
 				for (var i = 0; i < this.folderResults.length; i++) {
 					this.folderResults[i].ContentItemType = "Folder";
 				}
 				this.foldersRequestCompleted = true;
-				this.onAfterRequestCompleted();
+				this.onAfterRequestCompleted(modelConfig);
 			} else {
 				this.onRequestFailed();
 			}
 		},
-		onAfterRequestCompleted: function() {
+		onAfterRequestCompleted: function(modelConfig) {
 			var settings = this.oCmp.getMetadata().getManifest()["sap.cloud.portal"].settings;
 			if (this.contentItemsRequestCompleted && this.foldersRequestCompleted) {
 				this.content = this.folderResults.concat(this.contentItemResult);
@@ -377,9 +394,10 @@ sap.ui.define([
 				var dataModel = new sap.ui.model.json.JSONModel(this.createNewModel(this.content));
 				var viewModel = new sap.ui.model.json.JSONModel();
 				settings.isGroupSet = true;
-				viewModel.setProperty("/showHeaderBox", settings.isGroupSet);
+				viewModel.setProperty("/showHeaderBox", modelConfig.isGroupSet);
 				viewModel.setProperty("/groupName", this.folderTrail[0].name);
-				viewModel.setProperty("/showGroupName", settings.showGroupName === "true" || settings.showGroupName === true);
+				viewModel.setProperty("/showGroupName", modelConfig.showGroupName);
+				//viewModel.setProperty("/showGroupName", settings.showGroupName === "true" || settings.showGroupName === true);
 				this.view.setModel(viewModel, "Settings");
 				this.view.setModel(dataModel, "Content");
 				this.view.byId("groupListItems").setBusy(false);
@@ -403,6 +421,7 @@ sap.ui.define([
 			breadcrumbs.addStyleClass("breadCrumbsLoaded");
 		},
 		onBreadcrumbLinkPress: function(oEvent) {
+			var settings = this.oCmp.getMetadata().getManifest()["sap.cloud.portal"].settings;
 			oEvent.cancelBubble();
 			oEvent.preventDefault();
 			this.view.byId("groupListItems").removeStyleClass("groupContentLoaded");
@@ -413,7 +432,11 @@ sap.ui.define([
 					break;
 				}
 			}
-			this.getContentItemsAndFolders(this.folderTrail.length === 1);
+			this.getContentItemsAndFolders({
+				isGroup: this.folderTrail.length === 1,
+				showGroupName: settings.showGroupName === "true" || settings.showGroupName === true,
+				isGroupSet: true
+			});
 		},
 		onRequestFailed: function() {
 			this.view.byId("groupListItems").setBusy(false);
@@ -538,7 +561,11 @@ sap.ui.define([
 						href: href,
 						name: contentItem.Name
 					});
-					this.getContentItemsAndFolders(false);
+					this.getContentItemsAndFolders({
+						isGroup: false,
+						showGroupName: settings.showGroupName === "true" || settings.showGroupName === true,
+						isGroupSet: true
+					});
 					oEvent.preventDefault();
 					break;
 				case ContentTypes.BLOG_ENTRY:

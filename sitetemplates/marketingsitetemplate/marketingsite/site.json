@@ -48,9 +48,7 @@
 				}
 			],
 			"config": {
-				"icon": "marketingsitetemplate/marketingsite/thumbnail.jpg",
-				"theme.id": "sap_bluecrystal",
-				"theme.active": "[\"supportsiteteched\",\"sap_bluecrystal\",\"sap_hcb\"]"
+				"icon": "marketingsitetemplate/marketingsite/thumbnail.jpg"
 			}
 		}
 	}

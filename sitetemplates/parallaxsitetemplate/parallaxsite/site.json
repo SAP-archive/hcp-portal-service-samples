@@ -37,9 +37,7 @@
       ],
       "config": {
         "isOnline": "false",
-        "icon": "parallaxsitetemplate/parallaxsite/thumbnail.png",
-        "theme.id": "sap_bluecrystal",
-        "theme.active": "[\"sap_bluecrystal\",\"sap_hcb\"]"
+        "icon": "parallaxsitetemplate/parallaxsite/thumbnail.png"
       }
     }
   }
