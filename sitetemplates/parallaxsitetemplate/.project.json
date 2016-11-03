@@ -1,6 +1,19 @@
 {
-  "projectType": [
-    "sap.watt.uitools.ide.web",
-    "sap.site.template"
-  ]
+	"projectType": [
+		"sap.site.template"
+	],
+	"generation": [
+		{
+			"templateId": "sitetemplatePlugin.starterSiteTemplate",
+			"templateVersion": "1.0.0",
+			"dateTimeStamp": "Wed, 19 Oct 2016 04:42:36 GMT"
+		}
+	],
+	"translation": {
+		"translationDomain": "",
+		"supportedLanguages": "en,fr,de",
+		"defaultLanguage": "en",
+		"defaultI18NPropertyFile": "i18n.properties",
+		"resourceModelName": "i18n"
+	}
 }

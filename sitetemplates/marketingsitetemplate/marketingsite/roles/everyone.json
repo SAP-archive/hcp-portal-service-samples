@@ -1,18 +1,18 @@
 {
-  "_version": "1.0",
-  "identification": {
-    "id": "Everyone",
-    "namespace": "",
-    "entityType": "role",
-    "title": "",
-    "description": "",
-    "i18n": ""
-  },
-  "payload": {
-    "catalogs": [{
-      "namespace": "",
-      "id": "hcp://marketingsitetemplate/marketingsite/catalogs/defaultCatalog.json"
-    }],
-    "groups": []
-  }
+	"_version": "1.0",
+	"identification": {
+		"id": "Everyone",
+		"namespace": "",
+		"entityType": "role",
+		"title": "",
+		"description": "",
+		"i18n": ""
+	},
+	"payload": {
+		"catalogs": [{
+			"namespace": "",
+			"id": "hcp://marketingsitetemplate/marketingsite/catalogs/defaultCatalog.json"
+		}],
+		"groups": []
+	}
 }

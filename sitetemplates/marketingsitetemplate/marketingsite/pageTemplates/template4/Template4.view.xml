@@ -1,0 +1,37 @@
+<mvc:View class="cpv2-page-1280" controllerName="cpv2.templates.template4.Template4" height="100%"
+	xmlns:cpv2Controls="sap.hana.uis.flp.control" xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page enableScrolling="true" showFooter="false" showHeader="false">
+		<content>
+			<l:VerticalLayout id="containerLayout" width="100%">
+				<l:BlockLayout id="BlockLayout" background="{/selectedBackground}">
+					<l:BlockLayoutRow>
+						<l:BlockLayoutCell>
+							<cpv2Controls:Widget alias="page4.header"></cpv2Controls:Widget>
+						</l:BlockLayoutCell>
+					</l:BlockLayoutRow>
+					<l:BlockLayoutRow>
+						<l:BlockLayoutCell>
+							<cpv2Controls:Widget alias="page4.widget1"></cpv2Controls:Widget>
+						</l:BlockLayoutCell>
+						<l:BlockLayoutCell>
+							<cpv2Controls:Widget alias="page4.widget2"></cpv2Controls:Widget>
+						</l:BlockLayoutCell>
+						<l:BlockLayoutCell>
+							<cpv2Controls:Widget alias="page4.widget3"></cpv2Controls:Widget>
+						</l:BlockLayoutCell>
+					</l:BlockLayoutRow>
+					<l:BlockLayoutRow>
+						<l:BlockLayoutCell>
+							<cpv2Controls:Widget alias="page4.image"></cpv2Controls:Widget>
+						</l:BlockLayoutCell>
+					</l:BlockLayoutRow>
+					<l:BlockLayoutRow>
+						<l:BlockLayoutCell>
+							<cpv2Controls:Widget alias="page4.social"></cpv2Controls:Widget>
+						</l:BlockLayoutCell>
+					</l:BlockLayoutRow>
+				</l:BlockLayout>
+			</l:VerticalLayout>
+		</content>
+	</Page>
+</mvc:View>

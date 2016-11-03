@@ -14,41 +14,11 @@
 			</layoutData>
 			<cpv2Controls:Widget alias="page1.intro_text"></cpv2Controls:Widget>
 		</VBox>
-		<VBox>
+		<VBox class="sapUiSmallMarginTopBottom">
 			<layoutData>
-				<l:GridData span="L4 M6 S12"/>
+				<l:GridData span="L12 M12 S12"/>
 			</layoutData>
-			<cpv2Controls:Widget alias="page1.tile1"></cpv2Controls:Widget>
-		</VBox>
-		<VBox>
-			<layoutData>
-				<l:GridData span="L4 M6 S12"/>
-			</layoutData>
-			<cpv2Controls:Widget alias="page1.tile2"></cpv2Controls:Widget>
-		</VBox>
-		<VBox>
-			<layoutData>
-				<l:GridData span="L4 M6 S12"/>
-			</layoutData>
-			<cpv2Controls:Widget alias="page1.tile3"></cpv2Controls:Widget>
-		</VBox>
-		<VBox>
-			<layoutData>
-				<l:GridData span="L4 M6 S12"/>
-			</layoutData>
-			<cpv2Controls:Widget alias="page1.tile4"></cpv2Controls:Widget>
-		</VBox>
-		<VBox>
-			<layoutData>
-				<l:GridData span="L4 M6 S12"/>
-			</layoutData>
-			<cpv2Controls:Widget alias="page1.tile5"></cpv2Controls:Widget>
-		</VBox>
-		<VBox>
-			<layoutData>
-				<l:GridData span="L4 M6 S12"/>
-			</layoutData>
-			<cpv2Controls:Widget alias="page1.tile6"></cpv2Controls:Widget>
+			<cpv2Controls:Widget alias="page1.tilebuilder"></cpv2Controls:Widget>
 		</VBox>
 	</l:Grid>
 </mvc:View>

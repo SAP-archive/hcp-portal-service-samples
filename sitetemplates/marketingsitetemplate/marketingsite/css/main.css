@@ -5,60 +5,88 @@ body,
 .pageTemplateContainer>div {
     height: 100%;
 }
+
 .cpv2-page-1280 {
     max-width: 1280px;
     margin: 0 auto;
     background-color: #fff;
     overflow: auto;
 }
+
+
 /*.cpv2-page-1280 {*/
+
 
 /*   max-width:1280px;    */
 
+
 /*   margin:0 auto;*/
+
 
 /*   background-color:transparent;*/
 
+
 /*   overflow:auto;*/
 
+
 /*}*/
+
 
 /*.sapThemeBaseBG, .sapThemeBaseBG-asBackgroundColor {*/
 
+
 /*  background-color: rgba(0, 0, 0, 0) !important;*/
 
+
 /*}*/
+
 
 /*.sapMShellGlobalInnerBackground {*/
 
+
 /*  background-image: none !important;*/
 
+
 /*}*/
+
 
 /*.sap-desktop ::-webkit-scrollbar-thumb {*/
 
+
 /*  background-color: rgba(0, 0, 0, 0) !important;*/
 
+
 /*}*/
+
 
 /*.sap-desktop ::-webkit-scrollbar {*/
 
+
 /*  width: 16px;*/
+
 
 /*  height: 16px;*/
 
+
 /*  background-color: rgba(0, 0, 0, 0) !important;*/
 
+
 /*}*/
+
 
 /*#siteEditorView--page-edit-pane{*/
 
+
 /*    background:none!important;*/
+
 
 /*}*/
 
+
 /*.adminMode #shell-container {*/
 
+
 /*    background:none !important;*/
+
 
 /*}*/

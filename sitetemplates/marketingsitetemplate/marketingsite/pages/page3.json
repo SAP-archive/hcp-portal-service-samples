@@ -1,5 +1,5 @@
 {
-	 "_version": "1.3.0",
+	"_version": "1.3.0",
 	"sap.app": {
 		"_version": "1.1.0",
 		"id": "hcp://marketingsitetemplate/marketingsite/pages/page3.json",
@@ -9,9 +9,9 @@
 		"crossNavigation": {
 			"context": {},
 			"inbounds": {
-				"0":{
-				"semanticObject": "page3",
-				"action": "Display"
+				"0": {
+					"semanticObject": "page3",
+					"action": "Display"
 				}
 			}
 		}
@@ -20,178 +20,495 @@
 		"applicationType": "page",
 		"nodes": {
 			"section1": {
-				"sectionAlias": "page3.section1",
-				"sap.app": {
-					"_version": "1.3.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0":{
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
-								}
-							}
-						}
-					}
-				},
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"componentName": "htmlwidget.local",
-					"uri": "/htmlwidget"
-				},
-				 "sap.ui5":{
-        		 "_version": "1.2.0",
-        		 "componentName": "htmlwidget.local"
-        		},
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "     <style>         .container {             padding: 0;             margin: 0;             font-family: Verdana;             overflow: hidden;             position: relative;          }                  img {             width: 100%;         }           .motto {             font-size: 2em;          }          .headline h2 {             font-size: 1em;             font-weight: normal;             color: #fff;             line-height: 20px;         }           .headline{             position: absolute;             bottom: 24px;             right: 24px;             background-color: rgba(0, 0, 0, 0.4);             padding: 16px;             margin: 20px 0 0 0;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;             line-height: 30px;             color: #FFF;         }           @media only screen and (max-width:690px) {            .motto {                 font-size: 1em;             }              .headline h2 {                 font-size: 0.6em;             }              .headline {                 bottom: 0;                 left: 0;                 padding: 5px;                 margin: 10px;             }         }      </style>  <div class=\"container\"> <img src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/jump.jpg\">     <div class=\"headline\">     <div class=\"motto\">September 9: Jump-Start Your Fiori UX Knowledge</div>     <h2>Learn about installation, configuration, and more.</h2>     </div>   </div>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
-						}
-					}
-				},
-				 "sap.flp": {
-            	"_version": "1.1.0",
-            	"config": {}
-        		},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				}
-			},
-			"section2": {
-				"sectionAlias": "page3.section2",
 				"_version": "1.3.0",
 				"sap.app": {
 					"_version": "1.3.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0":{
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
-								}
-							}
-						}
-						
-					}
+					"id": "hcp://portalapptemplates/imageWidget/manifest.json",
+					"title": "Image Widget",
+					"description": "A widget template that displays images."
 				},
 				"sap.platform.hcp": {
 					"_version": "1.2.0",
 					"appName": "portalapptemplates",
-					"componentName": "htmlwidget.local",
-					"uri": "/htmlwidget"
+					"uri": "/imageWidget"
 				},
-				"sap.ui5":{
-            	"_version": "1.2.0",
-            	"componentName": "htmlwidget.local"
-        		},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": " <style>          section#left {             background-color: #fff;             padding: 0;             margin: 0;             overflow: hidden;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;             padding: 16px;          }         section h1 {             color: #007cc0;             font-size: 20px;             padding-top: 48px;             padding-bottom: 16px;             border-bottom: solid #cdcdcd 4px;             font-weight: normal;             margin: 0;         }          section#left h1{             background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYhJREFUeNqsVt1xgzAMhlze005AOkG7QcgEyQjuE7yVTFA6Qekbb4EN6AQhGzQbwAbpBFS6k1OdsY1zWHc6Y5C/T7Z+TDgMQ+AiaZoKGARNq7IsK5d1y8Bd1qAbem5dF4XqDsjTDjxsab6HATUGjcisBy1AG7DryO4BnYD5j5GAwI80/SLgaMLJGo+MFEliTnIjUMDnyC8nWbAP18CPrFgy/BMAY0PbnSs1YGUjApYpXoXHALPk5An3SWYX34GYCNwrLAphfAT9mCDY33aQJEksq9OSkltZFyylcxjeDfZn0FxW8tSxXFRw5pCJYCNxFzPO2SmtXQie4TheNO+ze7Oos8QAe49g/QnBPy24B7At1G6KhfZmWIDEJwDuqd+sJhxvdEdUOOw4cgCvZQ2orQJffnsoskIbZOqmOw8EuSmLMk9tYkfOjgiwoi+sNRyoIl36/1mJQaWLwZVIarowClCcb+ldrwGu6ZqUziG4sN7Jlr8K3ntGQHMqWSedq+E9vy2t4dkqfwIMABummN6YkXoiAAAAAElFTkSuQmCC);             background-position: 100% 48px;             background-repeat: no-repeat;         }           section#left h2, section#right h2 {             font-size: 16px;             color: #666;             padding: 16px 0;             margin: 0;             cursor: pointer;         }          section#left p, section#right p {             font-size: 12px;             color: #666;             margin: 0;             padding-bottom: 16px;         }          p .link {             color: #007CC0;             cursor: pointer;         }          img.icon{             width: 18px;             height: 18px;             padding-right: 16px;             padding-bottom: 16px;         }          .item {             border-bottom: solid 1px #cdcdcd;          }          .item:last-child {             border-bottom: none;         }      </style>       <section id=\"left\">     <h1>Recommended Training</h1>     <div class=\"item\">         <h2 title=\"The Magic 8 Series - Generate Demand with SAP\">The Magic 8 Series - Generate Demand with SAP</h2>         <p>Tags <span class=\"link\"> Sell, Manage, English</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/star.png\">     </div>     <div class=\"item\">         <h2 title=\"Replay: SUSE Technical Webinar â Get started with Lumira CVOM extensions - the SAP and SUSE Campaign\">Replay: SUSE Technical Webinar - Get started with Lumira</h2>         <p>Tags <span class=\"link\"> Crystal Reports, SAP Predictive Analysis, SAP Business Intelligence, Market</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/star.png\">     </div>     <div class=\"item\">         <h2 title=\"Top Assets: Distribution Playbook (Data to Decisions with BI)\">Top Assets: Distribution Playbook (Data to Decisions with BI)</h2>         <p>Tags <span class=\"link\">SAP Crystal Reports, SAP BusinessObjects Edge, SAP BusinessObjects Mobile</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/star.png\">     </div>  </section>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
+						"source": {
+							"value": "2"
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/img/jump.jpg"
+							}]
+						},
+						"state": {
+							"value": "1"
+						},
+						"height": {
+							"value": "300"
+						},
+						"units": {
+							"value": "pt"
+						},
+						"alignment": {
+							"value": 2
 						}
 					}
 				},
 				"sap.flp": {
-            	"_version": "1.1.0",
-            	"config": {}
-        		},
+					"config": {}
+				},
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
-				}
+				},
+				"sap.ui5": {
+					"_version": "1.2.0",
+					"componentName": "sap.cp.widgets.image",
+					"routing": {
+						"config": {
+							"routerClass": "sap.hana.uis.flp.routing.Router"
+						}
+					},
+					"rootView": "sap.cp.widgets.image.view.Widget",
+					"models": {
+						"i18nApp": {
+							"type": "sap.ui.model.resource.ResourceModel",
+							"uri": "i18n/i18n.properties"
+						}
+					},
+					"resources": {
+						"css": [{
+							"uri": "css/style.css"
+						}]
+					}
+				},
+				"local": true,
+				"sectionAlias": "page3.section1"
 			},
-			"section3": {
-				"sectionAlias": "page3.section3",
+			"section2": {
 				"_version": "1.3.0",
 				"sap.app": {
 					"_version": "1.1.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
 					},
-					"crossNavigation": {
-						"inbounds": {
-							"0":{
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
-								}
-							}
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
 						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"componentName": "htmlwidget.local",
-					"uri": "/htmlwidget"
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
 				},
-				"sap.ui5":{
-            	"_version": "1.2.0",
-            	"componentName": "htmlwidget.local"
-        		},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "      <style>          section#right {             padding: 16px;             background-color: #fff;             margin: 0;             overflow: hidden;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;         }         section h1 {             color: #007cc0;             font-size: 20px;             padding-top: 48px;             padding-bottom: 16px;             border-bottom: solid #cdcdcd 4px;             font-weight: normal;             margin: 0;         }          section#right h1{             background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYhJREFUeNq0VtFtgzAQdSL+225AJyidADpBsgH9g7/SCUgnKP3jMxuUThAyQbJB2glKN+iz9FJZ1mEcKCedbPnse2ffvYNFlmWhUuoR2tZ13aoZZAnVICU0UTNJMNVBnucJA9TaSi+ynAhQYdjxJWKOO6w33iDYHDpsGwxPPeYV7f0g2jmjOWHszAOGlAMXLXHu2nUTXW0rzq94ILLy4COJC0Rysp5SwpJIfDGTefTw/YMqa1wgW+jHeTP0DQf+HGPeGXY1FKjIEzj51M/D6uroVMqbdnQn2Pa0D5ORYH02DRwhkIL5innrLWzFKMazoiI66QwwTchqTOJtgJbMfoV+X1DCfjchP2JruTATyz3nJ6rMIvG9iRR1ZLWeAzSlHux25APSCGtmDqSWUwyCsHeFRoU9kBdf0GfyyCWdMydwrsvxnXNNwoLfh9ZB3FRYc95kfUm/YgC30Bfqjc2voCcHqSMffaTdePOETU1Hdm8z91+/8a52MkYW+CVKyObZJGC57ecE+RVgAM+7lVQNsa30AAAAAElFTkSuQmCC);             background-position: 100% 48px;             background-repeat: no-repeat;         }          section#left h2, section#right h2 {             font-size: 16px;             color: #666;             padding: 16px 0;             margin: 0;             cursor: pointer;         }          section#left p, section#right p {             font-size: 12px;             color: #666;             margin: 0;             padding-bottom: 16px;         }          p .link {             color: #007CC0;             cursor: pointer;         }          img.icon{             width: 18px;             height: 18px;             padding-right: 16px;             padding-bottom: 16px;         }          .item {             border-bottom: solid 1px #cdcdcd;          }          .item:last-child {             border-bottom: none;         }       </style>       <section id=\"right\">     <h1>Participate in Communities</h1>     <div class=\"item\">         <h2 title=\"Blitz Days in a Box Boost Revenue for SAP Business Suite Powered by SAP HANA\">Blitz Days in a Box Boost Revenue for SAP Business Suite..</h2>         <p>Tags <span class=\"link\">Global, All Partners, Value-Added Reseller (VAR), Extended Business Member</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">     </div>     <div class=\"item\">         <h2 title=\"SAP Language Service Partners Community\">SAP Language Service Partners Community</h2>         <p>Tags <span class=\"link\">All Partners, Language & Translation, English, Global</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">     </div>     <div class=\"item\">         <h2 title=\"What Do You Think About the SAP Learning Hub?\">What Do You Think About the SAP Learning Hub?</h2>         <p>Tags <span class=\"link\">Global, All Partners, Manage, Support</span></p>         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/heart.png\">         <img class=\"icon\" src=\"/sap/fiori/marketingsitetemplate/marketingsite/img/share.png\">     </div>   </section>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/page3_Rich_Text_Editor_1.html"
+							}]
 						}
 					}
 				},
-				"sap.flp": {
-            	"_version": "1.1.0",
-            	"config": {}
-        		},
+				"local": "true",
+				"sectionAlias": "page3.section2"
+			},
+			"section3": {
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/listbuilder/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "List Builder",
+					"description": "Organize website content, ideas and links with predefined list items",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
 				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				}
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.listbuilder.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.listbuilder"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/listbuilder/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader templateutils menurenamer imageuploader templateutils menurenamer",
+						"portalplugins": "imageuploader templateutils",
+						"customplugins": "menurenamer",
+						"menu": {
+							"list": {
+								"title": "List",
+								"items": "template | cutitem copyitem pasteitem deleteitem"
+							},
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"table_toolbar": "",
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"templates": [{
+							"title": "{TEMPLATE1_TITLE}",
+							"url": "/templates/template1.html"
+						}, {
+							"title": "{TEMPLATE2_TITLE}",
+							"url": "/templates/template2.html"
+						}, {
+							"title": "{TEMPLATE3_TITLE}",
+							"url": "/templates/template3.html"
+						}, {
+							"title": "{TEMPLATE4_TITLE}",
+							"url": "/templates/template4.html"
+						}, {
+							"title": "{TEMPLATE5_TITLE}",
+							"url": "/templates/template5.html"
+						}],
+						"template_cdate_classes": "timestamp",
+						"template_cdate_format": "%d.%m.%Y | %H:%M:%S",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/page3_List_Builder_2.html"
+							}, {
+								"value": "/assets/img/heart.png"
+							}, {
+								"value": "/assets/img/share.png"
+							}, {
+								"value": "/assets/img/star.png"
+							}, {
+								"value": "/assets/img/settings.png"
+							}]
+						}
+					}
+				},
+				"local": "true",
+				"sectionAlias": "page3.section3"
+			},
+			"section4": {
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/listbuilder/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "List Builder",
+					"description": "Organize website content, ideas and links with predefined list items",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.listbuilder.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.listbuilder"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/listbuilder/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader templateutils menurenamer imageuploader templateutils menurenamer",
+						"portalplugins": "imageuploader templateutils",
+						"customplugins": "menurenamer",
+						"menu": {
+							"list": {
+								"title": "List",
+								"items": "template | cutitem copyitem pasteitem deleteitem"
+							},
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"table_toolbar": "",
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"templates": [{
+							"title": "{TEMPLATE1_TITLE}",
+							"url": "/templates/template1.html"
+						}, {
+							"title": "{TEMPLATE2_TITLE}",
+							"url": "/templates/template2.html"
+						}, {
+							"title": "{TEMPLATE3_TITLE}",
+							"url": "/templates/template3.html"
+						}, {
+							"title": "{TEMPLATE4_TITLE}",
+							"url": "/templates/template4.html"
+						}, {
+							"title": "{TEMPLATE5_TITLE}",
+							"url": "/templates/template5.html"
+						}],
+						"template_cdate_classes": "timestamp",
+						"template_cdate_format": "%d.%m.%Y | %H:%M:%S",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/page3_List_Builder_3.html"
+							}, {
+								"value": "/assets/img/performance.png"
+							}]
+						}
+					}
+				},
+				"local": "true",
+				"sectionAlias": "page3.section4"
 			}
 		}
 	}

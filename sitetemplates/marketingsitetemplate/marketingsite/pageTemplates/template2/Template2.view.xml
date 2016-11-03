@@ -9,17 +9,31 @@
 				</layoutData>
 				<cpv2Controls:Widget alias="page2.section1"></cpv2Controls:Widget>
 			</VBox>
-			<VBox>
+			<VBox class="sapUiSmallMarginBottom sapUiSmallMarginBeginEnd">
 				<layoutData>
-					<l:GridData span="L4 M4 S12"/>
+					<l:GridData span="L12 M12 S12"/>
 				</layoutData>
 				<cpv2Controls:Widget alias="page2.section2"></cpv2Controls:Widget>
 			</VBox>
-			<VBox>
+			<VBox class="sapUiSmallMargin">
+				<layoutData>
+					<l:GridData span="L4 M4 S12"/>
+				</layoutData>
+				<cpv2Controls:Widget alias="page2.section3"></cpv2Controls:Widget>
+			</VBox>
+			<VBox class="sapUiSmallMargin">
+				<layoutData >
+					<l:GridData span="L8 M8 S12"/>
+				</layoutData>
+				<cpv2Controls:Widget alias="page2.section4"></cpv2Controls:Widget>
+				<layoutData class="sapUiSmallMarginBeginEnd">
+					<l:GridData span="L8 M8 S12"/>
+				</layoutData>
+				<cpv2Controls:Widget alias="page2.section5"></cpv2Controls:Widget>
 				<layoutData>
 					<l:GridData span="L8 M8 S12"/>
 				</layoutData>
-				<cpv2Controls:Widget alias="page2.section3"></cpv2Controls:Widget>
+				<cpv2Controls:Widget alias="page2.section6"></cpv2Controls:Widget>
 			</VBox>
 		</l:content>
 	</l:Grid>

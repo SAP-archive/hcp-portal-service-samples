@@ -8,30 +8,34 @@
 	"payload": {
 		"locked": "false",
 		"tags": [],
-		"entities": [
-		    {
-				"title": "{{marketing}}",
-				"target": {
-					"semanticObject": "page2",
-					"action": "Display"
-				},
-				"entityType": "PAGE"
+		"entities": [{
+			"title": "{{marketing}}",
+			"target": {
+				"semanticObject": "page2",
+				"action": "Display"
 			},
-			{
-				"title": "{{news}}",
-				"target": {
-					"semanticObject": "page1",
-					"action": "Display"
-				},
-				"entityType": "PAGE"
+			"entityType": "PAGE"
+		}, {
+			"title": "{{news}}",
+			"target": {
+				"semanticObject": "page1",
+				"action": "Display"
 			},
-			{
-				"title": "{{training}}",
-				"target": {
-					"semanticObject": "page3",
-					"action": "Display"
-				},
-				"entityType": "PAGE"
-			}]
+			"entityType": "PAGE"
+		}, {
+			"title": "{{training}}",
+			"target": {
+				"semanticObject": "page3",
+				"action": "Display"
+			},
+			"entityType": "PAGE"
+		}, {
+			"title": "{{contactus}}",
+			"target": {
+				"semanticObject": "page4",
+				"action": "Display"
+			},
+			"entityType": "PAGE"
+		}]
 	}
 }

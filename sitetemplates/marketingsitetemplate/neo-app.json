@@ -4,6 +4,15 @@
     {
       "path": "/resources",
       "target": {
+        "type": "application",
+        "name": "sapui5preview",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/resources",
+      "target": {
         "type": "service",
         "name": "sapui5",
         "entryPath": "/resources"
@@ -13,27 +22,20 @@
     {
       "path": "/test-resources",
       "target": {
+        "type": "application",
+        "name": "sapui5preview",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
         "type": "service",
         "name": "sapui5",
         "entryPath": "/test-resources"
       },
       "description": "SAPUI5 Test Resources"
-    }
-  ],
-  "cacheControl": [
-    {
-      "directive": "private",
-      "maxAge": 0,
-      "path": "*html"
-    },
-    {
-      "directive": "private",
-      "maxAge": 0,
-      "path": "sap-ui-cachebuster-info.json"
-    },
-    {
-      "directive": "public",
-      "maxAge": 31536000
     }
   ]
 }

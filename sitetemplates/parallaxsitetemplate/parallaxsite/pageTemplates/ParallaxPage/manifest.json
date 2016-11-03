@@ -39,490 +39,892 @@
 			"widget12": {
 				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
 					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
 						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
 				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "<article class=\" footer-links\">\n                                <h2>Learn the Latest</h2>\n                                <ul>\n                                    <li class=\"doc\">\n                                            <a href=\"https://help.hana.ondemand.com/cloud_portal/frameset.htm?33abce6ba2044b62a990e34737d65445.html\" target=\"_blank\">SAP HCP Portal Service Release Notes</a></li>\n                                    </ul>\n                            </article>",
-							"displayName": "HTML",
-							"description": "",
-							"id": "markup"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_10.html"
+							}, {
+								"value": "/assets/img/document.png"
+							}]
 						}
 					}
 				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				},
+				"local": "true",
 				"sectionAlias": "parallaxpage.widget12"
 			},
 			"widget11": {
 				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
 					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
 						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
 				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "<article class=\" footer-links\">\n                                <h2>Product Overview</h2>\n                                <ul>\n                                    <li class=\"doc\">\n                                            <a href=\"http://scn.sap.com/docs/DOC-26416\" target=\"_blank\">SAP HCP Portal Service Overview Deck</a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"https://www.sapstore.com/medias/SAP-HANA-Cloud-Portal-Solution-Brief.pdf?context=bWFzdGVyfHBkZnN8NTQ2NzE5fGFwcGxpY2F0aW9uL3BkZnxwZGZzL2g1Ni9oOTEvODc5NjQyOTgxMTc0Mi5wZGZ8Y2U1ZTBjZDZjMzM1ZTlkYmYwMzgxZTgwYjM1ZjMwNjdkOGVmOGM4NWVkNzc1OGVhNmIyODU3YjE3M2E4NGYyNw\" target=\"_blank\">SAP HCP Portal Service Solution Brief</a></li>\n                                    </ul>\n                            </article>",
-							"displayName": "HTML",
-							"description": "",
-							"id": "markup"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_9.html"
+							}]
 						}
 					}
 				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				},
+				"local": "true",
 				"sectionAlias": "parallaxpage.widget11"
 			},
 			"widget3": {
 				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
 					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
 						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
 				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "<div style=\"color: white; font-size: 24px;font-family: verdana;padding:0px 20px 0 0\">What can I do with SAP HANA Cloud Platform?</div>\n<div style=\"color: white; font-family: verdana;line-height: 21px;padding:20px 20px 0 0;white-space: pre-line;\">You're a manager, an engineer, or maybe even a CIO. Most of all-youre a person who takes on challenges of all sizes.\n\nAnd you need the tools to meet those challenges.\n\nWhat if you could quickly build exactly what you need to deliver on your business goals right now?\n\nYou can with SAP HANA Cloud Platform!<div></div></div>\n<div style=\"padding:20px 0\">\n<a   style=\"\n    font-size: 16px;\n    font-family: 'bentonsansbold';\n   color: #16a1e1;\n    white-space: normal;\n    border: none;\ntext-decoration:none;\n\n    outline: none;font-family:verdana; font-weight: bold\" href=\"https://hcp.sap.com/scenarios.html\" title=\"\" target=\"_blank\">> Click here to learn more about what you can do with SAP HANA Cloud Platform</a></div>",
-							"displayName": "HTML",
-							"description": "",
-							"id": "markup"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_3.html"
+							}]
 						}
 					}
 				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				},
+				"local": "true",
 				"sectionAlias": "parallaxpage.widget3"
 			},
 			"widget10": {
 				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
 					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
 						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
 				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "<article class=\" footer-links\">\n                                <h2>Getting Started</h2>\n                                <ul>\n                                    <li class=\"doc\">\n                                            <a href=\"/content/dam/website/skywalker/en_us/PDFs/Developing Applications for SAP HANA Cloud Portal.pdf\" target=\"_blank\">Prerequisites for Developing Applications with SAP HCP Portal Service</a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"https://help.hana.ondemand.com/cloud_portal/frameset.htm\" target=\"_blank\">SAP HCP Portal Service Online Help </a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"https://account.hanatrial.ondemand.com/\" target=\"_blank\">Free trial</a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"http://scn.sap.com/docs/DOC-49937\" target=\"_blank\">Experience SAP HCP Portal Service</a></li>\n                                    <li class=\"doc\">\n                                            <a href=\"https://demo.cloudportal.sap.com\" target=\"_blank\">SAP HCP portal service demos</a></li>\n                                    </ul>\n                            </article>",
-							"displayName": "HTML",
-							"description": "",
-							"id": "markup"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_8.html"
+							}]
 						}
 					}
 				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				},
+				"local": "true",
 				"sectionAlias": "parallaxpage.widget10"
 			},
 			"parallaxContent1": {
-        "_version": "1.3.0",
-        "sap.app": {
-          "_version": "1.3.0",
-          "id": "hcp://portalapptemplates/imageWidget/manifest.json",
-          "title": "Image Widget",
-          "description": "A widget template that displays images."
-        },
-        "sap.platform.hcp": {
-          "_version": "1.2.0",
-          "appName": "portalapptemplates",
-          "uri": "/imageWidget"
-        },
-        "sap.cloud.portal": {
-          "show.portal.settings": "false",
-          "settings": {
-            "source": {
-              "value": "0"
-            },
-            "resources": {
-              "url": [
-                {
-                  "value": "/pageTemplates/ParallaxPage/assets/balloon.png"
-                }
-              ]
-            },
-            "state": {
-              "value": "2"
-            },
-            "height": {
-              "value": "300"
-            },
-            "units": {
-              "value": "pt"
-            },
-            "alignment": {
-              "value": 7
-            },
-            "isTemplateResource": true
-          }
-        },
-        "sap.flp": {
-          "config": {}
-        },
-        "sap.ui": {
-          "_version": "1.3.0",
-          "technology": "UI5"
-        },
-        "sap.ui5": {
-          "_version": "1.2.0",
-          "componentName": "sap.cp.widgets.image",
-          "routing": {
-            "config": {
-              "routerClass": "sap.hana.uis.flp.routing.Router"
-            }
-          },
-          "rootView": "sap.cp.widgets.image.view.Widget",
-          "models": {
-            "i18nApp": {
-              "type": "sap.ui.model.resource.ResourceModel",
-              "uri": "i18n/i18n.properties"
-            }
-          },
-          "resources": {
-            "css": [
-              {
-                "uri": "css/style.css"
-              }
-            ]
-          }
-        },
-        "sectionAlias": "parallaxpage.parallaxContent1"
-      },
-			"widget2": {
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"markup": {
-							"id": "markup",
-							"isRequired": "false",
-							"description": "",
-							"value": "<br>\n<br>\n<div style=\"font-size: 24px;font-family: verdana;padding:0px 20px 0 0\">Quickly Create Engaging Business Sites</div>\n<div style=\"font-family: verdana;line-height: 21px;padding:20px 20px 0 0;white-space: pre-line;color: black;\">With the SAP HCP portal service you can quickly create engaging websites to deliver web-based access to your on-premise systems. SAP HCP portal service combines the lightweight, low learning curve of site authoring with the full power of enterprise-grade access management, asset management and integration.\n\nSAP HCP portal service has out-of-the-box integration to SuccessFactors, SAP Cloud For Customer, as well as on-premise SAP systems and is used by customers to build order fulfillment sites, customer support sites, partner portals and much more!<div></div></div>\n<div style=\"padding:20px 0\">\n<a  href=\"http://scn.sap.com/community/hana-cloud-portal\"   style=\"padding: 8px 22px 10px;\n    font-size: 16px;\n    text-decoration: none;\n    font-family: 'bentonsansbold';\n    color: #fff;\n    background-color: #16a1e1;\n    white-space: normal;\n    border: none;\n    border-radius:5px;\n\n    outline: none;font-family:verdana;\" target=\"_blank\">Learn more</a></div>",
-							"displayName": "HTML",
-							"storage_type": "html"
-						}
-					}
-				},
 				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.3.0",
+					"id": "hcp://portalapptemplates/imageWidget/manifest.json",
+					"title": "Image Widget",
+					"description": "A widget template that displays images."
+				},
 				"sap.platform.hcp": {
 					"_version": "1.2.0",
 					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/imageWidget"
 				},
-				"sectionAlias": "parallaxpage.widget2",
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"settings": {
+						"source": {
+							"value": "2"
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/img/balloon.png"
+							}]
+						},
+						"state": {
+							"value": "2"
+						},
+						"height": {
+							"value": "300"
+						},
+						"units": {
+							"value": "pt"
+						},
+						"alignment": {
+							"value": 7
+						},
+						"isTemplateResource": true
+					}
+				},
+				"sap.flp": {
+					"config": {}
+				},
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
 				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
-						}
-					}
-				},
 				"sap.ui5": {
 					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
+					"componentName": "sap.cp.widgets.image",
 					"routing": {
 						"config": {
 							"routerClass": "sap.hana.uis.flp.routing.Router"
 						}
+					},
+					"rootView": "sap.cp.widgets.image.view.Widget",
+					"models": {
+						"i18nApp": {
+							"type": "sap.ui.model.resource.ResourceModel",
+							"uri": "i18n/i18n.properties"
+						}
+					},
+					"resources": {
+						"css": [{
+							"uri": "css/style.css"
+						}]
 					}
-				}
+				},
+				"sectionAlias": "parallaxpage.parallaxContent1"
 			},
-			"widget1":  {
-        "_version": "1.3.0",
-        "sap.app": {
-          "_version": "1.3.0",
-          "id": "hcp://portalapptemplates/imageWidget/manifest.json",
-          "title": "Image Widget",
-          "description": "A widget template that displays images."
-        },
-        "sap.platform.hcp": {
-          "_version": "1.2.0",
-          "appName": "portalapptemplates",
-          "uri": "/imageWidget"
-        },
-        "sap.cloud.portal": {
-          "show.portal.settings": "false",
-          "settings": {
-            "source": {
-              "value": "0"
-            },
-            "resources": {
-              "url": [
-                {
-                  "value": "/pageTemplates/ParallaxPage/assets/HCP_Cap.png"
-                }
-              ]
-            },
-            "state": {
-              "value": "2"
-            },
-            "height": {
-              "value": "250"
-            },
-            "units": {
-              "value": "pt"
-            },
-            "alignment": {
-              "value": 7
-            },
-            "isTemplateResource": true
-          }
-        },
-        "sap.flp": {
-          "config": {}
-        },
-        "sap.ui": {
-          "_version": "1.3.0",
-          "technology": "UI5"
-        },
-        "sap.ui5": {
-          "_version": "1.2.0",
-          "componentName": "sap.cp.widgets.image",
-          "routing": {
-            "config": {
-              "routerClass": "sap.hana.uis.flp.routing.Router"
-            }
-          },
-          "rootView": "sap.cp.widgets.image.view.Widget",
-          "models": {
-            "i18nApp": {
-              "type": "sap.ui.model.resource.ResourceModel",
-              "uri": "i18n/i18n.properties"
-            }
-          },
-          "resources": {
-            "css": [
-              {
-                "uri": "css/style.css"
-              }
-            ]
-          }
-        },
-        "sectionAlias": "parallaxpage.widget1"
-      },
-			"widget6": {
+			"widget2": {
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"id": "markup",
-							"isRequired": "false",
-							"description": "",
-							"value": "<div style=\"font-size: 24px;font-family: verdana;padding:0px 20px 0 0\">Build Role-Based Sites</div>\n<div style=\"font-family: verdana;line-height: 21px;padding:20px 20px 0 0;white-space: pre-line;color: black;\">A role is basically a collection of permissions that defines a function within a portal to which users and/or groups are assigned. Roles and authorizations are created for various job functions within organizations.\n\nWith the new role-based authorizations concept provided by SAP HCP portal service, you can now easily manage user access and permissions at the site and page levels.\n\nThe ability to build role-based sites in SAP HCP portal service makes your navigation smarter, and more targeted towards your business scenario.<div></div></div>\n<div style=\"padding:20px 0\">\n<a   style=\"\n    font-size: 16px;\n    font-family: 'bentonsansbold';\n   color: #16a1e1;\n    white-space: normal;\n    border: none;\ntext-decoration:none;\n\n    outline: none;font-family:verdana;\" href=\"http://scn.sap.com/community/hana-cloud-portal/blog/2014/06/18/the-new-roles-and-authorizations-in-sap-hana-cloud-portal\" title=\"\" target=\"_blank\">Blog: How to Manage Roles & Groups</a></div>",
-							"displayName": "HTML",
-							"storage_type": "html"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_2.html"
+							}]
 						}
 					}
 				},
+				"local": "true",
+				"sectionAlias": "parallaxpage.widget2"
+			},
+			"widget1": {
 				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.3.0",
+					"id": "hcp://portalapptemplates/imageWidget/manifest.json",
+					"title": "Image Widget",
+					"description": "A widget template that displays images."
+				},
 				"sap.platform.hcp": {
 					"_version": "1.2.0",
 					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/imageWidget"
 				},
-				"sectionAlias": "parallaxpage.widget6",
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"settings": {
+						"source": {
+							"value": "2"
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/img/HCP_Cap.png"
+							}]
+						},
+						"state": {
+							"value": "2"
+						},
+						"height": {
+							"value": "250"
+						},
+						"units": {
+							"value": "pt"
+						},
+						"alignment": {
+							"value": 7
+						},
+						"isTemplateResource": true
+					}
+				},
+				"sap.flp": {
+					"config": {}
+				},
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
 				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
-						}
-					}
-				},
 				"sap.ui5": {
 					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
+					"componentName": "sap.cp.widgets.image",
 					"routing": {
 						"config": {
 							"routerClass": "sap.hana.uis.flp.routing.Router"
 						}
+					},
+					"rootView": "sap.cp.widgets.image.view.Widget",
+					"models": {
+						"i18nApp": {
+							"type": "sap.ui.model.resource.ResourceModel",
+							"uri": "i18n/i18n.properties"
+						}
+					},
+					"resources": {
+						"css": [{
+							"uri": "css/style.css"
+						}]
 					}
-				}
+				},
+				"sectionAlias": "parallaxpage.widget1"
+			},
+			"widget6": {
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_4.html"
+							}]
+						}
+					}
+				},
+				"local": "true",
+				"sectionAlias": "parallaxpage.widget6"
 			},
 			"footer": {
 				"_version": "1.3.0",
 				"sap.app": {
 					"_version": "1.1.0",
-					"id": "hcp://socialnetworkswidget/manifest.json",
+					"id": "hcp://portalapptemplates/socialNetworksWidget/manifest.json",
 					"type": "application",
 					"i18n": "i18n/i18n.properties",
 					"applicationVersion": {
@@ -559,7 +961,7 @@
 				"sap.ui5": {
 					"_version": "1.1.0",
 					"rootView": {
-						"viewName": "SocialNetworksWidget.view.Main",
+						"viewName": "socialNetworksWidget.view.Main",
 						"type": "XML"
 					},
 					"dependencies": {
@@ -578,7 +980,7 @@
 						"i18n": {
 							"type": "sap.ui.model.resource.ResourceModel",
 							"settings": {
-								"bundleName": "SocialNetworksWidget.i18n.i18n"
+								"bundleName": "socialNetworksWidget.i18n.i18n"
 							}
 						}
 					},
@@ -592,7 +994,7 @@
 							"routerClass": "sap.hana.uis.flp.routing.Router"
 						}
 					},
-					"componentName": "SocialNetworksWidget"
+					"componentName": "socialNetworksWidget"
 				},
 				"sap.flp": {
 					"appType": "SAP_UI5_Component",
@@ -602,8 +1004,8 @@
 					}
 				},
 				"sap.platform.hcp": {
-					"uri": "/",
-					"appName": "socialnetworkswidget"
+					"uri": "/socialNetworksWidget/",
+					"appName": "portalapptemplates"
 				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
@@ -647,302 +1049,362 @@
 				"sectionAlias": "parallaxpage.footer"
 			},
 			"widget7": {
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"id": "markup",
-							"isRequired": "false",
-							"description": "",
-							"value": "<br>\n<br><div style=\"font-size: 24px;font-family: verdana;padding:0px 20px 0 0\">Engage with Your Partners</div>\n<div style=\"font-family: verdana;line-height: 21px;padding:20px 20px 0 0;white-space: pre-line;color: black;\">Extend and efficiently manage your partner network with an intuitive partner channel management solution and self-service portal integrated with SAP Cloud for Customer.<div></div></div>\n<div style=\"padding:20px 0\">\n<a   style=\"\n    font-size: 16px;\n    font-family: 'bentonsansbold';\n   color: #16a1e1;\n    white-space: normal;\n    border: none;\ntext-decoration:none;\n    outline: none;font-family:verdana;\" href=\"http://scn.sap.com/community/hana-cloud-portal/blog/2015/05/04/improve-partner-engagement-with-new-partner-portal-for-sap-cloud-for-customer\" title=\"\" target=\"_blank\">Engage on SCN</a></div>",
-							"displayName": "HTML",
-							"storage_type": "html"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_6.html"
+							}]
 						}
 					}
 				},
+				"local": "true",
+				"sectionAlias": "parallaxpage.widget7"
+			},
+			"widget5": {
 				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.3.0",
+					"id": "hcp://portalapptemplates/imageWidget/manifest.json",
+					"title": "Image Widget",
+					"description": "A widget template that displays images."
+				},
 				"sap.platform.hcp": {
 					"_version": "1.2.0",
 					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/imageWidget"
 				},
-				"sectionAlias": "parallaxpage.widget7",
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"settings": {
+						"source": {
+							"value": "2"
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/img/Demo_Kit.png"
+							}]
+						},
+						"state": {
+							"value": "2"
+						},
+						"height": {
+							"value": "250"
+						},
+						"units": {
+							"value": "pt"
+						},
+						"alignment": {
+							"value": 7
+						},
+						"isTemplateResource": true
+					}
+				},
+				"sap.flp": {
+					"config": {}
+				},
 				"sap.ui": {
 					"_version": "1.3.0",
 					"technology": "UI5"
 				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
-						}
-					}
-				},
 				"sap.ui5": {
 					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
+					"componentName": "sap.cp.widgets.image",
 					"routing": {
 						"config": {
 							"routerClass": "sap.hana.uis.flp.routing.Router"
 						}
+					},
+					"rootView": "sap.cp.widgets.image.view.Widget",
+					"models": {
+						"i18nApp": {
+							"type": "sap.ui.model.resource.ResourceModel",
+							"uri": "i18n/i18n.properties"
+						}
+					},
+					"resources": {
+						"css": [{
+							"uri": "css/style.css"
+						}]
 					}
-				}
+				},
+				"sectionAlias": "parallaxpage.widget5"
 			},
-			"widget5": {
-        "_version": "1.3.0",
-        "sap.app": {
-          "_version": "1.3.0",
-          "id": "hcp://portalapptemplates/imageWidget/manifest.json",
-          "title": "Image Widget",
-          "description": "A widget template that displays images."
-        },
-        "sap.platform.hcp": {
-          "_version": "1.2.0",
-          "appName": "portalapptemplates",
-          "uri": "/imageWidget"
-        },
-        "sap.cloud.portal": {
-          "show.portal.settings": "false",
-          "settings": {
-            "source": {
-              "value": "0"
-            },
-            "resources": {
-              "url": [
-                {
-                  "value": "/pageTemplates/ParallaxPage/assets/Demo_Kit.png"
-                }
-              ]
-            },
-            "state": {
-              "value": "2"
-            },
-            "height": {
-              "value": "250"
-            },
-            "units": {
-              "value": "pt"
-            },
-            "alignment": {
-              "value": 7
-            },
-            "isTemplateResource": true
-          }
-        },
-        "sap.flp": {
-          "config": {}
-        },
-        "sap.ui": {
-          "_version": "1.3.0",
-          "technology": "UI5"
-        },
-        "sap.ui5": {
-          "_version": "1.2.0",
-          "componentName": "sap.cp.widgets.image",
-          "routing": {
-            "config": {
-              "routerClass": "sap.hana.uis.flp.routing.Router"
-            }
-          },
-          "rootView": "sap.cp.widgets.image.view.Widget",
-          "models": {
-            "i18nApp": {
-              "type": "sap.ui.model.resource.ResourceModel",
-              "uri": "i18n/i18n.properties"
-            }
-          },
-          "resources": {
-            "css": [
-              {
-                "uri": "css/style.css"
-              }
-            ]
-          }
-        },
-        "sectionAlias": "parallaxpage.widget5"
-      },
 			"parallaxContent2": {
 				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
 					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
 						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
 				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "<div style=\"text-align:center;font-family:verdana\"><div style=\"font-size:48px;color: #0D2938;\">SAP HANA Cloud Platform</div>\n<div style=\"white-space:pre-line;margin-top: 20px;font-size: 20px;color: rgba(0,0,0,0.9);text-shadow: 1px 1px rgba(244,244,244,0.6);\">Create Business Sites to Engage Customers,\nPartners and Employees with SAP HCP portal service</div></div>",
-							"displayName": "HTML",
-							"description": "",
-							"id": "markup"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_1.html"
+							}]
 						}
 					}
 				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				},
+				"local": "true",
 				"sectionAlias": "parallaxpage.parallaxContent2"
 			},
 			"widget8": {
-        "_version": "1.3.0",
-        "sap.app": {
-          "_version": "1.3.0",
-          "id": "hcp://portalapptemplates/imageWidget/manifest.json",
-          "title": "Image Widget",
-          "description": "A widget template that displays images."
-        },
-        "sap.platform.hcp": {
-          "_version": "1.2.0",
-          "appName": "portalapptemplates",
-          "uri": "/imageWidget"
-        },
-        "sap.cloud.portal": {
-          "show.portal.settings": "false",
-          "settings": {
-            "source": {
-              "value": "0"
-            },
-            "resources": {
-              "url": [
-                {
-                  "value": "/pageTemplates/ParallaxPage/assets/PartnerPortal.png"
-                }
-              ]
-            },
-            "state": {
-              "value": "2"
-            },
-            "height": {
-              "value": "250"
-            },
-            "units": {
-              "value": "pt"
-            },
-            "alignment": {
-              "value": 7
-            },
-            "isTemplateResource": true
-          }
-        },
-        "sap.flp": {
-          "config": {}
-        },
-        "sap.ui": {
-          "_version": "1.3.0",
-          "technology": "UI5"
-        },
-        "sap.ui5": {
-          "_version": "1.2.0",
-          "componentName": "sap.cp.widgets.image",
-          "routing": {
-            "config": {
-              "routerClass": "sap.hana.uis.flp.routing.Router"
-            }
-          },
-          "rootView": "sap.cp.widgets.image.view.Widget",
-          "models": {
-            "i18nApp": {
-              "type": "sap.ui.model.resource.ResourceModel",
-              "uri": "i18n/i18n.properties"
-            }
-          },
-          "resources": {
-            "css": [
-              {
-                "uri": "css/style.css"
-              }
-            ]
-          }
-        },
-        "sectionAlias": "parallaxpage.widget8"
-      },
-			"widget9": {
 				"_version": "1.3.0",
 				"sap.app": {
 					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
-						}
-					}
+					"id": "hcp://portalapptemplates/imageWidget/manifest.json",
+					"title": "Image Widget",
+					"description": "A widget template that displays images."
 				},
 				"sap.platform.hcp": {
 					"_version": "1.2.0",
 					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/imageWidget"
 				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "  <style>\n        .footer-links{\n            font-family: 'verdana';\n            color: #000;\n        }\n        .footer-links>h2{\n            font-size:20px;\n\n        }\n        .footer-links li.doc{\n            list-style-type: none;\n            position: relative;\n\n        }\n        .footer-links ul{\n            padding: 0;\n        }\n        .footer-links  .doc>a{\n            font-family: 'verdana';\n            color: #000;\n            font-size: 14px;\n            line-height: 21px;\n            display: block;\n            text-decoration: none;\n\n            padding: 0px 10px 10px 40px;\n\n        }\n        .footer-links  li.doc:before{\n          position: absolute;\n    content: \"\\e1b4\";\n    font-family: SAP-icons;\n    color: #08c;\n    left: 5px;\n    top: 0;\n    font-size: 20px;\n        }\n\n    </style>\n    <article class=\"footer-links\">\n    <h2>Tutorial</h2>\n    <ul>\n        <li class=\"doc\">\n            <a  href=\"http://scn.sap.com/docs/DOC-30601\" target=\"_blank\">SAP HCP Portal Service Developer\n                Center</a></li>\n    </ul>\n</article>",
-							"displayName": "HTML",
-							"description": "",
-							"id": "markup"
-						}
+						"source": {
+							"value": "2"
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/img/PartnerPortal.png"
+							}]
+						},
+						"state": {
+							"value": "2"
+						},
+						"height": {
+							"value": "250"
+						},
+						"units": {
+							"value": "pt"
+						},
+						"alignment": {
+							"value": 7
+						},
+						"isTemplateResource": true
 					}
 				},
 				"sap.flp": {
-					"_version": "1.1.0",
 					"config": {}
 				},
 				"sap.ui": {
@@ -951,76 +1413,280 @@
 				},
 				"sap.ui5": {
 					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
+					"componentName": "sap.cp.widgets.image",
 					"routing": {
 						"config": {
 							"routerClass": "sap.hana.uis.flp.routing.Router"
 						}
+					},
+					"rootView": "sap.cp.widgets.image.view.Widget",
+					"models": {
+						"i18nApp": {
+							"type": "sap.ui.model.resource.ResourceModel",
+							"uri": "i18n/i18n.properties"
+						}
+					},
+					"resources": {
+						"css": [{
+							"uri": "css/style.css"
+						}]
 					}
 				},
+				"sectionAlias": "parallaxpage.widget8"
+			},
+			"widget9": {
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_7.html"
+							}]
+						}
+					}
+				},
+				"local": "true",
 				"sectionAlias": "parallaxpage.widget9"
 			},
 			"content2": {
 				"_version": "1.3.0",
 				"sap.app": {
-					"_version": "1.3.0",
-					"id": "hcp://portalapptemplates/htmlwidget/manifest.json",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": []
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
 					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-								"semanticObject": "htmlwidget",
-								"action": "Display"
-							}
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
 						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
 				},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "<div style=\"display:inline-block;max-width:320px;padding:20px;background: rgba(0,0,0,0.7);color:#fff;\"><div style=\"\n    font-size: 30px;\n    font-family: verdana;\n\">Access Fiori-based Sites</div>\n<div style=\"\n    font-size: 16px;\n    font-family: verdana;\n    margin-top: 5px;\n\">Easily access SAP Fiori apps and business applications via SAP Fiori launchpad; a context-aware, role-based and personalized aggregation point.</div>\n<div style=\"padding:20px 0\">\n<a   style=\"\n    font-size: 16px;\n    font-family: 'bentonsansbold';\n   color: #16a1e1;\n    white-space: normal;\n    border: none;\ntext-decoration:none;\n    outline: none;font-family:verdana;\" href=\"http://www.sap.com/fiori-demo\" title=\"\" target=\"_blank\">See demo in action</a></div>\n</div>",
-							"displayName": "HTML",
-							"description": "",
-							"id": "markup"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ParallaxPage_Rich_Text_Editor_5.html"
+							}]
 						}
 					}
 				},
-				"sap.flp": {
-					"_version": "1.1.0",
-					"config": {}
-				},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				},
-				"sap.ui5": {
-					"_version": "1.2.0",
-					"componentName": "htmlwidget.local",
-					"routing": {
-						"config": {
-							"routerClass": "sap.hana.uis.flp.routing.Router"
-						}
-					}
-				},
+				"local": "true",
 				"sectionAlias": "parallaxpage.content2"
 			}
 		},
 		"settings": {
 			"parallaxImages": {
 				"parallax_image1": {
-					"mediaURL": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/field.jpg",
+					"mediaURL": "/sap/fiori/parallaxsitetemplate/parallaxsite/assets/img/field.jpg",
 					"mediaType": "image",
 					"scrollSpeed": "speed25",
 					"alignment": "center"
@@ -1028,11 +1694,11 @@
 				"parallax_image2": {
 					"alignment": "center",
 					"scrollSpeed": "speed25",
-					"mediaURL": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/ideas.jpg",
+					"mediaURL": "/sap/fiori/parallaxsitetemplate/parallaxsite/assets/img/ideas.jpg",
 					"mediaType": "image"
 				},
 				"parallax_image3": {
-					"mediaURL": "/sap/fiori/parallaxsitetemplate/parallaxsite/pageTemplates/ParallaxPage/assets/banner_hcp_user_1.jpg",
+					"mediaURL": "/sap/fiori/parallaxsitetemplate/parallaxsite/assets/img/banner_hcp_user_1.jpg",
 					"mediaType": "image",
 					"alignment": "center",
 					"scrollSpeed": "speed50"

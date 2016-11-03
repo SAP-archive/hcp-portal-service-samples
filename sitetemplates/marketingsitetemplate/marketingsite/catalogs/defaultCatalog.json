@@ -7,19 +7,18 @@
 		"entityType": "catalog"
 	},
 	"payload": {
-		"appDescriptors": [
-			{
-				"namespace": "",
-				"id": "hcp://marketingsitetemplate/marketingsite/pages/page1.json"
-			},
-			{
-				"namespace": "",
-				"id": "hcp://marketingsitetemplate/marketingsite/pages/page2.json"
-			},
-			{
-				"namespace": "",
-				"id": "hcp://marketingsitetemplate/marketingsite/pages/page3.json"
-			}
-		]
+		"appDescriptors": [{
+			"namespace": "",
+			"id": "hcp://marketingsitetemplate/marketingsite/pages/page1.json"
+		}, {
+			"namespace": "",
+			"id": "hcp://marketingsitetemplate/marketingsite/pages/page2.json"
+		}, {
+			"namespace": "",
+			"id": "hcp://marketingsitetemplate/marketingsite/pages/page3.json"
+		}, {
+			"namespace": "",
+			"id": "hcp://marketingsitetemplate/marketingsite/pages/page4.json"
+		}]
 	}
 }

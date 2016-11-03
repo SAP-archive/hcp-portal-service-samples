@@ -1,11 +1,9 @@
-[
-	{
-		"id": "hcp://parallaxsitetemplate/parallaxsite/site.json",
-		"name": "Parallax Site",
-		"description": "",
-		"thumbnail": "parallaxsite/thumbnail.png",
-		"path": "parallaxsite",
-		"_entityType": "PORTAL_SITE_V2_TEMPLATE_SITE",
-		"category": "Samples"
-	}
-]
+[{
+	"id": "hcp://parallaxsitetemplate/parallaxsite/site.json",
+	"name": "Parallax Site",
+	"description": "",
+	"thumbnail": "parallaxsite/thumbnail.png",
+	"path": "parallaxsite",
+	"_entityType": "PORTAL_SITE_V2_TEMPLATE_SITE",
+	"category": "Samples"
+}]

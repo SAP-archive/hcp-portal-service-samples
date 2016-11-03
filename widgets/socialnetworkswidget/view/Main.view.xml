@@ -1,4 +1,0 @@
-<mvc:View controllerName="SocialNetworksWidget.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml"
-          xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:vbm="sap.ui.vbm">
-    <FlexBox id="flexBox" class="networksFlexBox" alignItems="Center"/>
-</mvc:View>

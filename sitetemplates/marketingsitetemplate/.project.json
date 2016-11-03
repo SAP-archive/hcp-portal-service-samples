@@ -1,5 +1,19 @@
 {
   "projectType": [
     "sap.site.template"
-  ]
+  ],
+  "generation": [
+    {
+      "templateId": "sitetemplatePlugin.starterSiteTemplate",
+      "templateVersion": "1.0.0",
+      "dateTimeStamp": "Wed, 19 Oct 2016 07:09:52 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
   }
+}

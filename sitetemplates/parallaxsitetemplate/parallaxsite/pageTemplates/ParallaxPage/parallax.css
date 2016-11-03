@@ -11,10 +11,12 @@
     background: #777;
     -webkit-backface-visibility: hidden;
 }
+
 .parallax-page .parallax {
     position: relative;
     overflow: hidden;
 }
+
 .parallax-page .parallax-layer-bg.dark-header:before {
     content: "";
     position: absolute;
@@ -31,6 +33,7 @@
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
 }
+
 .parallax-page .parallax-layer-bg.darkness:before {
     content: "";
     position: absolute;
@@ -40,17 +43,20 @@
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
 }
+
 .parallax-page .parallax-layer-bg {
     background-color: #999;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
+
 .parallax-page .parallax-layer-bg .parallax-video {
     min-width: 100%;
     min-height: 100%;
     position: absolute;
 }
+
 .parallax-page .parallax-layer-bg .parallax-settings {
     position: absolute;
     top: 50%;
@@ -65,12 +71,14 @@
     cursor: pointer;
     font-size: 1.5rem;
 }
+
 .parallax-page .parallax-layer-bg .parallax-settings:before {
     content: "\e1d0";
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
     font-family: 'SAP-icons';
 }
+
 .parallax-header {
     position: absolute;
     top: 0;
@@ -86,12 +94,14 @@
     height: 80px;
     background: rgba(33, 33, 33, 0.3);
 }
+
 .parallax-header .bar {
     max-width: 1280px;
     margin: 0 auto;
     height: 100%;
     position: relative;
 }
+
 .parallax-header.stick {
     position: absolute;
     top: 0;
@@ -100,15 +110,18 @@
     filter: none;
     box-shadow: 1px 1px 5px #ccc;
 }
+
 .parallax-content-wrapper {
     position: relative;
     background: #fff;
 }
+
 .parallax-content {
     padding: 20px;
     max-width: 1280px;
     margin: 0 auto;
 }
+
 .parallax-header ul.parallax-page-nav-menu {
     float: right;
     margin: 0;
@@ -116,6 +129,7 @@
     bottom: 0;
     right: 0;
 }
+
 .parallax-header ul.parallax-page-nav-menu li {
     padding: 15px 20px;
     color: #efefef;
@@ -130,12 +144,15 @@
     -o-transition: 0.3s color;
     transition: 0.3s color;
 }
+
 .parallax-header ul.parallax-page-nav-menu li.selected {
     text-decoration: underline;
 }
+
 .parallax-header.stick ul.parallax-page-nav-menu li {
     color: #666666;
 }
+
 .parallax-header .parallax-header-logo {
     position: absolute;
     top: 0px;
@@ -151,11 +168,13 @@
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .parallax-header.stick .parallax-header-logo {
     height: 60px;
     width: 60px;
     background-position: 0 50%;
 }
+
 .parallax-header .user-section {
     font-size: 1.2rem;
     position: absolute;
@@ -170,6 +189,7 @@
     -o-transition: 0.3s bottom;
     transition: 0.3s bottom;
 }
+
 .parallax-header.stick .user-section {
     bottom: 100px;
 }

@@ -8,17 +8,23 @@
 			</layoutData>
 			<cpv2Controls:Widget alias="page3.section1"></cpv2Controls:Widget>
 		</VBox>
-		<VBox>
+		<VBox class="sapUiLargeMarginBottom">
 			<layoutData>
-				<l:GridData span="L6 M6 S12"/>
+				<l:GridData span="L12 M12 S12"/>
 			</layoutData>
 			<cpv2Controls:Widget alias="page3.section2"></cpv2Controls:Widget>
 		</VBox>
-		<VBox>
+		<VBox class="sapUiSmallMargin">
 			<layoutData>
 				<l:GridData span="L6 M6 S12"/>
 			</layoutData>
 			<cpv2Controls:Widget alias="page3.section3"></cpv2Controls:Widget>
+		</VBox>
+		<VBox class="sapUiSmallMargin">
+			<layoutData>
+				<l:GridData span="L6 M6 S12"/>
+			</layoutData>
+			<cpv2Controls:Widget alias="page3.section4"></cpv2Controls:Widget>
 		</VBox>
 	</l:Grid>
 </mvc:View>

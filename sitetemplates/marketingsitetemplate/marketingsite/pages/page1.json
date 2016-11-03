@@ -1,4 +1,4 @@
-{	
+{
 	"_version": "1.3.0",
 	"sap.app": {
 		"_version": "1.3.0",
@@ -9,9 +9,9 @@
 		"crossNavigation": {
 			"context": {},
 			"inbounds": {
-				"0":{
-				"semanticObject": "page1",
-				"action": "Display"
+				"0": {
+					"semanticObject": "page1",
+					"action": "Display"
 				}
 			}
 		}
@@ -20,504 +20,443 @@
 		"applicationType": "page",
 		"nodes": {
 			"video": {
-              "_version": "1.3.0",
-              "sap.app": {
-                "_version": "1.1.0",
-                "id": "hcp://videowidget/manifest.json",
-                "type": "application",
-                "i18n": "i18n/i18n.properties",
-                "applicationVersion": {
-                  "version": "1.0.0"
-                },
-                "title": "Video Widget",
-                "description": "Embed any standard YouTube URL in a site page",
-                "sourceTemplate": {
-                  "id": "ui5template.basicSAPUI5ApplicationProject",
-                  "version": "1.32.0"
-                }
-              },
-              "sap.ui": {
-                "_version": "1.1.0",
-                "technology": "UI5",
-                "icons": {
-                  "icon": "",
-                  "favIcon": "",
-                  "phone": "",
-                  "phone@2": "",
-                  "tablet": "",
-                  "tablet@2": ""
-                },
-                "deviceTypes": {
-                  "desktop": true,
-                  "tablet": true,
-                  "phone": true
-                },
-                "supportedThemes": [
-                  "sap_hcb",
-                  "sap_bluecrystal"
-                ]
-              },
-              "sap.ui5": {
-                "_version": "1.1.0",
-                "rootView": {
-                  "viewName": "VideoWidget.view.Main",
-                  "type": "XML"
-                },
-                "dependencies": {
-                  "minUI5Version": "1.30.0",
-                  "libs": {
-                    "sap.ui.core": {},
-                    "sap.m": {},
-                    "sap.ui.layout": {}
-                  }
-                },
-                "contentDensities": {
-                  "compact": true,
-                  "cozy": true
-                },
-                "models": {
-                  "i18n": {
-                    "type": "sap.ui.model.resource.ResourceModel",
-                    "settings": {
-                      "bundleName": "VideoWidget.i18n.i18n"
-                    }
-                  }
-                },
-                "resources": {
-                  "css": [
-                    {
-                      "uri": "css/style.css"
-                    }
-                  ]
-                },
-                "componentName": "VideoWidget"
-              },
-              "sap.flp": {
-                "appType": "SAP_UI5_Component",
-                "config": {
-                  "editable": true,
-                  "deletable": true
-                }
-              },
-              "sap.platform.hcp": {
-                "uri": "/",
-                "appName": "videowidget"
-              },
-              "sap.cloud.portal": {
-                "settings": {
-                  "videoUrl": {
-                    "displayName": "YouTube URL",
-                    "value": "https://www.youtube.com/watch?v=lQirKVOfHcg",
-                    "id": "videoUrl"
-                  },
-                  "widgetHeight": {
-                    "displayName": "Widget height in pixels",
-                    "value": "321",
-                    "id": "widgetHeight"
-                  }
-                }
-              },
-              "local": "true",
-              "sectionAlias": "page1.intro_image"
-            },
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/videoWidget/manifest.json",
+					"type": "application",
+					"i18n": "i18n/i18n.properties",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Video Widget",
+					"description": "Embed any standard YouTube URL in a site page",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "videoWidget.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"models": {
+						"i18n": {
+							"type": "sap.ui.model.resource.ResourceModel",
+							"settings": {
+								"bundleName": "videoWidget.i18n.i18n"
+							}
+						}
+					},
+					"resources": {
+						"css": [{
+							"uri": "css/style.css"
+						}]
+					},
+					"componentName": "videoWidget"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/videoWidget/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"youtubeUrl": "https://www.youtube.com/embed/",
+					"vimeoUrl": "https://player.vimeo.com/video/",
+					"settings": {
+						"videoUrl": "https://www.youtube.com/watch?v=lQirKVOfHcg",
+						"autoPlay": false,
+						"widgetHeight": "300"
+					}
+				},
+				"local": "true",
+				"sectionAlias": "page1.intro_image"
+			},
 			"intro_text": {
 				"_version": "1.3.0",
-				"sectionAlias": "page1.intro_text",
 				"sap.app": {
-					"_version": "1.3.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
 					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
-							}
-						}
-						}
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
 					}
 				},
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
 				},
-				"sap.ui5":{
-	        		"_version": "1.2.0",
-	        	"componentName": "htmlwidget.local"
-        		},
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "     <style>         .main2 {             background-color: #fff;             padding: 32px 16px 0 16px ;             margin: 0;             overflow: hidden;             font-family: Arial, Calibri, Tahoma, Geneva, sans-serif;             background-color: #fff;             min-height: 296px;         }         h1 {             color: #007cc0;             font-size: 25px;             padding-bottom: 16px;             border-bottom: solid #cdcdcd 4px;             font-weight: normal;             margin: 0;         }           .link{              font-size: 16px;             margin: 0;             cursor: pointer;             color: #007CC0;             text-align: left;             padding-top: 3px;             padding-left: 5px;          }            p {             color: #666;             line-height: 20px;             margin-bottom: 0;             font-size: 16px;         }       </style>   <div class=\"main2\">          <h1>Atomic Financing - <br>Buy Now Pay Later</h1>         <p>Atomic has a keen focus on the SME segment of the market and we want to increase the purchasing power of our joint customers through a quick approval finance offering. Buy Now Pay Later will allow you to work with your end customers to help them take advantage of the benefits of Atomic software now without impacting your own cash flow.<span class=\"link\">Read more ></span></p>  </div>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
 						}
-					}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
 				},
 				"sap.flp": {
-            	"_version": "1.1.0",
-            	"config": {}
-        		},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				}
-			},
-			"tile1": {
-				"sectionAlias": "page1.tile1",
-				"_version": "1.3.0",
-				"sap.app": {
-					"_version": "1.3.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
-							}
-						}
-						}
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
 				},
-				"sap.ui5":{
-        		"_version": "1.2.0",
-        		"componentName": "htmlwidget.local"
-        		},
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "     <style>          #box-1.box{             width:100%;             height: 250px;           position: relative;         }       #box-1   .topic {              position: absolute;             top:0;             left:0;             right:0;             bottom: 0;             background: url(\"/sap/fiori/marketingsitetemplate/marketingsite/img/valuepoints.jpg\") no-repeat;             background-size: cover;         }        #box-1   .topic img {              width: 100%;         }          #box-1   .strip{             position: absolute;             bottom: 0;             background-color: rgba(255, 255, 255, 0.85);             width: 100%;             height: 70px;         }       #box-1   .strip h3 {             color: #666;             font-size: 16px;             margin: 0;             padding: 10px 0 0 10px;         }       #box-1   .strip h4 {             color: #666;             font-size: 14px;             font-weight: normal;             padding: 5px 10px 0 10px;             margin: 0;         }          #box-1    p {             color: #666;             line-height: 20px;             margin-bottom: 0;             font-size: 16px;         }          </style>        <div id=\"box-1\" class=\"box\">      <div class=\"topic\">          <div class=\"strip\">             <h3>Need Value Points?</h3>             <h4>Take Atomic Generation E-Learning</h4>         </div>      </div>     </div>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader",
+						"portalplugins": "imageuploader",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/page1_Rich_Text_Editor_1.html"
+							}]
 						}
 					}
+				},
+				"local": "true",
+				"sectionAlias": "page1.intro_text"
+			},
+			"tilebuilder": {
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/tilegrid/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Tile Grid",
+					"description": "Add and arrange predefined tiles, and set their content and appearance",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.tilegrid.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}, {
+							"uri": "css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.tilegrid"
 				},
 				"sap.flp": {
-            	"_version": "1.1.0",
-            	"config": {}
-        		},
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				}
-			},
-			"tile2": {
-				"sectionAlias": "page1.tile2",
-				"_version": "1.3.0",
-				"sap.app": {
-					"_version": "1.3.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
-							}
-						}
-						}	
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
 					}
 				},
 				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
+					"uri": "/rtewidget/widgets/tilegrid/",
+					"appName": "portalapptemplates"
 				},
-				"sap.ui5":{
-          "_version": "1.2.0",
-          "componentName": "htmlwidget.local"
-        },
 				"sap.cloud.portal": {
 					"show.portal.settings": "false",
-					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "     <style>          #box-2.box{             width:100%;             height: 250px;           position: relative;         }       #box-2  .topic {              position: absolute;             top:0;             left:0;             right:0;             bottom: 0;             background: url(\"/sap/fiori/marketingsitetemplate/marketingsite/img/conversation.jpg\") no-repeat;             background-size: cover;         }          #box-2  .topic img {              width: 100%;         }          #box-2  .strip{             position: absolute;             bottom: 0;             background-color: rgba(255, 255, 255, 0.85);             width: 100%;             height: 70px;         }       #box-2   .strip h3 {             color: #666;             font-size: 16px;             margin: 0;             padding: 10px 0 0 10px;         }       #box-2  .strip h4 {             color: #666;             font-size: 14px;             font-weight: normal;             padding: 5px 10px 0 10px;             margin: 0;         }        #box-2   p {             color: #666;             line-height: 20px;             margin-bottom: 0;             font-size: 16px;         }          </style>        <div id=\"box-2\" class=\"box\">      <div class=\"topic\">          <div class=\"strip\">             <h3>Join the Conversation</h3>             <h4>Visit Atomic Partner Portal Today!</h4>         </div>      </div>     </div>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
 						}
-					}
-				},
-					"sap.flp": {
-		            "_version": "1.1.0",
-		            "config": {}
-		          },
-				"sap.ui": {
-					"_version": "1.2.0",
-					"technology": "UI5"
-				}
-			},
-			"tile3": {
-				"sectionAlias": "page1.tile3",
-				"_version": "1.3.0",
-				"sap.app": {
-					"_version": "1.3.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
 					},
-					"crossNavigation": {
-						"inbounds":{
-							"0":{
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
-							}
-						}
-						}
-					}
-				},
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
-				},
-				"sap.ui5":{
-          "_version": "1.2.0",
-          "componentName": "htmlwidget.local"
-        },
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
 					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": " <style>        #box-3.box{         width:100%;         height: 250px;         position: relative;     }     #box-3  .topic {          position: absolute;         top:0;         left:0;         right:0;         bottom: 0;         background: url(\"/sap/fiori/marketingsitetemplate/marketingsite/img/innovation.jpg\") no-repeat;         background-size: cover;     }        #box-3  .topic img {          width: 100%;     }        #box-3  .strip{         position: absolute;         bottom: 0;         background-color: rgba(255, 255, 255, 0.85);         width: 100%;         height: 70px;     }     #box-3   .strip h3 {         color: #666;         font-size: 16px;         margin: 0;         padding: 10px 0 0 10px;     }     #box-3  .strip h4 {         color: #666;         font-size: 14px;         font-weight: normal;         padding: 5px 10px 0 10px;         margin: 0;     }      #box-3   p {         color: #666;         line-height: 20px;         margin-bottom: 0;         font-size: 16px;     }      </style>    <div id=\"box-3\" class=\"box\">      <div class=\"topic\">          <div class=\"strip\">             <h3>Atomic Customers</h3>             <h4>Pushing Innovation in Consumer Products</h4>         </div>      </div> </div>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
-						}
-					}
-				},
-				 "sap.flp": {
-            "_version": "1.1.0",
-            "config": {}
-          },
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				}
-			},
-			"tile4": {
-				"sectionAlias": "page1.tile4",
-				"_version": "1.3.0",
-				"sap.app": {
-					"_version": "1.1.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0":{
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap imageuploader templateutils menurenamer tilesettings",
+						"portalplugins": "imageuploader templateutils",
+						"customplugins": "menurenamer tilesettings",
+						"menu": {
+							"list": {
+								"title": "Tile",
+								"items": "template | tilesetting | cutitem copyitem pasteitem deleteitem"
+							},
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
 							}
-							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | link image imageuploader"
+						],
+						"table_toolbar": "",
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"templates": [{
+							"title": "{TEMPLATE1_TILE_TITLE}",
+							"url": "/templates/template1.html"
+						}, {
+							"title": "{TEMPLATE2_TILE_TITLE}",
+							"url": "/templates/template2.html"
+						}, {
+							"title": "{TEMPLATE3_TILE_TITLE}",
+							"url": "/templates/template3.html"
+						}, {
+							"title": "{TEMPLATE4_TILE_TITLE}",
+							"url": "/templates/template4.html"
+						}],
+						"template_cdate_classes": "timestamp",
+						"template_cdate_format": "%d.%m.%Y | %H:%M:%S",
+						"tile_settings": {
+							"units": "px",
+							"height": 250,
+							"height_iPhone": 200,
+							"width": 398,
+							"width_iPhone": 200,
+							"margin": 10,
+							"tiles": 3,
+							"alignment": "1",
+							"border": 1,
+							"shadow": 0
+						},
+						"color_picker_settings": {
+							"colors": [
+								"ffffff",
+								"ff8d8d",
+								"ffc489",
+								"ffe594",
+								"d6ffaa",
+								"76daff",
+								"dbacff",
+								"ffa4fc",
+								"e7e6e6",
+								"ff4e4e",
+								"ff9f3e",
+								"ffd34d",
+								"abfc55",
+								"00b0f0",
+								"b85aff",
+								"fd5cf7",
+								"d0cece",
+								"ff0000",
+								"ff8000",
+								"ffc000",
+								"78ce1d",
+								"2e75b5",
+								"930ff7",
+								"ff00f6",
+								"aeabab",
+								"d00000",
+								"d96d00",
+								"dba500",
+								"66ba0c",
+								"195b96",
+								"790acc",
+								"d400cd",
+								"757070",
+								"a20000",
+								"a65300",
+								"a67d00",
+								"4e8f09",
+								"104371",
+								"5c0b98",
+								"950090",
+								"0c0c0c",
+								"7b0000",
+								"6f3700",
+								"6e5300",
+								"366108",
+								"082a49",
+								"39075e",
+								"5d005a"
+							],
+							"default": "d0d0d0"
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/page1_Tile_Grid.html"
+							}, {
+								"value": "/assets/img/excellence.jpg"
+							}, {
+								"value": "/assets/img/innovation.jpg"
+							}, {
+								"value": "/assets/img/pay.jpg"
+							}, {
+								"value": "/assets/img/rapid.jpg"
+							}, {
+								"value": "/assets/img/valuepoints.jpg"
+							}, {
+								"value": "/assets/img/conversation.jpg"
+							}]
 						}
 					}
 				},
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
-				},
-				"sap.ui5":{
-          "_version": "1.2.0",
-          "componentName": "htmlwidget.local"
-        },
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "     <style>            #box-4.box{             width:100%;             height: 250px;             position: relative;         }         #box-4 .topic {              position: absolute;             top:0;             left:0;             right:0;             bottom: 0;             background: url(\"/sap/fiori/marketingsitetemplate/marketingsite/img/rapid.jpg\") no-repeat;             background-size: cover;         }          #box-4   .strip{             position: absolute;             bottom: 0;             background-color: rgba(255, 255, 255, 0.85);             width: 100%;             height: 70px;         }         #box-4   .strip h3 {             color: #666;             font-size: 16px;             margin: 0;             padding: 10px 0 0 10px;         }         #box-4 .strip h4 {             color: #666;             font-size: 14px;             font-weight: normal;             padding: 5px 10px 0 10px;             margin: 0;         }            #box-4  p {             color: #666;             line-height: 20px;             margin-bottom: 0;             font-size: 16px;         }          </style>        <div id='box-4' class=\"box\">      <div class=\"topic\">          <div class=\"strip\">             <h3>Rapid Deployment Solutions</h3>             <h4>Implement in Weeks</h4>         </div>      </div>     </div>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
-						}
-					}
-				},
-				 "sap.flp": {
-            "_version": "1.1.0",
-            "config": {}
-          },
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				}
-			},
-			"tile5": {
-				"sectionAlias": "page1.tile5",
-				"_version": "1.3.0",
-				"sap.app": {
-					"_version": "1.1.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
-							}
-						}
-						}
-					}
-				},
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
-				},
-				"sap.ui5":{
-          "_version": "1.2.0",
-          "componentName": "htmlwidget.local"
-        },
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": " <style>       #box-5.box{         width:100%;         height: 250px;        position: relative;     }    #box-5  .topic {          position: absolute;         top:0;         left:0;         right:0;         bottom: 0;         background: url(\"/sap/fiori/marketingsitetemplate/marketingsite/img/excellence.jpg\") no-repeat;         background-size: cover;     }     #box-5  .strip{         position: absolute;         bottom: 0;         background-color: rgba(255, 255, 255, 0.85);         width: 100%;         height: 70px;     }    #box-5  .strip h3 {         color: #666;         font-size: 16px;         margin: 0;         padding: 10px 0 0 10px;     }    #box-5  .strip h4 {         color: #666;         font-size: 14px;         font-weight: normal;         padding: 5px 10px 0 10px;         margin: 0;     }       #box-5   p {         color: #666;         line-height: 20px;         margin-bottom: 0;         font-size: 16px;     }      </style>    <div id=\"box-5\" class=\"box\">      <div class=\"topic\">          <div class=\"strip\">             <h3>Atomic Partner Portal</h3>             <h4>Wins 5-Star Rating for Program Excellence</h4>         </div>      </div> </div>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
-						}
-					}
-				},
-				 "sap.flp": {
-	            "_version": "1.1.0",
-	            "config": {}
-	          },
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				}
-			},
-			"tile6": {
-				"sectionAlias": "page1.tile6",
-				"_version": "1.3.0",
-				"sap.app": {
-					"_version": "1.1.0",
-					"title": "HTML Widget",
-					"description": "A widget template that displays HTML files.",
-					"tags": {
-						"keywords": [
-							"keyword"
-						]
-					},
-					"crossNavigation": {
-						"inbounds": {
-							"0": {
-							"semanticObject": "htmlwidget",
-							"action": "Display",
-							"deviceTypes": {
-								"desktop": true,
-								"tablet": true,
-								"phone": true
-							}
-						}
-						}
-					}
-				},
-				"sap.platform.hcp": {
-					"_version": "1.2.0",
-					"appName": "portalapptemplates",
-					"uri": "/htmlwidget"
-				},
-				"sap.ui5":{
-          "_version": "1.2.0",
-          "componentName": "htmlwidget.local"
-        },
-				"sap.cloud.portal": {
-					"show.portal.settings": "false",
-					"settings": {
-						"markup": {
-							"isRequired": "false",
-							"storage_type": "html",
-							"value": "     <style>            #box-6.box{             width:100%;             height: 250px;             position: relative;         }         #box-6   .topic {              position: absolute;             top:0;             left:0;             right:0;             bottom: 0;             background: url(\"/sap/fiori/marketingsitetemplate/marketingsite/img/pay.jpg\") no-repeat;             background-size: cover;         }          #box-6   .strip{             position: absolute;             bottom: 0;             background-color: rgba(255, 255, 255, 0.85);             width: 100%;             height: 70px;         }         #box-6   .strip h3 {             color: #666;             font-size: 16px;             margin: 0;             padding: 10px 0 0 10px;         }         #box-6   .strip h4 {             color: #666;             font-size: 14px;             font-weight: normal;             padding: 5px 10px 0 10px;             margin: 0;         }            #box-6   p {             color: #666;             line-height: 20px;             margin-bottom: 0;             font-size: 16px;         }          </style>        <div id=\"box-6\" class=\"box\">      <div class=\"topic\">          <div class=\"strip\">             <h3>Buy Now, Pay Later</h3>             <h4>Zero Percent Financing for Your SMEs</h4>         </div>      </div>     </div>",
-							"displayName": "HTML",
-							"description": "resource_url_description",
-							"id": "markup"
-						}
-					}
-				},
-					"sap.flp": {
-		            "_version": "1.1.0",
-		            "config": {}
-		          },
-				"sap.ui": {
-					"_version": "1.3.0",
-					"technology": "UI5"
-				}
+				"local": "true",
+				"sectionAlias": "page1.tilebuilder"
 			}
 		}
 	}
