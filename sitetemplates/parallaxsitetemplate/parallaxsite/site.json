@@ -35,7 +35,8 @@
 			}],
 			"config": {
 				"isOnline": "false",
-				"icon": "parallaxsitetemplate/parallaxsite/thumbnail.png"
+				"icon": "parallaxsitetemplate/parallaxsite/thumbnail.png",
+				"solution": "accelerators"
 			}
 		}
 	}

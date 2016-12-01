@@ -47,7 +47,8 @@
 				"id": "hcp://marketingsitetemplate/marketingsite/pageTemplates/template4/manifest.json"
 			}],
 			"config": {
-				"icon": "marketingsitetemplate/marketingsite/thumbnail.jpg"
+				"icon": "marketingsitetemplate/marketingsite/thumbnail.jpg",
+				"solution": "accelerators"
 			}
 		}
 	}

@@ -93,6 +93,7 @@
 			}
 		},
 		"settings": {
+			"widgetType": "rteextension",
 			"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap",
 			"portalplugins": "imageuploader templateutils",
 			"customplugins": "myplugin",
