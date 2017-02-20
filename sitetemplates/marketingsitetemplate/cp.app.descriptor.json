@@ -2,8 +2,7 @@
 	"id": "hcp://marketingsitetemplate/marketingsite/site.json",
 	"name": "Marketing Site",
 	"description": "",
-	"thumbnail": "marketingsite/thumbnail.jpg",
+	"thumbnail": "marketingsite/thumbnail.png",
 	"path": "marketingsite",
-	"_entityType": "PORTAL_SITE_V2_TEMPLATE_SITE",
-	"category": "Samples"
+	"_entityType": "PORTAL_SITE_V2_TEMPLATE_SITE"
 }]

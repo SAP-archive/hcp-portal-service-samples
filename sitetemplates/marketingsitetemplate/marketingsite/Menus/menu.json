@@ -11,28 +11,31 @@
 		"entities": [{
 			"title": "{{marketing}}",
 			"target": {
-				"semanticObject": "page2",
+				"semanticObject": "Marketing",
 				"action": "Display"
 			},
 			"entityType": "PAGE"
-		}, {
+		},
+		{
 			"title": "{{news}}",
 			"target": {
-				"semanticObject": "page1",
+				"semanticObject": "News",
 				"action": "Display"
 			},
 			"entityType": "PAGE"
-		}, {
+		},
+		{
 			"title": "{{training}}",
 			"target": {
-				"semanticObject": "page3",
+				"semanticObject": "Training",
 				"action": "Display"
 			},
 			"entityType": "PAGE"
-		}, {
+		},
+		{
 			"title": "{{contactus}}",
 			"target": {
-				"semanticObject": "page4",
+				"semanticObject": "ContactUs",
 				"action": "Display"
 			},
 			"entityType": "PAGE"

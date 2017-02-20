@@ -1,0 +1,663 @@
+{
+	"_version": "1.3.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "hcp://marketingsitetemplate/marketingsite/pages/News.json",
+		"baseId": "hcp://marketingsitetemplate/marketingsite/pageTemplates/2_Sections/manifest.json",
+		"title": "News",
+		"description": "",
+		"crossNavigation": {
+			"context": {},
+			"inbounds": {
+				"0": {
+					"semanticObject": "News",
+					"action": "Display"
+				}
+			}
+		}
+	},
+	"sap.cloud.portal": {
+		"applicationType": "page",
+		"sections": {
+			"2_Sections.header": {
+				"local": "true",
+				"widgets": {
+					"news.header-rte": {
+						"index": 1,
+						"alias": "news.header-rte",
+						"layoutData": {
+							"L": 4,
+							"M": 6,
+							"S": 12
+						}
+					}
+				},
+				"layoutData": {
+					"layout": "Row",
+					"itemsPerRowDesktop": "2",
+					"itemsPerRowTablet": 2,
+					"itemsPerRowPhone": 1,
+					"itemsMargin": "40",
+					"maxContentWidth": "1280",
+					"minContentHeight": "413"
+				},
+				"appearance": {
+					"backgroundColor": "transparent",
+					"backgroundImageSource": "asset_repository",
+					"useBackgroundImage": true,
+					"backgroundImageState": "cropped",
+					"backgroundImageAlignment": "center_middle",
+					"fixedBackgroundImage": false
+				},
+				"resources": {
+							"assets": [{
+								"value": "/assets/img/News_header.jpg"
+							}]
+						}
+			},
+			"2_Sections.content": {
+				"local": "true",
+				"widgets": {
+					"news.content-tilebuilder": {
+						"index": 1,
+						"alias": "news.content-tilebuilder",
+						"layoutData": {
+							"L": 12,
+							"M": 12,
+							"S": 12
+						}
+					},
+					"news.content-video": {
+						"index": 2,
+						"alias": "news.content-video",
+						"layoutData": {
+							"L": 6,
+							"M": 6,
+							"S": 12
+						}
+					},
+					"news.content-rte": {
+						"index": 3,
+						"alias": "news.content-rte",
+						"layoutData": {
+							"L": 6,
+							"M": 6,
+							"S": 12
+						}
+					}
+				},
+				"layoutData": {
+					"layout": "Custom",
+					"itemsMargin": "40",
+					"maxContentWidth": "1280",
+					"minContentHeight": 0
+				},
+				"appearance": {
+					"backgroundColor": "#fff",
+					"useBackgroundImage": false,
+					"backgroundImageSource": "0",
+					"backgroundImageURL": "",
+					"backgroundImageState": "0",
+					"backgroundImageFileName": "",
+					"backgroundImageAlignment": "4",
+					"fixedBackgroundImage": false
+				}
+			}
+
+		},
+		"nodes": {
+			"header-rte": {
+				"sectionAlias": "news.header-rte",
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap",
+						"portalplugins": "imageuploader background",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader background"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"background": {
+							"useMobileSettings": false,
+							"desktop": {
+								"useImageBg": false,
+								"imageUrl": "",
+								"source": "0",
+								"state": "0",
+								"alignment": "4",
+								"color": "transparent",
+								"opacity": "100"
+							}
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/News_Header_Headline.html",
+								"isCloned":true
+							}]
+						}
+					}
+				}
+			},
+			"content-tilebuilder": {
+				"sectionAlias": "news.content-tilebuilder",
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/tilegrid/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Tile Grid",
+					"description": "Add and arrange predefined tiles, and set their content and appearance",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.tilegrid.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}, {
+							"uri": "css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.tilegrid"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/tilegrid/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap",
+						"portalplugins": "imageuploader templateutils background",
+						"customplugins": "menurenamer tilesettings",
+						"menu": {
+							"list": {
+								"title": "{MENU_TILE}",
+								"items": "template | tilesetting | cutitem copyitem pasteitem deleteitem"
+							},
+							"file": {
+								"title": "{MENU_EDIT}",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "{MENU_INSERT}",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "{MENU_FORMAT}",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | link image imageuploader background"
+						],
+						"table_toolbar": "",
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"templates": [{
+							"title": "{TEMPLATE1_TILE_TITLE}",
+							"url": "/templates/template1.html"
+						}, {
+							"title": "{TEMPLATE2_TILE_TITLE}",
+							"url": "/templates/template2.html"
+						}, {
+							"title": "{TEMPLATE3_TILE_TITLE}",
+							"url": "/templates/template3.html"
+						}, {
+							"title": "{TEMPLATE4_TILE_TITLE}",
+							"url": "/templates/template4.html"
+						}],
+						"template_cdate_classes": "timestamp",
+						"template_cdate_format": "%d.%m.%Y | %H:%M:%S",
+						"tile_settings": {
+							"units": "px",
+							"height": 200,
+							"height_iPhone": 200,
+							"width": 386,
+							"width_iPhone": 300,
+							"margin": 10,
+							"tiles": "3",
+							"alignment": "1",
+							"border": "1",
+							"shadow": "1"
+						},
+						"color_picker_settings": {
+							"default": "d0d0d0",
+							"opacity": 100
+						},
+						"background": {
+							"useMobileSettings": false,
+							"desktop": {
+								"useImageBg": false,
+								"imageUrl": "",
+								"source": "0",
+								"state": "0",
+								"alignment": "4",
+								"color": "transparent",
+								"opacity": "100"
+							}
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/News_Tile_Grid.html",
+								"isCloned":true
+							}, {
+								"value": "/assets/img/Atomic_Customers.png"
+							}, {
+								"value": "/assets/img/BuyNow.png"
+							}, {
+								"value": "/assets/img/conversation.png"
+							}, {
+								"value": "/assets/img/partners.png"
+							}, {
+								"value": "/assets/img/rapid.png"
+							}, {
+								"value": "/assets/img/Value.png"
+							}]
+						}
+
+					}
+				}
+
+			},
+			"content-video": {
+				"sectionAlias": "news.content-video",
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/videoWidget/manifest.json",
+					"type": "application",
+					"i18n": "i18n/i18n.properties",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Video Widget",
+					"description": "Embed any standard YouTube or Vimeo URL in a site page",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "videoWidget.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"models": {
+						"i18nApp": {
+							"type": "sap.ui.model.resource.ResourceModel",
+							"uri": "i18n/i18n.properties"
+						}
+					},
+					"resources": {
+						"css": [{
+							"uri": "css/style.css"
+						}]
+					},
+					"componentName": "videoWidget"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"appName": "portalapptemplates",
+					"uri": "/videoWidget"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"youtubeUrl": "https://www.youtube.com/embed/",
+					"vimeoUrl": "https://player.vimeo.com/video/",
+					"settings": {
+						"videoUrl": "https://www.youtube.com/watch?v=lQirKVOfHcg",
+						"autoPlay": false,
+						"widgetHeight": "300",
+						"defaultVideo": "https://www.youtube.com/watch?v=-LAQm9_YB50"
+					}
+				}
+			},
+			"content-rte": {
+				"sectionAlias": "news.content-rte",
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap",
+						"portalplugins": "imageuploader background",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader background"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"background": {
+							"useMobileSettings": false,
+							"desktop": {
+								"useImageBg": false,
+								"imageUrl": "",
+								"source": "0",
+								"state": "0",
+								"alignment": "4",
+								"color": "transparent",
+								"opacity": "100"
+							}
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/News_Video_Description.html",
+								"isCloned":true
+							}]
+						}
+					}
+				}
+			}
+
+		}
+
+	}
+}

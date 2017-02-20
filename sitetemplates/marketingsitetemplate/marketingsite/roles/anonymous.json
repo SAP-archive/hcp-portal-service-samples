@@ -1,0 +1,19 @@
+{
+	"_version": "1.0",
+	"identification": {
+		"id": "Anonymous",
+		"namespace": "",
+		"entityType": "role",
+		"title": "Guest",
+		"description": "",
+		"i18n": ""
+	},
+	"payload": {
+		"catalogs": [{
+			"namespace": "",
+			"id": "hcp://marketingsitetemplate/marketingsite/catalogs/guestCatalog.json"
+		}],
+		"groups": []
+
+	}
+}

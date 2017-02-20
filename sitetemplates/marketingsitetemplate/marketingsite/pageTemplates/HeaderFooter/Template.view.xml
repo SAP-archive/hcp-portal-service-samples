@@ -1,0 +1,14 @@
+<mvc:View controllerName="cpv2.templates.HeaderFooter.Template" height="100%" xmlns:cpControls="sap.hana.uis.flp.control"
+	xmlns:l="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Page showFooter="false" showHeader="false" enableScrolling="true">
+	<content>
+	
+					<!-- To add a new row to your layout, simply add a new <VerticalLayout> to the main <VerticalLayout> -->
+					<!-- To add a new cell to an existing row, add a new <cpControls:Widget> and place it in the desired position (Header, Content or Footer)-->
+					<cpControls:Section alias="HeaderFooter.header"></cpControls:Section>
+					<cpControls:Section alias="HeaderFooter.content"></cpControls:Section>
+					<cpControls:Section alias="HeaderFooter.footer"></cpControls:Section>
+
+		</content>
+	</Page>
+</mvc:View>

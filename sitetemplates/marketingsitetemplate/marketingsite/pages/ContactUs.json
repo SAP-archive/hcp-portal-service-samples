@@ -1,0 +1,804 @@
+{
+	"_version": "1.3.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "hcp://marketingsitetemplate/marketingsite/pages/ContactUs.json",
+		"baseId": "hcp://marketingsitetemplate/marketingsite/pageTemplates/2_Sections/manifest.json",
+		"title": "Contact Us",
+		"description": "",
+		"crossNavigation": {
+			"context": {},
+			"inbounds": {
+				"0": {
+					"semanticObject": "ContactUs",
+					"action": "Display"
+				}
+			}
+		}
+	},
+	"sap.cloud.portal": {
+		"applicationType": "page",
+		"sections": {
+			"2_Sections.header": {
+				"local": "true",
+				"widgets": {
+					"contact.header-rte": {
+						"index": 1,
+						"alias": "contact.header-rte",
+						"layoutData": {
+							"L": 4,
+							"M": 6,
+							"S": 12
+						}
+					}
+				},
+				"layoutData": {
+					"layout": "Row",
+					"itemsPerRowDesktop": "2",
+					"itemsPerRowTablet": 2,
+					"itemsPerRowPhone": 1,
+					"itemsMargin": "40",
+					"maxContentWidth": "1280",
+					"minContentHeight": "413"
+				},
+				"appearance": {
+					"backgroundColor": "transparent",
+					"backgroundImageSource": "asset_repository",
+					"useBackgroundImage": true,
+					"backgroundImageState": "cropped",
+					"backgroundImageAlignment": "center_middle",
+					"fixedBackgroundImage": false
+				},
+					"resources": {
+							"assets": [{
+								"value": "/assets/img/contact.jpg"
+							}]
+						}
+				
+			},
+			"2_Sections.content": {
+				"local": "true",
+				"widgets": {
+					"contact.content-rte1": {
+						"index": 1,
+						"alias": "contact.content-rte1",
+						"layoutData": {
+							"L": 4,
+							"M": 4,
+							"S": 12
+						}
+					},
+					"contact.content-rte2": {
+						"index": 2,
+						"alias": "contact.content-rte2",
+						"layoutData": {
+							"L": 4,
+							"M": 4,
+							"S": 12
+						}
+					},
+					"contact.content-rte3": {
+						"index": 3,
+						"alias": "contact.content-rte3",
+						"layoutData": {
+							"L": 4,
+							"M": 4,
+							"S": 12
+						}
+					},
+					"contact.content-social": {
+						"index": 4,
+						"alias": "contact.content-social",
+						"layoutData": {
+							"L": 12,
+							"M": 12,
+							"S": 12
+						}
+					}
+				},
+				"layoutData": {
+					"layout": "Custom",
+					"itemsMargin": "40",
+					"maxContentWidth": "1280",
+					"minContentHeight": 0
+				},
+				"appearance": {
+					"backgroundColor": "#fff",
+					"useBackgroundImage": false,
+					"backgroundImageSource": "0",
+					"backgroundImageURL": "",
+					"backgroundImageState": "0",
+					"backgroundImageFileName": "",
+					"backgroundImageAlignment": "4",
+					"fixedBackgroundImage": false
+				}
+			}
+		},
+		"nodes": {
+			"header-rte": {
+				"sectionAlias": "contact.header-rte",
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap",
+						"portalplugins": "imageuploader background",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader background"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"background": {
+							"useMobileSettings": false,
+							"desktop": {
+								"useImageBg": false,
+								"imageUrl": "",
+								"source": "0",
+								"state": "0",
+								"alignment": "4",
+								"color": "transparent",
+								"opacity": "100"
+							}
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/Contact_Header_Headline.html",
+								"isCloned":true
+							}]
+						}
+					}
+				}
+			},
+			"content-rte1": {
+				"sectionAlias": "contact.content-rte1",
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap",
+						"portalplugins": "imageuploader background",
+						"menu": {
+							"file": {
+								"title": "{MENU_EDIT}",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "{MENU_INSERT}",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "{MENU_FORMAT}",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "{MENU_TABLE}",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader background"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"background": {
+							"useMobileSettings": false,
+							"desktop": {
+								"useImageBg": false,
+								"imageUrl": "",
+								"source": "0",
+								"state": "0",
+								"alignment": "4",
+								"color": "transparent",
+								"opacity": "100"
+							}
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ContactUs_Rich_Text_Editor_1.html",
+								"isCloned":true
+							},{
+								"value": "/assets/img/mail.png"
+							}
+							
+							
+							]
+						}
+					}
+				}
+			},
+			"content-rte2": {
+				"sectionAlias": "contact.content-rte2",
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap",
+						"portalplugins": "imageuploader background",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader background"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"background": {
+							"useMobileSettings": false,
+							"desktop": {
+								"useImageBg": false,
+								"imageUrl": "",
+								"source": "0",
+								"state": "0",
+								"alignment": "4",
+								"color": "transparent",
+								"opacity": "100"
+							}
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ContactUs_Rich_Text_Editor_2.html",
+								"isCloned":true
+							},
+							{
+								"value": "/assets/img/phone.png"
+							} ]
+						}
+					}
+				}
+			},
+			"content-rte3": {
+				"sectionAlias": "contact.content-rte3",
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/rtewidget/widgets/rte/manifest.json",
+					"type": "application",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Rich Text Editor",
+					"description": "An editor for adding and formatting text, tables and more",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "rtewidget.widgets.rte.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"resources": {
+						"css": [{
+							"uri": "../../css/style.css"
+						}]
+					},
+					"componentName": "rtewidget.widgets.rte"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"uri": "/rtewidget/widgets/rte/",
+					"appName": "portalapptemplates"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"menu": {
+						"actions": {
+							"properties": {
+								"element": "OverflowToolbarButton",
+								"events": {
+									"press": "onEditButtonPress"
+								},
+								"attributes": {
+									"icon": "sap-icon://edit",
+									"tooltip": "Edit"
+								}
+							}
+						}
+					},
+					"settings": {
+						"plugins": "template link image table textcolor colorpicker autolink directionality searchreplace hr insertdatetime charmap",
+						"portalplugins": "imageuploader background",
+						"menu": {
+							"file": {
+								"title": "Edit",
+								"items": "undo redo | cut copy paste pastetext | selectall | searchreplace"
+							},
+							"insert": {
+								"title": "Insert",
+								"items": "image imageuploader link | charmap hr insertdatetime"
+							},
+							"format": {
+								"title": "Format",
+								"items": "bold italic underline strikethrough superscript subscript | formats | removeformat"
+							},
+							"table": {
+								"title": "Table",
+								"items": "inserttable tableprops deletetable | cell row column"
+							}
+						},
+						"toolbar": [
+							"undo redo | cut copy paste | bold italic underline | fontselect fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image imageuploader background"
+						],
+						"fontsize_formats": "8px 9px 10px 11px 12px 13px 14px 16px 18px 20px 22px 24px 30px 36px 48px",
+						"background": {
+							"useMobileSettings": false,
+							"desktop": {
+								"useImageBg": false,
+								"imageUrl": "",
+								"source": "0",
+								"state": "0",
+								"alignment": "4",
+								"color": "transparent",
+								"opacity": "100"
+							}
+						},
+						"resources": {
+							"assets": [{
+								"value": "/assets/markup/ContactUs_Rich_Text_Editor_3.html",
+								"isCloned":true
+							},
+							{
+								"value": "/assets/img/visit.png"
+							}]
+						}
+					}
+				}
+			},
+			"content-social": {
+				"sectionAlias": "contact.content-social",
+
+				"_version": "1.3.0",
+				"sap.app": {
+					"_version": "1.1.0",
+					"id": "hcp://portalapptemplates/socialNetworksWidget/manifest.json",
+					"type": "application",
+					"i18n": "i18n/i18n.properties",
+					"applicationVersion": {
+						"version": "1.0.0"
+					},
+					"title": "Social Networks Widget",
+					"description": "Add quick links to your company's social pages",
+					"sourceTemplate": {
+						"id": "ui5template.basicSAPUI5ApplicationProject",
+						"version": "1.32.0"
+					}
+				},
+				"sap.ui": {
+					"_version": "1.1.0",
+					"technology": "UI5",
+					"icons": {
+						"icon": "",
+						"favIcon": "",
+						"phone": "",
+						"phone@2": "",
+						"tablet": "",
+						"tablet@2": ""
+					},
+					"deviceTypes": {
+						"desktop": true,
+						"tablet": true,
+						"phone": true
+					},
+					"supportedThemes": [
+						"sap_hcb",
+						"sap_bluecrystal"
+					]
+				},
+				"sap.ui5": {
+					"_version": "1.1.0",
+					"rootView": {
+						"viewName": "socialNetworksWidget.view.Main",
+						"type": "XML"
+					},
+					"dependencies": {
+						"minUI5Version": "1.30.0",
+						"libs": {
+							"sap.ui.core": {},
+							"sap.m": {},
+							"sap.ui.layout": {}
+						}
+					},
+					"contentDensities": {
+						"compact": true,
+						"cozy": true
+					},
+					"models": {
+						"i18nApp": {
+							"type": "sap.ui.model.resource.ResourceModel",
+							"uri": "i18n/i18n.properties"
+						}
+					},
+					"resources": {
+						"css": [{
+							"uri": "css/style.css"
+						}]
+					},
+					"routing": {
+						"config": {
+							"routerClass": "sap.hana.uis.flp.routing.Router"
+						}
+					},
+					"componentName": "socialNetworksWidget"
+				},
+				"sap.flp": {
+					"appType": "SAP_UI5_Component",
+					"config": {
+						"editable": true,
+						"deletable": true
+					}
+				},
+				"sap.platform.hcp": {
+					"appName": "portalapptemplates",
+					"uri": "/socialNetworksWidget"
+				},
+				"sap.cloud.portal": {
+					"show.portal.settings": "false",
+					"settings": {
+						"size": "Medium",
+						"orientation": "Center",
+						"networks": [{
+							"name": "Twitter",
+							"isActive": true,
+							"url": "https://twitter.com/PORTAL_SAP",
+							"image": "twitter"
+						}, {
+							"name": "Facebook",
+							"isActive": true,
+							"url": "https://www.facebook.com/sapportal",
+							"image": "facebook"
+						}, {
+							"name": "YouTube",
+							"isActive": true,
+							"url": "https://www.youtube.com/SAPNetWeaverPortals",
+							"image": "youtube"
+						}, {
+							"name": "Instagram",
+							"isActive": false,
+							"image": "instagram"
+						}, {
+							"name": "LinkedIn",
+							"isActive": false,
+							"image": "linkedin"
+						}, {
+							"name": "Tumblr",
+							"isActive": false,
+							"image": "tumblr"
+						}, {
+							"name": "Google+",
+							"isActive": false,
+							"image": "googleplus"
+						}]
+					}
+				}
+
+			}
+
+		}
+	}
+}
