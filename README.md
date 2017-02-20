@@ -1,6 +1,6 @@
-#Welcome to the SAP HANA Cloud Platform, Portal Service Samples GitHub Repository
+#Welcome to the SAP Cloud Platform Portal Samples GitHub Repository
 
-The SAP HCP portal service accelerators repository provides samples of site templates, page templates, applications, widgets, shell plugins and more, intended to be used as a reference for development of custom content for portal service sites.
+The SAP Cloud Platform Portal accelerators repository provides samples of site templates, page templates, applications, widgets, shell plugins and more, intended to be used as a reference for development of custom content for portal service sites.
 
 To set the right expectations, please be advised that any downloads are subject to the following:
 
