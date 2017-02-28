@@ -10,4 +10,4 @@ To set the right expectations, please be advised that any downloads are subject 
 
 * These accelerators are subject to the full terms of the license agreement (see below).
 
-Click [here](http://scn.sap.com/community/hana-cloud-portal/blog/2016/06/14/accelerate-your-sap-hana-cloud-platform-portal-service-implementation) to receive more information on using SAP HCP portal service accelerators, access how-to guides and join the community discussion.
+Click [here](http://scn.sap.com/community/hana-cloud-portal/blog/2016/06/14/accelerate-your-sap-hana-cloud-platform-portal-service-implementation) to receive more information on using SAP Cloud Platform Portal accelerators, access how-to guides and join the community discussion.
