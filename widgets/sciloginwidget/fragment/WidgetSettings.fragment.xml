@@ -1,0 +1,49 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:c="sap.ui.commons">
+    <Dialog class="widgetClass" title="Login Widget Settings" draggable="true" verticalScrolling="true"
+            contentWidth="500px" contentHeight="430px">
+
+        <content>
+            <VBox class="JamFeedSettingsDialog sapUiMediumMarginBeginEnd">
+
+                <MessageStrip
+                        text="{i18n>SETTINGS_ERROR}"
+                        type="Error"
+                        visible="false"
+                        showCloseButton="false"
+                        class="sapUiMediumMarginTop">
+                    <link>
+                        <Link text="{i18n>SETTINGS_ERROR_LINK}"
+                              target="_blank"
+                              href="{visualProperties>/errorLink}"/>
+                    </link>
+                </MessageStrip>
+                <Title text="Appearance Properties" class="sapUiMediumMarginTop"/>
+                <HBox class="fixedWidgetHeight sapUiTinyMarginBegin">
+                    <Label text="Welcome Text" class="sapUiTinyMarginTopBottom" width="100px"/>
+                    <Input id="listHeaderTitle" type="Text" class="widgetHeightMobile" width="200px" value="{visualProperties>/listHeaderTitle}" />
+                </HBox>
+                 <HBox class="fixedWidgetHeight sapUiTinyMarginBegin">
+                    <Label text="Text Color" class="sapUiTinyMarginTopBottom" width="100px"/>
+                    <c:ColorPicker id="listHeaderColor" colorString="{visualProperties>/listHeaderColor}"> </c:ColorPicker>
+                </HBox>
+            </VBox>
+
+            <MessageStrip
+                    text="{i18n>SETTINGS_SELECT_GROUP_ERROR}"
+                    type="Error"
+                    showIcon="true"
+                    visible="false"
+                    id="messageStripGroupError"
+                    class="sapUiTinyMarginBottom select-group-message-jamGroupFeed">
+            </MessageStrip>
+
+        </content>
+        <beginButton>
+            <Button id="jamContentOKBtn" class="jamContentOKBtn saveSelectGroup" press="onSettingsSubmit" text="Save"
+                    type="Emphasized"/>
+        </beginButton>
+        <endButton>
+            <Button class="jamContentCancelBtn closeSelectGroup" press="onSettingCancel" text="Cancel"/>
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>

@@ -1,5 +1,6 @@
 {
     "welcomeFile": "/webapp/index.html",
+    "authenticationMethod":"none",
     "routes": [
         {
             "path": "/resources",
@@ -20,7 +21,6 @@
             "description": "SAPUI5 Test Resources"
         }
     ],
-    "authenticationMethod": "none",
     "sendWelcomeFileRedirect": true,
     "cacheControl": [
         {

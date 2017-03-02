@@ -1,0 +1,17 @@
+.hboxClass{
+	padding: 5px 15px 5px 5px;
+}
+
+.labelClass{
+    font-size: 15px;
+}
+
+.iconClass{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 0px 10px 0px 10px;
+}
+
+.logonColor{
+	font-weight: bold;
+}

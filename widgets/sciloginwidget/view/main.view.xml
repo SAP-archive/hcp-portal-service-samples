@@ -1,17 +1,15 @@
-<mvc:View controllerName="SCILoginWidget.controller.main"
+<mvc:View controllerName="sciloginwidget.controller.main"
           xmlns:html="http://www.w3.org/1999/xhtml"
           xmlns:mvc="sap.ui.core.mvc"
           xmlns:l="sap.ui.layout"
           xmlns:core="sap.ui.core"
           xmlns="sap.m">
-    <App>
-        <pages>
-            <Page showHeader="false">
-                <content>
-                    <Button class="loginButton" id="loginButton" text="Log On" press="onLogin"/>
-                    <Button class="logoutButton" id="logoutButton" text="Log Off" press="onLogout"/>
-                </content>
-            </Page>
-        </pages>
-    </App>
+    <FlexBox alignItems="Center"
+			justifyContent="End"
+			class="hboxClass">
+    	<items>
+        	<core:Icon press="onLogIconPress" id="loginIcon" class="iconClass logonColor" />
+        	<Label id="loginGreeting" class="labelClass logonColor" />
+        </items>
+    </FlexBox>
 </mvc:View>
