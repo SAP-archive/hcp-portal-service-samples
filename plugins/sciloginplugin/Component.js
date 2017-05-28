@@ -27,12 +27,25 @@ sap.ui.define([
 
 			var siteService = sap.ushell.Container.getService("SiteService");
 			if (this.sciConfig.useOverlay && siteService.isRuntime() && !siteService.isDraftPreview()) {
-				var search = window.location.search === "" ? "?hc_login" : window.location.search + "&hc_login";
-				var href = encodeURI(window.location.origin + window.location.pathname + search);
+				var href = encodeURI(this.getLoginUrl());
 				$("#shell").append("<div id=\"hiddenLoginButton\" style=\"display: none;\"><a href=" + href + " rel=\"IDS_login\">Login</a></div>");
 				jQuery.sap.require("sap.ui.thirdparty.datajs");
 				jQuery.sap.includeScript(this.sciConfig.sci_tenant + this.sciConfig.sap_ids_path);
 			}
+		},
+
+		getLoginUrl: function() {
+			var location = window.top.location;
+			var params = location.search;
+			if (params === '?') {
+				params += 'hc_login';
+			} else if (params.length > 0) {
+				params += '&hc_login';
+			} else {
+				params = '?hc_login';
+			}
+			var loginUrl = location.origin + location.pathname + params;
+			return loginUrl;
 		},
 
 		login: function() {
@@ -43,7 +56,7 @@ sap.ui.define([
 				$("#hiddenLoginButton").find("a").click();
 			}
 			else {
-				window.location.search = encodeURI(window.location.search === "" ? "?hc_login" : window.location.search + "&hc_login");
+				window.top.location = encodeURI(this.getLoginUrl());
 			}
 		},
 
