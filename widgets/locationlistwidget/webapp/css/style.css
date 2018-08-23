@@ -1,0 +1,68 @@
+/* Enter your custom styles here */
+
+
+.list{
+    background-color: white;
+}
+
+.headerToolBar{ 
+	height: 9rem !important;
+	background-color: #ffffff;
+}
+
+.headerVBox{
+	padding-right: 20px;
+}
+
+.headerTitleHBox{
+	padding-bottom: 18px;
+}
+
+.headerIcon{
+    font-size: 35px;
+}
+
+.headerTitle{
+    font-size: 2rem !important;
+    padding-left: 10px;
+}
+
+.listItem{
+    height: 100%; 
+}
+
+.mainVBox{
+	padding-left: 20px;
+}
+
+.hboxLine{
+	padding-bottom: 9px;
+    color: cadetblue;
+    font-family: serif;
+    font-stretch: expanded;
+}
+
+
+.locationTitle{
+	padding-bottom: 7px;
+	padding-top: 12px;
+    font-weight: bold !important;
+}
+ 
+.locationText{
+	color: black;
+}
+
+.locationIcon{
+	 padding-right: 10px;
+	 color: #4da0cc;
+}
+
+
+.widgetHeight {
+    margin-left: 2.875rem;
+}
+
+.settingsLable{
+	padding-right: 10px;
+}

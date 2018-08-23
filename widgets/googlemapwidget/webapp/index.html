@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>googleMapWidget</title>
+
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"googleMapWidget": ""}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+			loadSAPUI5Component();
+			
+			
+			function loadSAPUI5Component(){
+				sap.ui.getCore().attachInit(function() {	
+		var initMock = function() {
+			jQuery.sap.registerModulePath("routerMock", "routerMock");
+			jQuery.sap.require("routerMock");
+	}
+	initMock();
+	
+
+					new sap.m.Shell({
+							app: new sap.ui.core.ComponentContainer({
+								height : "100%",
+								name : "googleMapWidget"
+							})
+						}).placeAt("content");
+					});
+			};
+			
+		</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
+</html>

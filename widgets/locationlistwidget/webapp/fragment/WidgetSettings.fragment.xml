@@ -1,0 +1,97 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:u="sap.ui.unified" xmlns:f="sap.ui.layout.form">
+	<Dialog class="widgetClass" title="WidgetSettings" draggable="true" verticalScrolling="true" contentWidth="600px" contentHeight="700px">
+		<content>
+			<IconTabBar expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter text="{i18n>DATA_SOURCE}">
+						<f:Form editable="true">
+							<f:layout>
+								<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4"
+									emptySpanM="4" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false"/>
+							</f:layout>
+							<f:formContainers>
+								<f:FormContainer>
+									<f:formElements>
+										<f:FormElement >
+											<f:fields>
+												<RadioButtonGroup id="dataSourceRadioBtns" selectedIndex="{locationDataProperties>/dataSource}" select="onDataSourceRadioBtnSelect">
+													<RadioButton id="RB-0" class="dynamicHeight" text="{i18n>DATA_SOURCE_APP}" selected="true"/>
+													<RadioButton id="RB-1" class="fixedHeight" text="{i18n>DATA_SOURCE_SITE_PROPERTY}"/>
+													<RadioButton id="RB-2" class="fixedHeight" text="{i18n>DATA_SOURCE_ASSET_REP}"/>
+												</RadioButtonGroup>
+											</f:fields>
+										</f:FormElement>
+										<f:FormElement label="{i18n>APP_FILE_PATH}" id="mockFilePathFE">
+											<f:fields>
+												<Input id="mockFilePath" type="Text" width="100%" enabled="false"
+													value="{locationDataProperties>/mockFilePath}"/>
+											</f:fields>
+										</f:FormElement>
+										<f:FormElement label="{i18n>SITE_PROPERTY}" id="siteSettingsMessageFE">
+											<f:fields>
+												<MessageStrip id="siteSettingsMessage" 
+													enableFormattedText="true" showIcon="true" showCloseButton="false" class="sapUiMediumMarginBottom"></MessageStrip>
+											</f:fields>
+										</f:FormElement>
+										<f:FormElement label="{i18n>ASSET_REP_FILE_PATH}" id="repositoryFilePathFE">
+											<f:fields>
+												<Input id="repositoryFilePath" type="Text" width="100%" value="{locationDataProperties>/repositoryFilePath}"/>
+											</f:fields>
+										</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+							</f:formContainers>
+						</f:Form>
+					</IconTabFilter>
+					<IconTabFilter text="{i18n>WIDGET_SETTINGS}">
+						<f:Form editable="true">
+							<f:layout>
+								<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4"
+									emptySpanM="4" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false"/>
+							</f:layout>
+							<f:formContainers>
+								<f:FormContainer title="{i18n>WIDGET_HEIGHT}">
+									<f:formElements >
+										<f:FormElement>
+											<f:fields>
+												<RadioButtonGroup id="widgetHeight" selectedIndex="{visualProperties>/widgetHeight}" select="onWidgetHeightRadioBtnSelect">
+													<RadioButton id="RB-HEIGHT-DYNAMIC" class="dynamicHeight" text="{i18n>DYNAMIC_HEIGHT}" selected="true"/>
+													<RadioButton id="RB-HEIGHT-FIXED" class="fixedHeight" text="{i18n>FIXED_HEIGHT}"/>
+												</RadioButtonGroup>
+												<Input id="widgetHeightDesktop" type="Number" class="widgetHeightDesktop" width="80px" value="{visualProperties>/desktopHeight}"
+													liveChange="onWidgetHeightChange"/>
+												<Input id="widgetHeightMobile" type="Number" class="widgetHeightMobile" width="80px" value="{visualProperties>/mobileHeight}"
+													liveChange="onWidgetHeightChange"/>
+											</f:fields>
+										</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+								<f:FormContainer title="{i18n>LIST_HEADER_SETTINGS}">
+									<f:formElements >
+										<f:FormElement label="{i18n>HEADER_TITLE}">
+											<f:fields>
+												<Input id="listHeaderTitle" type="Text" class="widgetHeightMobile" width="200px" value="{visualProperties>/listHeaderTitle}" />
+											</f:fields>
+										</f:FormElement>
+										<f:FormElement label="{i18n>HEADER_BG_COLOR}">
+											<f:fields>
+												<u:ColorPicker id="listHeaderColor" change="onHeaderColorChange" colorString="{visualProperties>/listHeaderColor}"> </u:ColorPicker>
+											</f:fields>
+										</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+							</f:formContainers>
+						</f:Form>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+
+		</content>
+		<beginButton>
+			<Button id="jamContentOKBtn" class="jamContentOKBtn saveSelectGroup" press="onSettingsSubmit" text="Save" type="Emphasized"/>
+		</beginButton>
+		<endButton>
+			<Button class="jamContentCancelBtn closeSelectGroup" press="onSettingCancel" text="Cancel"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>

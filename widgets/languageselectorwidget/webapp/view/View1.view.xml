@@ -1,0 +1,10 @@
+<mvc:View controllerName="languageselectorwidget.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<FlexBox alignItems="Center" justifyContent="End" class="hboxClass">
+		<items>
+			<Select id="languageSelect" items="{AvailableLanguages>/}" change="onDropDownSelect">
+				<core:Item key="{AvailableLanguages>key}" text="{AvailableLanguages>text}"/>
+			</Select>
+		</items>
+	</FlexBox>
+</mvc:View>

@@ -1,0 +1,61 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m" controllerName="locationListWidget.controller.locations" >
+	 	<ScrollContainer
+		height="100%"
+		width="100%"
+		id="scrollContainer"
+		horizontal="false"
+		vertical="true"
+		focusable="true">
+			<List id="locationList" mode="SingleSelectMaster"  items="{path: 'locationModel>/'}" class="list" itemPress="onSelectionChange">
+			<headerToolbar>
+				<Toolbar class="headerToolBar" id="headerToolBar">
+					<content>
+						<VBox width="100%" class="headerVBox">
+							<HBox class="headerTitleHBox">
+			        			<core:Icon src="sap-icon://globe" class="headerIcon"></core:Icon>
+			        			<Title
+			        				id="headerTitleID"
+			        				class="headerTitle"
+				        			text="Service Locations"
+				        			textAlign="Left">
+				        		</Title>
+			        		</HBox>
+			        		<SearchField
+								id="searchField"
+								width="100%"
+								placeholder="{i18n>Search_Placeholder}"
+								enableSuggestions="true"
+								search="onSearch"
+								suggest="onSuggest"
+								suggestionItems="{locationModel>/}"
+								class="supplier-search-bar">
+								<suggestionItems>
+									<SuggestionItem text="{locationModel>name}" description="[{i18n>Location_Name}: {locationModel>address}]" key="{locationModel>name}"/>
+								</suggestionItems>
+							</SearchField>
+						</VBox>
+					</content>
+				</Toolbar>
+			</headerToolbar>
+		    <CustomListItem type="Navigation" counter="0" class="listItem" >
+		        <content>
+		        	<VBox class="mainVBox">
+		        		<Title
+		        			class="locationTitle"
+		        			text="{locationModel>name}"
+		        			textAlign="Initial">
+		        		</Title>
+		        		<HBox class="hboxLine">
+		        			<core:Icon src="sap-icon://home" class="locationIcon"></core:Icon>
+		        			<Text text="{locationModel>address}" maxLines="0" wrapping="true" class="locationText"/>
+		        		</HBox>
+		        		<HBox class="hboxLine">
+		        			<core:Icon src="sap-icon://phone" class="locationIcon"/>
+		        			<Text text="{locationModel>phone}" maxLines="0" wrapping="true" class="locationText"/>
+		        		</HBox>
+		        	</VBox>
+		        </content>
+		    </CustomListItem>
+		 </List>
+	</ScrollContainer>
+</mvc:View>

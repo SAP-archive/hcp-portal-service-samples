@@ -1,0 +1,32 @@
+[
+	{
+		"name": "SAP United States Headquarters",
+		"address": "3999 West Chester Pike Newtown Square, PA 19073 USA",
+		"phone": "+1-610-661-1000"
+	},
+	{
+		"name": "SAP Labs Offices",
+		"address": "3410 Hillview Avenue Palo Alto, CA 94304 USA",
+		"phone": "+1-650-849-4000"
+	},
+	{
+		"name": "SAP SuccessFactors",
+		"address": "1 Tower Place, Centennial Towers, Suite 1100 South San Francisco, CA 94080 USA",
+		"phone": "+1-650-645-2000"
+	},
+	{
+		"name": "SAP Sybase Offices",
+		"address": "3820 Mansell Road - Suite 400 Alpharetta, GA 30022 USA",
+		"phone": "+1-678-585-7300"
+	},
+	{
+		"name": "SAP Ariba Offices",
+		"address": "11625 Rainwater Drive, Suite 150 Alpharetta, GA 30009 USA",
+		"phone": "+1-678-336-2900"
+	},
+	{
+		"name": "SAP Hybris Offices",
+		"address": "3005 Center Green Drive Boulder, CO  80301 USA",
+		"phone": "+1-303-409-7400"
+	}
+]

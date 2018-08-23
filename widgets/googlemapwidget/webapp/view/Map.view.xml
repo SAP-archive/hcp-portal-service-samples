@@ -1,0 +1,5 @@
+<mvc:View controllerName="googleMapWidget.controller.Map" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+		<!--<MessageStrip id="setApiKeyMessageStrip" text="{i18n>SET_API_KEY_MESSAGE}" enableFormattedText="true" showIcon="true" showCloseButton="false" visible="false"
+													class="sapUiMediumMarginBottom"></MessageStrip>-->
+	<HBox id="map_canvas" class="mapCanvas" fitContainer="true" justifyContent="Center" alignItems="Center"/>
+</mvc:View>

@@ -1,0 +1,116 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<Dialog title="{i18n>SETTINGS_TITLE}" draggable="true" verticalScrolling="true" contentWidth="600px" contentHeight="660px">
+		<content>
+			<IconTabBar expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter text="{i18n>AUTHENTICATION}">
+						<f:Form editable="true">
+							<f:layout>
+								<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4"
+									emptySpanM="4" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="2" singleContainerFullSize="false"/>
+							</f:layout>
+							<f:formContainers>
+								<f:FormContainer>
+									<f:formElements>
+										<f:FormElement >
+											<f:fields>
+												<MessageStrip text="{i18n>GOOGLE_API_MESSAGE}" enableFormattedText="true" showIcon="true" showCloseButton="false"
+													class="sapUiMediumMarginBottom"></MessageStrip>
+											</f:fields>
+										</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+								<f:FormContainer>
+									<f:formElements>
+										<f:FormElement label="{i18n>GOOGLE_API_KEY}">
+											<f:fields>
+												<Input id="apiKey" type="Text" width="340px" value="{widgetProperties>/apiKey}"/>
+												<Button text="{i18n>SUBMIT_GOOGLE_KEY}" press="onSubmitGoogleKey"></Button>
+											</f:fields>
+										</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+							</f:formContainers>
+						</f:Form>
+					</IconTabFilter>
+					<IconTabFilter id="googleSettingsTab" text="{i18n>SETTINGS_GOOGLE_MAPS}" enabled="{= ${widgetProperties>/apiKey} !== '' }">
+						<f:Form editable="true">
+							<f:layout>
+								<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="2" emptySpanL="2"
+									emptySpanM="4" emptySpanS="0" columnsXL="2" columnsL="2" columnsM="1" singleContainerFullSize="false"/>
+							</f:layout>
+							<f:formContainers>
+								<f:FormContainer title="{i18n>MAP_INITIAL_LOCATION}">
+									<f:formElements>
+										<f:FormElement label="Search Address">
+											<f:fields>
+												<SearchField id="addressSearchField" width="100%" search="onAddressSearchSettings"/>
+											</f:fields>
+										</f:FormElement>
+										<f:FormElement label="{i18n>SETTINGS_FULL_ADDRESS}">
+											<f:fields>
+												<Input id="defaultFullAddress" type="Text" width="340px" value="{googleMapsProperties>/fullAddress}" enabled="false"/>
+											</f:fields>
+										</f:FormElement>
+										<f:FormElement label="{i18n>SETTINGS_POSITION_LAT}">
+											<f:fields>
+												<Input id="defaultPositionLat" type="Text" width="140px" value="{googleMapsProperties>/positionLat}" enabled="false"/>
+											</f:fields>
+										</f:FormElement>
+										<f:FormElement label="{i18n>SETTINGS_POSITION_LNG}">
+											<f:fields>
+												<Input id="defaultPositionLng" type="Text" width="140px" value="{googleMapsProperties>/positionLng}" enabled="false"/>
+											</f:fields>
+										</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+								<f:FormContainer title="{i18n>SETTINGS_ZOOM_LEVEL}">
+									<f:formElements>
+										<f:FormElement label="">
+											<f:fields>
+												<Slider id="zoomLevel" min="0" max="20" enableTickmarks="true" class="sapUiSmallMarginBottom" width="100%"
+													value="{googleMapsProperties>/zoomLevel}" change="onLiveZoomChange">
+													<ResponsiveScale tickmarksBetweenLabels="1"/>
+												</Slider>
+											</f:fields>
+										</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+							</f:formContainers>
+						</f:Form>
+					</IconTabFilter>
+					<IconTabFilter text="{i18n>SETTINGS_VISUAL_PROPERTIES}">
+						<f:Form editable="true">
+							<f:layout>
+								<f:ResponsiveGridLayout labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4"
+									emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="false"/>
+							</f:layout>
+							<f:formContainers>
+								<f:FormContainer title="{i18n>SETTINGS_HEIGHT}">
+									<f:formElements>
+										<f:FormElement label="{i18n>SETTINGS_HEIGHT_DESKTOP}">
+											<f:fields>
+												<Input id="widgetHeightDesktop" type="Number" width="100px" value="{widgetProperties>/desktopHeight}" liveChange="onWidgetHeightChange"/>
+											</f:fields>
+										</f:FormElement>
+										<f:FormElement label="{i18n>SETTINGS_HEIGHT_MOBILE}">
+											<f:fields>
+												<Input id="widgetHeightMobile" type="Number" width="100px" value="{widgetProperties>/mobileHeight}" liveChange="onWidgetHeightChange"/>
+											</f:fields>
+										</f:FormElement>
+									</f:formElements>
+								</f:FormContainer>
+							</f:formContainers>
+						</f:Form>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</content>
+		<beginButton>
+			<Button press="onSettingsSubmit" text="{i18n>SETTINGS_OK}" type="Emphasized"/>
+		</beginButton>
+		<endButton>
+			<Button press="onSettingCancel" text="{i18n>SETTINGS_CANCEL}"/>
+		</endButton>
+	</Dialog>
+</core:FragmentDefinition>
