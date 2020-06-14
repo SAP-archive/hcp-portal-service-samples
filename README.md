@@ -12,6 +12,7 @@ To set the right expectations, please be advised that any downloads are subject 
 
 Click [here](http://scn.sap.com/community/hana-cloud-portal/blog/2016/06/14/accelerate-your-sap-hana-cloud-platform-portal-service-implementation) to receive more information on using SAP Cloud Platform Portal accelerators, access how-to guides and join the community discussion.
 
+Note: the code samples available in this repository can be using in the Neo environment of SAP Cloud Platform Portal  
 
 ***
 Any software coding and/or code snippets are examples. They are not for productive use. The example code is only intended to better explain and visualize the syntax and phrasing rules. SAP does not warrant the correctness and completeness of the example code. SAP shall not be liable for errors or damages caused by the use of example code unless damages have been caused by SAP's gross negligence or wilful misconduct
