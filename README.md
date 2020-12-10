@@ -1,3 +1,5 @@
+*** This repository is not maintained anymore. For questions, please contact Aviad Rivlin ***
+
 # Welcome to the SAP Cloud Platform Portal (Neo) Samples GitHub Repository
 
 The SAP Cloud Platform Portal accelerators repository provides samples of site templates, page templates, applications, widgets, shell plugins and more, intended to be used as a reference for development of custom content for portal service sites.
